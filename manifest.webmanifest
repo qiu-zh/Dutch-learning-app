@@ -1,0 +1,17 @@
+{
+  "name": "DutchDeck Studio",
+  "short_name": "DutchDeck",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f6f9",
+  "theme_color": "#111827",
+  "description": "Offline Dutch vocabulary knowledge base and spaced repetition trainer.",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
