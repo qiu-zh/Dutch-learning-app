@@ -1,13 +1,379 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#111827"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="DutchDeck"><meta name="format-detection" content="telephone=no"><meta name="description" content="DutchDeck Studio — an offline Dutch vocabulary and review PWA."><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180.png"><link rel="apple-touch-icon" sizes="167x167" href="icons/apple-touch-icon-167.png"><link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152.png"><link rel="stylesheet" href="styles.css"><title>DutchDeck Studio</title></head><body>
-<header class="topbar"><div><p class="eyebrow">Personal Dutch knowledge base</p><h1>DutchDeck <span>Studio</span></h1></div><div class="top-actions"><span id="connectionBadge" class="pill">Online</span><button id="installBtn" class="btn ghost" hidden>Install app</button><button id="iosInstallBtn" class="btn ghost" hidden>Install on iPhone</button></div></header>
-<nav class="nav"><button class="nav-btn active" data-view="dashboard">Overview</button><button class="nav-btn" data-view="review">Review</button><button class="nav-btn" data-view="dictionary">Dictionary</button><button class="nav-btn" data-view="import">Import</button><button class="nav-btn" data-view="settings">Settings</button></nav>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="DutchDeck">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="DutchDeck Studio — an offline Dutch vocabulary knowledge base, word-family explorer, reading lab and spaced-repetition trainer.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="icons/apple-touch-icon-167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>DutchDeck Studio</title>
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <p class="eyebrow">Personal Dutch knowledge base</p>
+    <h1>DutchDeck <span>Studio</span></h1>
+  </div>
+  <div class="top-actions">
+    <span id="connectionBadge" class="pill">Online</span>
+    <button id="installBtn" class="btn ghost top-install" hidden>Install app</button>
+    <button id="iosInstallBtn" class="btn ghost top-install" hidden>Install on iPhone</button>
+  </div>
+</header>
+
+<nav class="nav" aria-label="Main navigation">
+  <button class="nav-btn active" data-view="dashboard">Overview</button>
+  <button class="nav-btn" data-view="review">Review</button>
+  <button class="nav-btn" data-view="families">Families</button>
+  <button class="nav-btn" data-view="dictionary">Dictionary</button>
+  <button class="nav-btn" data-view="reader">Read</button>
+  <button class="nav-btn" data-view="import">Import</button>
+  <button class="nav-btn" data-view="settings">Settings</button>
+</nav>
+
 <main>
-<section id="dashboardView" class="view active"><div class="hero"><div><p class="eyebrow">Today</p><h2>Build vocabulary that stays.</h2><p>Review weak words, explore relationships, and grow a clean personal Dutch dictionary.</p><div class="hero-actions"><button class="btn primary" data-go="review">Start review</button><button class="btn secondary" data-go="import">Import notes</button></div></div><div class="hero-ring"><strong id="masteryPercent">0%</strong><span>mastered</span></div></div><div class="stats" id="statsGrid"></div><div class="dashboard-grid"><article class="panel"><div class="panel-head"><h3>Learning status</h3></div><div id="statusBars"></div></article><article class="panel"><div class="panel-head"><h3>Top categories</h3></div><div id="categoryList"></div></article><article class="panel wide"><div class="panel-head"><h3>Recommended next</h3></div><div id="recommendations" class="recommendations"></div></article></div></section>
-<section id="reviewView" class="view"><div class="section-head"><div><p class="eyebrow">Spaced repetition</p><h2>Review</h2></div><select id="reviewFilter"><option value="due">Due now</option><option value="weak">Weak words</option><option value="favorites">Favorites</option><option value="all">All cards</option></select></div><article id="reviewCard" class="review-card"><div class="review-meta"><span id="reviewLevel" class="level-badge">B1</span><span id="reviewType"></span><button id="favoriteReviewBtn" class="icon-btn" title="Favorite">☆</button></div><p class="prompt">Dutch</p><h2 id="reviewFront">Loading…</h2><button id="speakWordBtn" class="btn secondary">🔊 Listen</button><div id="reviewAnswer" hidden><hr><p class="prompt">Meaning</p><h3 id="reviewBack"></h3><p id="reviewExample" class="example"></p><div id="reviewDetails" class="details-grid"></div><button id="speakExampleBtn" class="btn ghost">🔊 Example</button></div></article><div class="review-actions"><button id="showAnswerBtn" class="btn primary full">Show answer</button><div id="ratingButtons" class="ratings" hidden><button data-rating="again" class="again">Again<small>&lt;1m</small></button><button data-rating="hard" class="hard">Hard<small>short</small></button><button data-rating="good" class="good">Good<small>normal</small></button><button data-rating="easy" class="easy">Easy<small>long</small></button></div></div><p id="emptyReview" class="empty" hidden>No matching cards. Try another review filter.</p></section>
-<section id="dictionaryView" class="view"><div class="section-head"><div><p class="eyebrow">Search and explore</p><h2>Dictionary</h2></div><button id="addCardBtn" class="btn primary">Add entry</button></div><div class="filters"><input id="searchInput" type="search" placeholder="Search words, meanings, examples, tags…"><select id="levelFilter"><option value="">All levels</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option></select><select id="typeFilter"><option value="">All types</option></select><label class="check"><input id="favoritesOnly" type="checkbox"> Favorites</label></div><div id="dictionaryCount" class="muted"></div><div id="cardList" class="dictionary-list"></div></section>
-<section id="importView" class="view"><div class="section-head"><div><p class="eyebrow">Your notes are welcome</p><h2>Import</h2></div></div><div class="import-grid"><article class="panel"><h3>Paste notes</h3><textarea id="importText" rows="16" placeholder="aanraden — to recommend — Ik raad je aan om vroeg te beginnen.\nhet onderwijs — education — Nederland biedt taalonderwijs aan."></textarea><p class="help">Understands em dashes, pipes, tabs, semicolons, CSV, TSV, TXT, and DutchDeck JSON.</p><div class="row"><button id="previewImportBtn" class="btn secondary">Preview</button><button id="importPasteBtn" class="btn primary">Import</button><label class="btn ghost file">Choose file<input id="importFile" hidden type="file" accept=".txt,.csv,.tsv,.json"></label></div><p id="importStatus" class="status"></p></article><article class="panel"><h3>Import preview</h3><div id="importPreview" class="preview empty">Paste your notes and click Preview.</div></article></div></section>
-<section id="settingsView" class="view"><div class="section-head"><div><p class="eyebrow">Audio and data</p><h2>Settings</h2></div></div><div class="settings-grid"><article class="panel"><h3>Pronunciation</h3><label>Voice<select id="voiceSelect"></select></label><label>Speed <output id="rateOutput">0.88×</output><input id="rateRange" type="range" min=".6" max="1.25" step=".01"></label><label class="check"><input id="autoWordCheck" type="checkbox"> Speak word automatically</label><label class="check"><input id="autoExampleCheck" type="checkbox"> Speak example after reveal</label><button id="testVoiceBtn" class="btn secondary">Test voice</button></article><article class="panel"><h3>Data</h3><div class="stack"><button id="exportBtn" class="btn secondary">Export backup</button><label class="btn ghost file">Restore backup<input id="restoreFile" hidden type="file" accept=".json"></label><button id="resetProgressBtn" class="btn ghost">Reset review progress</button><button id="resetBtn" class="btn danger">Reset everything</button></div></article><article class="panel"><h3>Level labels</h3><p class="help">CEFR levels are learning estimates based on frequency, register, abstraction, and grammatical difficulty. They are editable on every card.</p></article></div></section>
+  <section id="dashboardView" class="view active">
+    <div class="hero">
+      <div>
+        <p class="eyebrow">Today</p>
+        <h2>Learn systems, not isolated words.</h2>
+        <p>Review what is due, explore productive verb families, and turn Dutch texts into your own vocabulary.</p>
+        <div class="hero-actions">
+          <button class="btn primary" data-go="review">Start review</button>
+          <button class="btn secondary" data-go="families">Explore families</button>
+          <button class="btn ghost hero-ghost" data-go="reader">Open reading lab</button>
+        </div>
+      </div>
+      <div class="hero-ring" aria-label="Mastery percentage">
+        <strong id="masteryPercent">0%</strong>
+        <span>mastered</span>
+      </div>
+    </div>
+
+    <div class="stats" id="statsGrid"></div>
+
+    <div class="dashboard-grid">
+      <article class="panel">
+        <div class="panel-head"><h3>Learning status</h3></div>
+        <div id="statusBars"></div>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><h3>Strongest families</h3><button class="text-btn" data-go="families">See all</button></div>
+        <div id="familySummary"></div>
+      </article>
+      <article class="panel wide">
+        <div class="panel-head"><h3>Recommended next</h3><span class="muted">Based on frequency and review history</span></div>
+        <div id="recommendations" class="recommendations"></div>
+      </article>
+      <article class="panel wide">
+        <div class="panel-head"><h3>Last 14 days</h3><span id="reviewTotal14" class="muted"></span></div>
+        <div id="activityChart" class="activity-chart" aria-label="Review activity chart"></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="reviewView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Spaced repetition</p>
+        <h2>Review</h2>
+      </div>
+      <div class="review-controls">
+        <select id="reviewFilter" aria-label="Review mode">
+          <option value="due">Due now</option>
+          <option value="new">New words</option>
+          <option value="weak">Weak words</option>
+          <option value="favorites">Favorites</option>
+          <option value="family">A word family</option>
+          <option value="all">All cards</option>
+        </select>
+        <select id="reviewFamilyFilter" aria-label="Word family" hidden></select>
+      </div>
+    </div>
+
+    <div class="session-line">
+      <span id="sessionLabel">Ready</span>
+      <div class="session-progress"><i id="sessionProgress"></i></div>
+      <span id="queueCount">0 cards</span>
+    </div>
+
+    <article id="reviewCard" class="review-card">
+      <div class="review-meta">
+        <span id="reviewLevel" class="level-badge">B1</span>
+        <span id="reviewType" class="chip"></span>
+        <span id="reviewFamily" class="family-badge" hidden></span>
+        <button id="favoriteReviewBtn" class="icon-btn" title="Favorite" aria-label="Toggle favorite">☆</button>
+      </div>
+      <p class="prompt">Dutch</p>
+      <h2 id="reviewFront">Loading…</h2>
+      <div class="row center">
+        <button id="speakWordBtn" class="btn secondary">🔊 Listen</button>
+        <button id="openReviewDetailsBtn" class="btn ghost">Details</button>
+      </div>
+      <div id="reviewAnswer" hidden>
+        <hr>
+        <p class="prompt">Meaning</p>
+        <h3 id="reviewBack"></h3>
+        <p id="reviewExample" class="example"></p>
+        <div id="reviewDetails" class="details-grid"></div>
+        <div id="reviewNote" class="usage-note" hidden></div>
+        <button id="speakExampleBtn" class="btn ghost">🔊 Example</button>
+      </div>
+    </article>
+
+    <div class="review-actions">
+      <button id="showAnswerBtn" class="btn primary full">Show answer <kbd>Space</kbd></button>
+      <div id="ratingButtons" class="ratings" hidden>
+        <button data-rating="again" class="again">Again<small id="againInterval">1m</small><kbd>1</kbd></button>
+        <button data-rating="hard" class="hard">Hard<small id="hardInterval">6h</small><kbd>2</kbd></button>
+        <button data-rating="good" class="good">Good<small id="goodInterval">1d</small><kbd>3</kbd></button>
+        <button data-rating="easy" class="easy">Easy<small id="easyInterval">4d</small><kbd>4</kbd></button>
+      </div>
+    </div>
+    <p id="emptyReview" class="empty" hidden>No matching cards. Try another review mode or add more words.</p>
+  </section>
+
+  <section id="familiesView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Morphology and patterns</p>
+        <h2>Word families</h2>
+      </div>
+      <button id="reviewFamilyBtn" class="btn primary">Review a family</button>
+    </div>
+    <div class="family-intro panel">
+      <div>
+        <h3>Decode Dutch prefixes</h3>
+        <p>Learn a root verb together with its productive compounds. The prefix often contributes direction, result or attitude.</p>
+      </div>
+      <div class="prefix-legend">
+        <span><strong>aan-</strong> toward / on</span>
+        <span><strong>af-</strong> away / completed</span>
+        <span><strong>door-</strong> through / continuing</span>
+        <span><strong>over-</strong> across / transfer</span>
+        <span><strong>uit-</strong> out / off</span>
+        <span><strong>vast-</strong> fixed</span>
+      </div>
+    </div>
+    <div class="filters family-filters">
+      <input id="familySearch" type="search" placeholder="Search a family or member…">
+      <select id="familySort">
+        <option value="recommended">Recommended</option>
+        <option value="name">Name</option>
+        <option value="size">Largest first</option>
+        <option value="mastery">Lowest mastery first</option>
+      </select>
+    </div>
+    <div id="familyGrid" class="family-grid"></div>
+  </section>
+
+  <section id="dictionaryView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Search and explore</p>
+        <h2>Dictionary</h2>
+      </div>
+      <button id="addCardBtn" class="btn primary">Add entry</button>
+    </div>
+    <div class="filters dictionary-filters">
+      <input id="searchInput" type="search" placeholder="Search words, meanings, examples, collocations…">
+      <select id="levelFilter"><option value="">All levels</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option></select>
+      <select id="typeFilter"><option value="">All types</option></select>
+      <select id="familyFilter"><option value="">All families</option></select>
+      <label class="check"><input id="favoritesOnly" type="checkbox"> Favorites</label>
+    </div>
+    <div class="list-toolbar">
+      <div id="dictionaryCount" class="muted"></div>
+      <select id="dictionarySort" aria-label="Sort dictionary">
+        <option value="alpha">A–Z</option>
+        <option value="frequency">Most frequent</option>
+        <option value="due">Due first</option>
+        <option value="newest">Newest</option>
+      </select>
+    </div>
+    <div id="cardList" class="dictionary-list"></div>
+  </section>
+
+  <section id="readerView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Active reading</p>
+        <h2>Reading lab</h2>
+      </div>
+      <div class="row">
+        <button id="speakReadingBtn" class="btn secondary">🔊 Read aloud</button>
+        <button id="clearReadingBtn" class="btn ghost">Clear</button>
+      </div>
+    </div>
+    <div class="reader-grid">
+      <article class="panel reader-input-panel">
+        <h3>Paste Dutch text</h3>
+        <textarea id="readingText" rows="13" placeholder="Plak hier een Nederlands artikel, e-mail of transcript…"></textarea>
+        <div class="row">
+          <button id="renderReadingBtn" class="btn primary">Make interactive</button>
+          <span id="readingStats" class="muted"></span>
+        </div>
+        <p class="help">Tap a word in the interactive text. DutchDeck looks for exact words and common infinitive forms in your dictionary.</p>
+      </article>
+      <article class="panel reader-lookup-panel">
+        <h3>Word lookup</h3>
+        <div id="readerLookup" class="empty compact">Tap a word to inspect it.</div>
+      </article>
+      <article class="panel wide reader-output-panel">
+        <div class="panel-head"><h3>Interactive text</h3><span class="reader-key"><i class="known-dot"></i> known <i class="unknown-dot"></i> not in deck</span></div>
+        <div id="readingOutput" class="reading-output empty">Your interactive text will appear here.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="importView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Your notes are welcome</p>
+        <h2>Import</h2>
+      </div>
+      <button id="downloadTemplateBtn" class="btn ghost">Download template</button>
+    </div>
+    <div class="import-grid">
+      <article class="panel">
+        <h3>Paste notes or structured data</h3>
+        <textarea id="importText" rows="16" placeholder="aanraden — to recommend — Ik raad je aan om vroeg te beginnen.\nhet onderwijs — education — Nederland biedt taalonderwijs aan."></textarea>
+        <p class="help">Understands em dashes, pipes, tabs, semicolons, CSV/TSV with headers, and DutchDeck JSON.</p>
+        <div class="import-options">
+          <label>Duplicates
+            <select id="duplicateMode">
+              <option value="skip">Skip existing words</option>
+              <option value="update">Update empty fields</option>
+              <option value="replace">Replace content, keep progress</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <button id="previewImportBtn" class="btn secondary">Preview</button>
+          <button id="importPasteBtn" class="btn primary">Import</button>
+          <label class="btn ghost file">Choose file<input id="importFile" hidden type="file" accept=".txt,.csv,.tsv,.json"></label>
+        </div>
+        <p id="importStatus" class="status"></p>
+      </article>
+      <article class="panel">
+        <div class="panel-head"><h3>Import preview</h3><span id="previewCount" class="muted"></span></div>
+        <div id="importPreview" class="preview empty">Paste your notes and click Preview.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="settingsView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Audio, study and data</p>
+        <h2>Settings</h2>
+      </div>
+    </div>
+    <div class="settings-grid">
+      <article class="panel">
+        <h3>Pronunciation</h3>
+        <label>Voice<select id="voiceSelect"></select></label>
+        <label>Speed <output id="rateOutput">0.88×</output><input id="rateRange" type="range" min=".6" max="1.25" step=".01"></label>
+        <label class="check"><input id="autoWordCheck" type="checkbox"> Speak word automatically</label>
+        <label class="check"><input id="autoExampleCheck" type="checkbox"> Speak example after reveal</label>
+        <button id="testVoiceBtn" class="btn secondary">Test voice</button>
+      </article>
+      <article class="panel">
+        <h3>Study</h3>
+        <label>New words per session<input id="newLimitInput" type="number" min="1" max="100" step="1"></label>
+        <label class="check"><input id="shuffleReviewCheck" type="checkbox"> Shuffle cards with the same due time</label>
+        <p class="help">Keyboard shortcuts in Review: Space reveals; 1–4 rate the card.</p>
+      </article>
+      <article class="panel">
+        <h3>Data</h3>
+        <div class="stack">
+          <button id="exportBtn" class="btn secondary">Export full backup</button>
+          <label class="btn ghost file">Restore backup<input id="restoreFile" hidden type="file" accept=".json"></label>
+          <button id="resetProgressBtn" class="btn ghost">Reset review progress</button>
+          <button id="resetBtn" class="btn danger">Reset everything</button>
+        </div>
+      </article>
+      <article class="panel wide">
+        <h3>About the built-in knowledge base</h3>
+        <p class="help">This edition includes the original vocabulary plus a curated core-verb-family pack. Built-in updates merge into your existing deck without deleting favorites, intervals or review history. CEFR labels are practical learning estimates and remain editable.</p>
+        <div id="dataSummary" class="summary-pills"></div>
+      </article>
+    </div>
+  </section>
 </main>
-<dialog id="iosInstallDialog"><div class="ios-install"><div class="dialog-head"><h2>Install on iPhone</h2><button type="button" id="closeIosInstall" class="icon-btn">✕</button></div><ol><li>Open DutchDeck in <strong>Safari</strong>.</li><li>Tap the <strong>Share</strong> button <span class="share-icon">⇧</span>.</li><li>Scroll down and tap <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong>.</li></ol><p class="help">After the first successful load, DutchDeck can open offline. Your words and progress remain stored on this iPhone.</p></div></dialog>
-<dialog id="cardDialog"><form id="cardForm"><div class="dialog-head"><h2 id="dialogTitle">Add entry</h2><button type="button" id="closeDialog" class="icon-btn">✕</button></div><input type="hidden" id="editCardId"><div class="form-grid"><label class="span2">Dutch word or expression<input id="dutchInput" required></label><label class="span2">English meaning<input id="englishInput" required></label><label>CEFR<select id="cefrInput"><option>A1</option><option>A2</option><option selected>B1</option><option>B2</option><option>C1</option></select></label><label>Word type<select id="wordTypeInput"><option>noun</option><option>verb</option><option>adjective</option><option>adverb</option><option>connector</option><option>expression</option><option>other</option></select></label><label>Frequency<select id="frequencyInput"><option value="5">★★★★★ very common</option><option value="4">★★★★ common</option><option value="3" selected>★★★ regular</option><option value="2">★★ less common</option><option value="1">★ rare</option></select></label><label>Register<select id="registerInput"><option>everyday</option><option>formal</option><option>business</option><option>academic</option><option>news</option><option>informal</option></select></label><label class="span2">Example sentence<textarea id="exampleInput" rows="3"></textarea></label><label class="span2">Forms / grammar<textarea id="formsInput" rows="2" placeholder="raad aan · raadde aan · aangeraden"></textarea></label><label class="span2">Tags<input id="tagsInput" placeholder="advice, separable verb"></label><label class="span2">Personal note<textarea id="noteInput" rows="2"></textarea></label></div><div class="dialog-actions"><button type="button" id="deleteDialogBtn" class="btn danger" hidden>Delete</button><span></span><button type="button" id="cancelDialogBtn" class="btn ghost">Cancel</button><button class="btn primary">Save entry</button></div></form></dialog>
-<script src="full-deck.js" defer></script><script src="app.js" defer></script></body></html>
+
+<dialog id="iosInstallDialog">
+  <div class="ios-install">
+    <div class="dialog-head"><h2>Install on iPhone</h2><button type="button" id="closeIosInstall" class="icon-btn">✕</button></div>
+    <ol><li>Open DutchDeck in <strong>Safari</strong>.</li><li>Tap the <strong>Share</strong> button <span class="share-icon">⇧</span>.</li><li>Scroll down and tap <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong>.</li></ol>
+    <p class="help">After the first successful load, DutchDeck can open offline. Your words and progress remain stored on this iPhone.</p>
+  </div>
+</dialog>
+
+<dialog id="entryDialog" class="entry-dialog">
+  <div class="entry-detail">
+    <div class="dialog-head">
+      <div><p id="entryEyebrow" class="eyebrow">Dictionary entry</p><h2 id="entryTitle"></h2></div>
+      <button type="button" id="closeEntryDialog" class="icon-btn">✕</button>
+    </div>
+    <div id="entryContent"></div>
+    <div class="dialog-footer">
+      <button id="entryFavoriteBtn" class="btn ghost">☆ Favorite</button>
+      <button id="entrySpeakBtn" class="btn secondary">🔊 Listen</button>
+      <button id="entryReviewBtn" class="btn ghost">Review now</button>
+      <button id="entryEditBtn" class="btn primary">Edit entry</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="familyDialog" class="family-dialog">
+  <div class="family-detail">
+    <div class="dialog-head">
+      <div><p class="eyebrow">Word-family map</p><h2 id="familyDialogTitle"></h2></div>
+      <button type="button" id="closeFamilyDialog" class="icon-btn">✕</button>
+    </div>
+    <p id="familyDialogMeaning" class="lead"></p>
+    <div id="familyDialogPattern" class="usage-note"></div>
+    <div id="familyMembers" class="family-members"></div>
+    <div class="dialog-footer"><button id="familyDialogReviewBtn" class="btn primary">Review this family</button></div>
+  </div>
+</dialog>
+
+<dialog id="cardDialog">
+  <form id="cardForm">
+    <div class="dialog-head"><h2 id="dialogTitle">Add entry</h2><button type="button" id="closeDialog" class="icon-btn">✕</button></div>
+    <input type="hidden" id="editCardId">
+    <div class="form-grid">
+      <label class="span2">Dutch word or expression<input id="dutchInput" required></label>
+      <label class="span2">English meaning<input id="englishInput" required></label>
+      <label>CEFR<select id="cefrInput"><option>A1</option><option>A2</option><option selected>B1</option><option>B2</option><option>C1</option></select></label>
+      <label>Word type<select id="wordTypeInput"><option>noun</option><option>verb</option><option>adjective</option><option>adverb</option><option>connector</option><option>expression</option><option>other</option></select></label>
+      <label>Frequency<select id="frequencyInput"><option value="5">★★★★★ very common</option><option value="4">★★★★ common</option><option value="3" selected>★★★ regular</option><option value="2">★★ less common</option><option value="1">★ rare</option></select></label>
+      <label>Register<select id="registerInput"><option>everyday</option><option>formal</option><option>business</option><option>academic</option><option>news</option><option>informal</option></select></label>
+      <label>Family<select id="familyInput"><option value="">No family</option></select></label>
+      <label>Separability<select id="separableInput"><option value="">Not specified</option><option value="true">Separable</option><option value="false">Inseparable</option></select></label>
+      <label class="span2">Example sentence<textarea id="exampleInput" rows="3"></textarea></label>
+      <label class="span2">Forms / grammar<textarea id="formsInput" rows="2" placeholder="raad aan · raadde aan · aangeraden"></textarea></label>
+      <label class="span2">Collocations<textarea id="collocationsInput" rows="2" placeholder="een besluit nemen; de tijd nemen"></textarea></label>
+      <label class="span2">Related words<input id="relatedInput" placeholder="besluit, beslissing"></label>
+      <label class="span2">Tags<input id="tagsInput" placeholder="advice, separable verb"></label>
+      <label class="span2">Usage or personal note<textarea id="noteInput" rows="3"></textarea></label>
+    </div>
+    <div class="dialog-actions"><button type="button" id="deleteDialogBtn" class="btn danger" hidden>Delete</button><span></span><button type="button" id="cancelDialogBtn" class="btn ghost">Cancel</button><button class="btn primary">Save entry</button></div>
+  </form>
+</dialog>
+
+<script src="full-deck.js" defer></script>
+<script src="family-pack.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
