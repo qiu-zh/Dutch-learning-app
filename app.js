@@ -11,6 +11,7 @@ const DECK_VERSION_KEY = 'dutchdeck.studio.deckVersion';
 const DECK_VERSION = '5';
 const LEARN_KEY = 'dutchdeck.studio.learn.v1';
 const FAMILY_DEFINITIONS_KEY = 'dutchdeck.studio.familyDefinitions.v1';
+const DECK_REGISTRY_KEY = 'dutchdeck.studio.deckRegistry.v1';
 const DAY = 86_400_000;
 
 const legacyStarters = window.DUTCHDECK_FULL_DECK || [];
@@ -72,6 +73,41 @@ function mergeImportedFamilyDefinitions(source) {
 }
 
 refreshFamilyDefinitions();
+
+function normalizeDeckId(value = '') {
+  return normalizeKey(value).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'imported-deck';
+}
+
+function loadDeckRegistry() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(DECK_REGISTRY_KEY) || '{}');
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+  } catch { return {}; }
+}
+
+let deckRegistry = loadDeckRegistry();
+
+function saveDeckRegistry() {
+  localStorage.setItem(DECK_REGISTRY_KEY, JSON.stringify(deckRegistry));
+}
+
+function registerDeck(metadata = {}) {
+  if (!metadata.id) return null;
+  const id = normalizeDeckId(metadata.id);
+  const previous = deckRegistry[id] || {};
+  deckRegistry[id] = {
+    id,
+    name: String(metadata.name || previous.name || id).trim(),
+    version: String(metadata.version || previous.version || '').trim(),
+    importedAt: metadata.importedAt || previous.importedAt || new Date().toISOString()
+  };
+  saveDeckRegistry();
+  return deckRegistry[id];
+}
+
+function deckDisplayName(id) {
+  return deckRegistry[id]?.name || id;
+}
 
 const newId = () => crypto.randomUUID?.() || `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 const now = () => Date.now();
@@ -170,6 +206,7 @@ function makeCard(raw = {}) {
     register: source.register || 'everyday',
     forms: String(source.forms || source.grammar || '').trim(),
     tags: listValue(source.tags),
+    deckIds: unionLists(source.deckIds, source.deckId, source.sourceDeck, source.deck),
     note: String(source.note || source.usage || '').trim(),
     family,
     prefix: String(source.prefix || '').trim(),
@@ -228,6 +265,7 @@ function mergeContent(existing, incoming, mode = 'update') {
     replaced.tags = unionLists(base.tags, next.tags);
     replaced.collocations = unionLists(next.collocations);
     replaced.related = unionLists(next.related);
+    replaced.deckIds = unionLists(base.deckIds, next.deckIds);
     return { ...replaced, ...progress };
   }
 
@@ -240,6 +278,7 @@ function mergeContent(existing, incoming, mode = 'update') {
   updated.tags = unionLists(base.tags, next.tags);
   updated.collocations = unionLists(base.collocations, next.collocations);
   updated.related = unionLists(base.related, next.related);
+  updated.deckIds = unionLists(base.deckIds, next.deckIds);
   return { ...updated, ...progress };
 }
 
@@ -292,6 +331,7 @@ let voices = [];
 let deferredInstall = null;
 let previewEntries = [];
 let previewFamilyDefinitions = [];
+let previewDeck = null;
 let selectedEntry = null;
 let selectedFamily = '';
 let readerWordIndex = new Map();
@@ -479,6 +519,7 @@ function reviewCandidates() {
   if (filter === 'weak') return cards.filter(card => cardState(card) === 'Weak' || card.lapses > 0);
   if (filter === 'favorites') return cards.filter(card => card.favorite);
   if (filter === 'family') return cards.filter(card => card.family === $('#reviewFamilyFilter').value);
+  if (filter === 'deck') return cards.filter(card => card.deckIds.includes($('#reviewDeckFilter').value));
   if (filter === 'all') return [...cards];
   return dueCandidates();
 }
@@ -496,7 +537,9 @@ function sortReviewQueue(list) {
 
 function buildReviewQueue() {
   const isFamily = $('#reviewFilter').value === 'family';
+  const isDeck = $('#reviewFilter').value === 'deck';
   $('#reviewFamilyFilter').hidden = !isFamily;
+  $('#reviewDeckFilter').hidden = !isDeck;
   reviewQueue = sortReviewQueue(reviewCandidates());
   sessionTotal = reviewQueue.length;
   sessionDone = 0;
@@ -796,7 +839,7 @@ function openFamilyDialog(familyId) {
 }
 
 function searchableValues(card) {
-  return [card.front, card.back, card.example, card.forms, card.note, card.family, card.prefix, card.prefixMeaning, ...card.tags, ...card.collocations, ...card.related];
+  return [card.front, card.back, card.example, card.forms, card.note, card.family, card.prefix, card.prefixMeaning, ...card.deckIds.map(deckDisplayName), ...card.tags, ...card.collocations, ...card.related];
 }
 
 function renderDictionary() {
@@ -804,6 +847,7 @@ function renderDictionary() {
   const level = $('#levelFilter').value;
   const type = $('#typeFilter').value;
   const family = $('#familyFilter').value;
+  const deck = $('#deckFilter').value;
   const favoritesOnly = $('#favoritesOnly').checked;
   const sort = $('#dictionarySort').value;
 
@@ -812,6 +856,7 @@ function renderDictionary() {
     (!level || card.cefr === level) &&
     (!type || card.type === type) &&
     (!family || card.family === family) &&
+    (!deck || card.deckIds.includes(deck)) &&
     (!favoritesOnly || card.favorite)
   );
 
@@ -831,6 +876,7 @@ function renderDictionary() {
           <span class="level-badge">${escapeHtml(card.cefr)}</span>
           <span class="chip">${escapeHtml(card.type)}</span>
           ${card.family ? `<span class="family-badge">${escapeHtml(card.family)}</span>` : ''}
+          ${card.deckIds.map(id => `<span class="deck-badge">${escapeHtml(deckDisplayName(id))}</span>`).join('')}
           <span class="chip"><i class="state-dot state-${state}"></i>${escapeHtml(cardState(card))}</span>
           ${card.separable === true ? '<span class="chip">separable</span>' : card.separable === false ? '<span class="chip">inseparable</span>' : ''}
         </div>
@@ -867,6 +913,7 @@ function openEntryDialog(cardId) {
   const status = cardState(card);
   const sections = [];
   if (card.forms) sections.push(detailBox('Forms / grammar', `<p>${escapeHtml(card.forms)}</p>`));
+  if (card.deckIds.length) sections.push(detailBox('Decks', `<div class="summary-pills">${card.deckIds.map(id => `<span>${escapeHtml(deckDisplayName(id))}</span>`).join('')}</div>`));
   if (card.family || card.prefix || card.separable !== null) {
     const grammar = [
       card.family ? `<strong>Family:</strong> ${escapeHtml(card.family)}` : '',
@@ -1024,10 +1071,20 @@ function parseText(text, filename = '') {
     previewFamilyDefinitions = Array.isArray(parsed)
       ? []
       : normalizeFamilyDefinitions(parsed.familyDefinitions || parsed.familyInfo || []);
+    if (Array.isArray(parsed)) previewDeck = null;
+    else {
+      const rawName = parsed.deckName || parsed.deck || parsed.pack || parsed.title || 'Imported deck';
+      previewDeck = {
+        id: normalizeDeckId(parsed.deckId || parsed.id || rawName),
+        name: String(rawName),
+        version: parsed.version || ''
+      };
+    }
     const source = Array.isArray(parsed) ? parsed : parsed.cards || parsed.entries || [];
-    return source.map(makeCard).filter(card => card.front && card.back);
+    return source.map(raw => makeCard({ ...raw, deckIds: unionLists(raw.deckIds, raw.deckId, previewDeck?.id) })).filter(card => card.front && card.back);
   }
   previewFamilyDefinitions = [];
+  previewDeck = null;
 
   const firstLine = trimmed.split(/\r?\n/, 1)[0];
   const delimiter = filename.toLowerCase().endsWith('.tsv') || firstLine.includes('\t') ? '\t' : ',';
@@ -1060,17 +1117,19 @@ function previewImport(filename = '') {
     $('#previewCount').textContent = previewEntries.length ? `${previewEntries.length} entries` : '';
     $('#importPreview').innerHTML = previewEntries.slice(0, 50).map(card => `<div class="preview-item"><strong>${escapeHtml(card.front)}</strong><span>${escapeHtml(card.back)}</span>${card.family ? `<small> · ${escapeHtml(card.family)} family</small>` : ''}${card.example ? `<small> — ${escapeHtml(card.example)}</small>` : ''}</div>`).join('') || 'No valid entries found.';
     const familyText = previewFamilyDefinitions.length ? ` and ${previewFamilyDefinitions.length} family definitions` : '';
-    setImportStatus(`${previewEntries.length} valid entries${familyText} found.`, 'success');
+    const deckText = previewDeck ? ` from ${previewDeck.name}` : '';
+    setImportStatus(`${previewEntries.length} valid entries${familyText}${deckText} found.`, 'success');
   } catch (error) {
     previewEntries = [];
     previewFamilyDefinitions = [];
+    previewDeck = null;
     $('#importPreview').innerHTML = 'No valid entries found.';
     $('#previewCount').textContent = '';
     setImportStatus(`Preview failed: ${error.message}`, 'error');
   }
 }
 
-function importEntries(entries, definitions = previewFamilyDefinitions) {
+function importEntries(entries, definitions = previewFamilyDefinitions, deck = previewDeck) {
   const mode = $('#duplicateMode').value;
   const index = new Map(cards.map(card => [normalizeKey(card.front), card]));
   let added = 0;
@@ -1078,7 +1137,7 @@ function importEntries(entries, definitions = previewFamilyDefinitions) {
   let skipped = 0;
 
   for (const raw of entries) {
-    const incoming = makeCard(raw);
+    const incoming = makeCard({ ...raw, deckIds: unionLists(raw.deckIds, raw.deckId, deck?.id) });
     if (!incoming.front || !incoming.back) continue;
     const key = normalizeKey(incoming.front);
     const existing = index.get(key);
@@ -1086,7 +1145,10 @@ function importEntries(entries, definitions = previewFamilyDefinitions) {
       cards.push(incoming);
       index.set(key, incoming);
       added += 1;
-    } else if (mode === 'skip') skipped += 1;
+    } else if (mode === 'skip') {
+      existing.deckIds = unionLists(existing.deckIds, incoming.deckIds);
+      skipped += 1;
+    }
     else {
       const merged = mergeContent(existing, incoming, mode === 'replace' ? 'replace' : 'update');
       Object.assign(existing, merged);
@@ -1095,6 +1157,7 @@ function importEntries(entries, definitions = previewFamilyDefinitions) {
   }
 
   const importedDefinitionCount = mergeImportedFamilyDefinitions(definitions);
+  if (deck) registerDeck(deck);
   saveCards();
   populateFilters();
   renderDashboard();
@@ -1102,7 +1165,8 @@ function importEntries(entries, definitions = previewFamilyDefinitions) {
   renderLearn();
   renderDictionary();
   const definitionText = importedDefinitionCount ? ` Imported ${importedDefinitionCount} family definitions.` : '';
-  setImportStatus(`Added ${added}, updated ${updated}, skipped ${skipped}.${definitionText}`, 'success');
+  const deckText = deck ? ` Deck: ${deck.name}.` : '';
+  setImportStatus(`Added ${added}, updated ${updated}, skipped ${skipped}.${definitionText}${deckText}`, 'success');
 }
 
 function setImportStatus(message, type = '') {
@@ -1227,7 +1291,7 @@ function downloadBlob(content, filename, type = 'application/json') {
 }
 
 function exportBackup() {
-  const payload = { version: 5, exportedAt: new Date().toISOString(), cards, familyDefinitions: Object.fromEntries(importedFamilyDefinitions.map(item => [item.id, item])), settings, reviews: reviews(), reading: $('#readingText').value || localStorage.getItem(READING_KEY) || '' };
+  const payload = { version: 6, exportedAt: new Date().toISOString(), cards, deckRegistry, familyDefinitions: Object.fromEntries(importedFamilyDefinitions.map(item => [item.id, item])), settings, reviews: reviews(), reading: $('#readingText').value || localStorage.getItem(READING_KEY) || '' };
   downloadBlob(JSON.stringify(payload, null, 2), `dutchdeck-studio-${todayKey()}.json`);
 }
 
@@ -1240,6 +1304,11 @@ function populateFilters() {
   $('#familyFilter').innerHTML = '<option value="">All families</option>' + familyOptions;
   $('#familyInput').innerHTML = '<option value="">No family</option>' + familyOptions;
   $('#reviewFamilyFilter').innerHTML = familyOptions;
+
+  const usedDeckIds = [...new Set(cards.flatMap(card => card.deckIds))].filter(Boolean);
+  const deckOptions = usedDeckIds.sort((a, b) => deckDisplayName(a).localeCompare(deckDisplayName(b), 'nl')).map(id => `<option value="${escapeAttr(id)}">${escapeHtml(deckDisplayName(id))}</option>`).join('');
+  $('#deckFilter').innerHTML = '<option value="">All decks</option>' + deckOptions;
+  $('#reviewDeckFilter').innerHTML = deckOptions;
 }
 
 function renderDataSummary() {
@@ -1291,6 +1360,7 @@ function bind() {
   $('#listenQuizBtn').onclick = () => quizCurrent && speak(quizCurrent.mode === 'cloze' ? quizCurrent.card.example : quizCurrent.card.front);
 
   $('#reviewFilter').onchange = buildReviewQueue;
+  $('#reviewDeckFilter').onchange = buildReviewQueue;
   $('#reviewFamilyFilter').onchange = buildReviewQueue;
   $('#showAnswerBtn').onclick = reveal;
   $$('[data-rating]').forEach(button => button.onclick = () => rate(button.dataset.rating));
@@ -1335,7 +1405,7 @@ function bind() {
       renderDashboard();
     }
   };
-  ['searchInput', 'levelFilter', 'typeFilter', 'familyFilter', 'favoritesOnly', 'dictionarySort'].forEach(id => {
+  ['searchInput', 'levelFilter', 'typeFilter', 'familyFilter', 'deckFilter', 'favoritesOnly', 'dictionarySort'].forEach(id => {
     $(`#${id}`).addEventListener(id === 'searchInput' ? 'input' : 'change', renderDictionary);
   });
 
@@ -1376,7 +1446,7 @@ function bind() {
   $('#previewImportBtn').onclick = () => previewImport();
   $('#importPasteBtn').onclick = () => {
     if (!previewEntries.length) previewImport();
-    if (previewEntries.length) importEntries(previewEntries, previewFamilyDefinitions);
+    if (previewEntries.length) importEntries(previewEntries, previewFamilyDefinitions, previewDeck);
   };
   $('#downloadTemplateBtn').onclick = downloadTemplate;
   $('#importFile').onchange = async event => {
@@ -1389,7 +1459,7 @@ function bind() {
       $('#previewCount').textContent = `${previewEntries.length} entries`;
       $('#importPreview').classList.toggle('empty', !previewEntries.length);
       $('#importPreview').innerHTML = previewEntries.slice(0, 50).map(card => `<div class="preview-item"><strong>${escapeHtml(card.front)}</strong><span>${escapeHtml(card.back)}</span>${card.example ? `<small> — ${escapeHtml(card.example)}</small>` : ''}</div>`).join('') || 'No valid entries found.';
-      importEntries(previewEntries, previewFamilyDefinitions);
+      importEntries(previewEntries, previewFamilyDefinitions, previewDeck);
     } catch (error) {
       setImportStatus(`Import failed: ${error.message}`, 'error');
     } finally {
@@ -1421,6 +1491,8 @@ function bind() {
       if (!Array.isArray(data.cards)) throw new Error('This backup does not contain a card list.');
       cards = data.cards.map(makeCard);
       importedFamilyDefinitions = normalizeFamilyDefinitions(data.familyDefinitions || data.familyInfo || []);
+      deckRegistry = data.deckRegistry && typeof data.deckRegistry === 'object' ? data.deckRegistry : {};
+      saveDeckRegistry();
       saveImportedFamilyDefinitions();
       settings = { ...settings, ...(data.settings || {}) };
       if (data.reviews) localStorage.setItem(REVIEW_KEY, JSON.stringify(data.reviews));

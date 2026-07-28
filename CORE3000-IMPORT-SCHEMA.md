@@ -6,7 +6,8 @@ This app is ready for large, structured vocabulary packs. Import JSON is recomme
 
 ```json
 {
-  "deck": "DutchDeck Core 3000",
+  "deckId": "core-pack-01",
+  "deckName": "DutchDeck Core 3000 — Pack 1",
   "version": 1,
   "cards": [
     {
@@ -41,4 +42,9 @@ Duplicate detection is based on the normalized Dutch headword. The importer supp
 
 ## Supported fields
 
-`front`, `back`, `example`, `cefr`, `type`, `frequency`, `register`, `forms`, `family`, `separable`, `collocations`, `related`, `tags`, and `note`.
+`deckIds`, `front`, `back`, `example`, `cefr`, `type`, `frequency`, `register`, `forms`, `family`, `separable`, `collocations`, `related`, `tags`, and `note`.
+
+
+## Deck behavior
+
+Each imported card receives the top-level `deckId`. Duplicate words keep a union of all source deck IDs, so one word may belong to several decks while remaining in one linguistic family. The Dictionary and Review screens can filter by deck.
