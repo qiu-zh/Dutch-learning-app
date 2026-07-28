@@ -10,12 +10,68 @@ const READING_KEY = 'dutchdeck.studio.reading.v1';
 const DECK_VERSION_KEY = 'dutchdeck.studio.deckVersion';
 const DECK_VERSION = '5';
 const LEARN_KEY = 'dutchdeck.studio.learn.v1';
+const FAMILY_DEFINITIONS_KEY = 'dutchdeck.studio.familyDefinitions.v1';
 const DAY = 86_400_000;
 
 const legacyStarters = window.DUTCHDECK_FULL_DECK || [];
 const familyPack = window.DUTCHDECK_FAMILY_PACK || [];
-const familyDefinitions = window.DUTCHDECK_FAMILY_DEFINITIONS || [];
-const familyById = new Map(familyDefinitions.map(f => [f.id, f]));
+const builtInFamilyDefinitions = window.DUTCHDECK_FAMILY_DEFINITIONS || [];
+
+function normalizeFamilyDefinition(id, raw = {}) {
+  const familyId = normalizeKey(raw.id || raw.root || id);
+  if (!familyId) return null;
+  return {
+    id: familyId,
+    root: String(raw.root || familyId).trim(),
+    title: String(raw.title || familyId).trim().toUpperCase(),
+    meaning: String(raw.meaning || raw.subtitle || raw.coreMeaning || 'Related Dutch words').trim(),
+    pattern: String(raw.pattern || raw.description || 'A family collected from your dictionary entries.').trim(),
+    hint: String(raw.hint || raw.memoryHook || 'Compare forms, prefixes and fixed prepositions.').trim(),
+    accent: String(raw.accent || familyId.charAt(0)).trim().toUpperCase()
+  };
+}
+
+function normalizeFamilyDefinitions(source) {
+  if (!source) return [];
+  const rows = Array.isArray(source)
+    ? source.map(item => [item?.id || item?.root, item])
+    : Object.entries(source);
+  return rows.map(([id, raw]) => normalizeFamilyDefinition(id, raw)).filter(Boolean);
+}
+
+function loadImportedFamilyDefinitions() {
+  try { return normalizeFamilyDefinitions(JSON.parse(localStorage.getItem(FAMILY_DEFINITIONS_KEY) || '{}')); }
+  catch { return []; }
+}
+
+let importedFamilyDefinitions = loadImportedFamilyDefinitions();
+let familyDefinitions = [];
+let familyById = new Map();
+
+function refreshFamilyDefinitions() {
+  const merged = new Map(normalizeFamilyDefinitions(builtInFamilyDefinitions).map(item => [item.id, item]));
+  normalizeFamilyDefinitions(importedFamilyDefinitions).forEach(item => merged.set(item.id, item));
+  familyDefinitions = [...merged.values()];
+  familyById = merged;
+}
+
+function saveImportedFamilyDefinitions() {
+  const object = Object.fromEntries(importedFamilyDefinitions.map(item => [item.id, item]));
+  localStorage.setItem(FAMILY_DEFINITIONS_KEY, JSON.stringify(object));
+  refreshFamilyDefinitions();
+}
+
+function mergeImportedFamilyDefinitions(source) {
+  const incoming = normalizeFamilyDefinitions(source);
+  if (!incoming.length) return 0;
+  const merged = new Map(importedFamilyDefinitions.map(item => [item.id, item]));
+  incoming.forEach(item => merged.set(item.id, item));
+  importedFamilyDefinitions = [...merged.values()];
+  saveImportedFamilyDefinitions();
+  return incoming.length;
+}
+
+refreshFamilyDefinitions();
 
 const newId = () => crypto.randomUUID?.() || `${Date.now()}-${Math.random().toString(36).slice(2)}`;
 const now = () => Date.now();
@@ -235,6 +291,7 @@ let sessionDone = 0;
 let voices = [];
 let deferredInstall = null;
 let previewEntries = [];
+let previewFamilyDefinitions = [];
 let selectedEntry = null;
 let selectedFamily = '';
 let readerWordIndex = new Map();
@@ -964,9 +1021,13 @@ function parseText(text, filename = '') {
 
   if (trimmed.startsWith('[') || trimmed.startsWith('{') || filename.toLowerCase().endsWith('.json')) {
     const parsed = JSON.parse(trimmed);
-    const source = Array.isArray(parsed) ? parsed : parsed.cards || [];
+    previewFamilyDefinitions = Array.isArray(parsed)
+      ? []
+      : normalizeFamilyDefinitions(parsed.familyDefinitions || parsed.familyInfo || []);
+    const source = Array.isArray(parsed) ? parsed : parsed.cards || parsed.entries || [];
     return source.map(makeCard).filter(card => card.front && card.back);
   }
+  previewFamilyDefinitions = [];
 
   const firstLine = trimmed.split(/\r?\n/, 1)[0];
   const delimiter = filename.toLowerCase().endsWith('.tsv') || firstLine.includes('\t') ? '\t' : ',';
@@ -998,16 +1059,18 @@ function previewImport(filename = '') {
     $('#importPreview').classList.toggle('empty', !previewEntries.length);
     $('#previewCount').textContent = previewEntries.length ? `${previewEntries.length} entries` : '';
     $('#importPreview').innerHTML = previewEntries.slice(0, 50).map(card => `<div class="preview-item"><strong>${escapeHtml(card.front)}</strong><span>${escapeHtml(card.back)}</span>${card.family ? `<small> · ${escapeHtml(card.family)} family</small>` : ''}${card.example ? `<small> — ${escapeHtml(card.example)}</small>` : ''}</div>`).join('') || 'No valid entries found.';
-    setImportStatus(`${previewEntries.length} valid entries found.`, 'success');
+    const familyText = previewFamilyDefinitions.length ? ` and ${previewFamilyDefinitions.length} family definitions` : '';
+    setImportStatus(`${previewEntries.length} valid entries${familyText} found.`, 'success');
   } catch (error) {
     previewEntries = [];
+    previewFamilyDefinitions = [];
     $('#importPreview').innerHTML = 'No valid entries found.';
     $('#previewCount').textContent = '';
     setImportStatus(`Preview failed: ${error.message}`, 'error');
   }
 }
 
-function importEntries(entries) {
+function importEntries(entries, definitions = previewFamilyDefinitions) {
   const mode = $('#duplicateMode').value;
   const index = new Map(cards.map(card => [normalizeKey(card.front), card]));
   let added = 0;
@@ -1031,13 +1094,15 @@ function importEntries(entries) {
     }
   }
 
+  const importedDefinitionCount = mergeImportedFamilyDefinitions(definitions);
   saveCards();
   populateFilters();
   renderDashboard();
   renderFamilies();
   renderLearn();
   renderDictionary();
-  setImportStatus(`Added ${added}, updated ${updated}, skipped ${skipped}.`, 'success');
+  const definitionText = importedDefinitionCount ? ` Imported ${importedDefinitionCount} family definitions.` : '';
+  setImportStatus(`Added ${added}, updated ${updated}, skipped ${skipped}.${definitionText}`, 'success');
 }
 
 function setImportStatus(message, type = '') {
@@ -1162,7 +1227,7 @@ function downloadBlob(content, filename, type = 'application/json') {
 }
 
 function exportBackup() {
-  const payload = { version: 4, exportedAt: new Date().toISOString(), cards, settings, reviews: reviews(), reading: $('#readingText').value || localStorage.getItem(READING_KEY) || '' };
+  const payload = { version: 5, exportedAt: new Date().toISOString(), cards, familyDefinitions: Object.fromEntries(importedFamilyDefinitions.map(item => [item.id, item])), settings, reviews: reviews(), reading: $('#readingText').value || localStorage.getItem(READING_KEY) || '' };
   downloadBlob(JSON.stringify(payload, null, 2), `dutchdeck-studio-${todayKey()}.json`);
 }
 
@@ -1311,7 +1376,7 @@ function bind() {
   $('#previewImportBtn').onclick = () => previewImport();
   $('#importPasteBtn').onclick = () => {
     if (!previewEntries.length) previewImport();
-    if (previewEntries.length) importEntries(previewEntries);
+    if (previewEntries.length) importEntries(previewEntries, previewFamilyDefinitions);
   };
   $('#downloadTemplateBtn').onclick = downloadTemplate;
   $('#importFile').onchange = async event => {
@@ -1324,7 +1389,7 @@ function bind() {
       $('#previewCount').textContent = `${previewEntries.length} entries`;
       $('#importPreview').classList.toggle('empty', !previewEntries.length);
       $('#importPreview').innerHTML = previewEntries.slice(0, 50).map(card => `<div class="preview-item"><strong>${escapeHtml(card.front)}</strong><span>${escapeHtml(card.back)}</span>${card.example ? `<small> — ${escapeHtml(card.example)}</small>` : ''}</div>`).join('') || 'No valid entries found.';
-      importEntries(previewEntries);
+      importEntries(previewEntries, previewFamilyDefinitions);
     } catch (error) {
       setImportStatus(`Import failed: ${error.message}`, 'error');
     } finally {
@@ -1355,6 +1420,8 @@ function bind() {
       const data = JSON.parse(await file.text());
       if (!Array.isArray(data.cards)) throw new Error('This backup does not contain a card list.');
       cards = data.cards.map(makeCard);
+      importedFamilyDefinitions = normalizeFamilyDefinitions(data.familyDefinitions || data.familyInfo || []);
+      saveImportedFamilyDefinitions();
       settings = { ...settings, ...(data.settings || {}) };
       if (data.reviews) localStorage.setItem(REVIEW_KEY, JSON.stringify(data.reviews));
       if (typeof data.reading === 'string') localStorage.setItem(READING_KEY, data.reading);

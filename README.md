@@ -36,3 +36,7 @@ Cards, settings, favorites, reader text and review progress stay in browser loca
 - Persistent quiz score and accuracy
 - Module mastery, study counts, pronunciation, and one-tap dictionary details
 - Exercises are generated automatically from every imported Core 3000 pack
+
+
+## Imported family definitions
+JSON decks may include a top-level `familyDefinitions` object (or legacy `familyInfo`). Definitions are merged into local storage and override built-in family descriptions. Backups include imported family definitions.
