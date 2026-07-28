@@ -215,6 +215,9 @@ function makeCard(raw = {}) {
     collocations: listValue(source.collocations),
     related: listValue(source.related),
     favorite: Boolean(source.favorite),
+    learned: source.learned === true || Number(source.reps) > 0,
+    learnedAt: Number(source.learnedAt) || (Number(source.reps) > 0 ? Number(source.lastReviewed) || Number(source.created) || now() : 0),
+    activatedBy: String(source.activatedBy || (Number(source.reps) > 0 ? 'review' : '')).trim(),
     due: Number(source.due) || 0,
     interval: Number(source.interval) || 0,
     ease: Number(source.ease) || 2.5,
@@ -337,7 +340,14 @@ let selectedFamily = '';
 let readerWordIndex = new Map();
 let quizCurrent = null;
 let quizAnswered = false;
-let learnState = (() => { try { return { correct: 0, attempted: 0, family: '', ...JSON.parse(localStorage.getItem(LEARN_KEY) || '{}') }; } catch { return { correct: 0, attempted: 0, family: '' }; } })();
+let learnState = (() => {
+  try {
+    const saved = JSON.parse(localStorage.getItem(LEARN_KEY) || '{}');
+    return { correct: 0, attempted: 0, family: '', completedFamilies: [], ...saved, completedFamilies: listValue(saved.completedFamilies) };
+  } catch {
+    return { correct: 0, attempted: 0, family: '', completedFamilies: [] };
+  }
+})();
 
 const saveCards = () => localStorage.setItem(CARD_KEY, JSON.stringify(cards));
 const saveSettings = () => localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
@@ -372,30 +382,42 @@ function streak() {
   return count;
 }
 
+function isFamilyCompleted(familyId) {
+  return Boolean(familyId && learnState.completedFamilies.includes(familyId));
+}
+
+function isReviewEligible(card) {
+  return Boolean(card.learned || card.reps > 0 || isFamilyCompleted(card.family));
+}
+
 function cardState(card) {
-  if (!card.reps) return 'New';
+  if (!isReviewEligible(card)) return 'Not studied';
+  if (!card.reps) return 'Ready';
   if ((card.lapses || 0) >= 3 && (card.interval || 0) < 21) return 'Weak';
-  if ((card.interval || 0) >= 21) return 'Mastered';
+  if ((card.interval || 0) >= 60 && (card.reps || 0) >= 6) return 'Mastered';
   return 'Learning';
 }
 
 function masteryScore(card) {
-  const state = cardState(card);
-  if (state === 'Mastered') return 100;
-  if (state === 'Weak') return Math.min(35, Math.round((card.interval || 0) / 21 * 100));
-  if (state === 'Learning') return Math.min(92, Math.max(12, Math.round((card.interval || 0) / 21 * 100)));
-  return 0;
+  if (!isReviewEligible(card)) return 0;
+  if (!card.reps) return 10;
+  const milestones = [25, 45, 65, 80, 90];
+  let score = milestones[Math.min(card.reps, 5) - 1] || 25;
+  if ((card.interval || 0) >= 21) score = Math.max(score, 92);
+  if ((card.interval || 0) >= 60 && (card.reps || 0) >= 6) score = 100;
+  score -= Math.min(30, (card.lapses || 0) * 6);
+  return Math.max(10, Math.min(100, Math.round(score)));
 }
 
 function learnedDue() {
   const timestamp = now();
-  return cards.filter(card => card.reps > 0 && (card.due || 0) <= timestamp);
+  return cards.filter(card => isReviewEligible(card) && card.reps > 0 && (card.due || 0) <= timestamp);
 }
 
 function newCards(limit = settings.newLimit) {
   return cards
-    .filter(card => !card.reps)
-    .sort((a, b) => (b.frequency - a.frequency) || a.created - b.created)
+    .filter(card => isReviewEligible(card) && !card.reps)
+    .sort((a, b) => (b.frequency - a.frequency) || (a.learnedAt || a.created) - (b.learnedAt || b.created))
     .slice(0, limit);
 }
 
@@ -405,10 +427,10 @@ function dueCandidates() {
 
 function familyStats(familyId) {
   const members = cards.filter(card => card.family === familyId);
-  const studied = members.filter(card => card.reps > 0).length;
+  const studied = members.filter(card => isReviewEligible(card)).length;
   const mastered = members.filter(card => cardState(card) === 'Mastered').length;
   const mastery = members.length ? Math.round(members.reduce((sum, card) => sum + masteryScore(card), 0) / members.length) : 0;
-  return { members, studied, mastered, mastery };
+  return { members, studied, mastered, mastery, completed: isFamilyCompleted(familyId) };
 }
 
 function allFamilies() {
@@ -516,12 +538,13 @@ function renderActivityChart() {
 
 function reviewCandidates() {
   const filter = $('#reviewFilter').value;
+  const eligible = cards.filter(isReviewEligible);
   if (filter === 'new') return newCards(settings.newLimit);
-  if (filter === 'weak') return cards.filter(card => cardState(card) === 'Weak' || card.lapses > 0);
-  if (filter === 'favorites') return cards.filter(card => card.favorite);
-  if (filter === 'family') return cards.filter(card => card.family === $('#reviewFamilyFilter').value);
-  if (filter === 'deck') return cards.filter(card => card.deckIds.includes($('#reviewDeckFilter').value));
-  if (filter === 'all') return [...cards];
+  if (filter === 'weak') return eligible.filter(card => cardState(card) === 'Weak' || card.lapses > 0);
+  if (filter === 'favorites') return eligible.filter(card => card.favorite);
+  if (filter === 'family') return eligible.filter(card => card.family === $('#reviewFamilyFilter').value);
+  if (filter === 'deck') return eligible.filter(card => card.deckIds.includes($('#reviewDeckFilter').value));
+  if (filter === 'all') return eligible;
   return dueCandidates();
 }
 
@@ -637,6 +660,9 @@ function rate(rating) {
   if (!current) return;
   const card = current;
   const schedule = scheduleFor(card, rating);
+  card.learned = true;
+  card.learnedAt = card.learnedAt || now();
+  card.activatedBy = card.activatedBy || 'review';
   card.reps += 1;
   card.lapses += schedule.lapse;
   card.interval = schedule.interval;
@@ -669,6 +695,65 @@ function learnFamilies() {
   return allFamilies().map(definition => ({ definition, ...familyStats(definition.id) })).filter(item => item.members.length);
 }
 
+function activateWord(card, source = 'word') {
+  if (!card) return;
+  card.learned = true;
+  card.learnedAt = card.learnedAt || now();
+  if (!card.activatedBy || card.activatedBy === 'family') card.activatedBy = source;
+  card.due = card.reps ? card.due : 0;
+}
+
+function deactivateWord(card) {
+  if (!card || card.reps > 0 || isFamilyCompleted(card.family)) return;
+  card.learned = false;
+  card.learnedAt = 0;
+  card.activatedBy = '';
+  card.due = 0;
+}
+
+function toggleWordLearned(cardId) {
+  const card = cards.find(item => item.id === cardId);
+  if (!card) return;
+  if (isReviewEligible(card) && card.learned && card.reps === 0 && !isFamilyCompleted(card.family)) deactivateWord(card);
+  else activateWord(card, 'word');
+  saveCards();
+  renderCurrentModule();
+  renderModuleGrid();
+  renderDashboard();
+  renderDictionary();
+  if ($('#entryDialog').open) openEntryDialog(card.id);
+}
+
+function toggleFamilyCompleted(familyId) {
+  if (!familyId) return;
+  const completed = isFamilyCompleted(familyId);
+  if (completed) {
+    learnState.completedFamilies = learnState.completedFamilies.filter(id => id !== familyId);
+    cards.filter(card => card.family === familyId && card.activatedBy === 'family' && card.reps === 0).forEach(card => {
+      card.learned = false;
+      card.learnedAt = 0;
+      card.activatedBy = '';
+      card.due = 0;
+    });
+  } else {
+    learnState.completedFamilies = unionLists(learnState.completedFamilies, familyId);
+    cards.filter(card => card.family === familyId).forEach(card => {
+      if (!card.learned && !card.reps) {
+        card.learned = true;
+        card.learnedAt = now();
+        card.activatedBy = 'family';
+        card.due = 0;
+      }
+    });
+  }
+  saveLearnState();
+  saveCards();
+  renderCurrentModule();
+  renderModuleGrid();
+  renderFamilies();
+  renderDashboard();
+}
+
 function renderLearn() {
   const items = learnFamilies().sort((a, b) => b.members.length - a.members.length || a.definition.title.localeCompare(b.definition.title, 'nl'));
   if (!items.length) return;
@@ -693,18 +778,23 @@ function renderCurrentModule() {
   $('#moduleMeaning').textContent = definition.meaning || 'Related Dutch words';
   $('#modulePattern').innerHTML = `<strong>Pattern:</strong> ${escapeHtml(definition.pattern || '')}<br><strong>Memory hook:</strong> ${escapeHtml(definition.hint || '')}`;
   $('#moduleMastery').textContent = `${stats.mastery}%`;
-  $('#moduleCount').textContent = `${stats.studied}/${stats.members.length} studied`;
+  $('#moduleCount').textContent = `${stats.studied}/${stats.members.length} ready for review`;
+  $('#completeFamilyBtn').textContent = stats.completed ? '✓ Family completed' : 'Mark family complete';
+  $('#completeFamilyBtn').classList.toggle('success', stats.completed);
   const ordered = [...stats.members].sort((a, b) => b.frequency - a.frequency || a.front.localeCompare(b.front, 'nl'));
-  $('#moduleWords').innerHTML = ordered.slice(0, 12).map((card, index) => `<button class="module-word" data-id="${escapeAttr(card.id)}"><span>${index + 1}</span><div><strong>${escapeHtml(card.front)}</strong><small>${escapeHtml(card.back)}</small></div><i>${masteryScore(card)}%</i></button>`).join('');
-  $$('#moduleWords [data-id]').forEach(button => button.onclick = () => openEntryDialog(button.dataset.id));
+  $('#moduleWords').innerHTML = ordered.map((card, index) => `<div class="module-word" data-id="${escapeAttr(card.id)}"><button class="module-word-main" type="button"><span>${index + 1}</span><div><strong>${escapeHtml(card.front)}</strong><small>${escapeHtml(card.back)}</small></div><i>${masteryScore(card)}%</i></button><button class="learn-toggle ${isReviewEligible(card) ? 'is-learned' : ''}" type="button" title="${isReviewEligible(card) ? 'Ready for review' : 'Mark as learned'}">${isReviewEligible(card) ? '✓ Learned' : '+ Learn'}</button></div>`).join('');
+  $$('#moduleWords [data-id]').forEach(row => {
+    row.querySelector('.module-word-main').onclick = () => openEntryDialog(row.dataset.id);
+    row.querySelector('.learn-toggle').onclick = event => { event.stopPropagation(); toggleWordLearned(row.dataset.id); };
+  });
 }
 
 function renderModuleGrid(items = learnFamilies()) {
   $('#moduleGrid').innerHTML = items.map(item => `<article class="family-card module-card" data-module="${escapeAttr(item.definition.id)}">
     <div class="family-card-head"><div class="family-letter">${escapeHtml(item.definition.accent || item.definition.title[0])}</div><div><h3>${escapeHtml(item.definition.title)}</h3><p class="meaning">${escapeHtml(item.definition.meaning)}</p></div></div>
     <p>${escapeHtml(item.definition.pattern || '')}</p>
-    <div class="family-card-stats"><span><strong>${item.members.length}</strong>words</span><span><strong>${item.studied}</strong>studied</span><span><strong>${item.mastery}%</strong>mastery</span></div>
-    <button class="btn secondary full" type="button">Open module</button>
+    <div class="family-card-stats"><span><strong>${item.members.length}</strong>words</span><span><strong>${item.studied}</strong>ready</span><span><strong>${item.mastery}%</strong>mastery</span></div>
+    <button class="btn secondary full" type="button">${item.completed ? '✓ Completed' : 'Open module'}</button>
   </article>`).join('');
   $$('#moduleGrid [data-module]').forEach(card => card.onclick = () => {
     $('#learnFamilyFilter').value = card.dataset.module;
@@ -993,6 +1083,8 @@ function openEntryDialog(cardId) {
     openFamilyDialog(familyButton.dataset.openFamily);
   };
   $('#entryFavoriteBtn').textContent = card.favorite ? '★ Favorited' : '☆ Favorite';
+  $('#entryLearnedBtn').textContent = isReviewEligible(card) ? '✓ Learned · ready for review' : 'Mark as learned';
+  $('#entryLearnedBtn').classList.toggle('success', isReviewEligible(card));
   $('#entryDialog').showModal();
 }
 
@@ -1408,6 +1500,7 @@ function bind() {
   $('#quizMode').onchange = newQuizQuestion;
   $('#nextQuizBtn').onclick = newQuizQuestion;
   $('#listenQuizBtn').onclick = () => quizCurrent && speak(quizCurrent.mode === 'cloze' ? quizCurrent.card.example : quizCurrent.card.front);
+  $('#completeFamilyBtn').onclick = () => toggleFamilyCompleted($('#learnFamilyFilter').value);
 
   $('#reviewFilter').onchange = buildReviewQueue;
   $('#reviewDeckFilter').onchange = buildReviewQueue;
@@ -1441,6 +1534,7 @@ function bind() {
     buildReviewQueue();
   };
 
+  $('#entryLearnedBtn').onclick = () => selectedEntry && toggleWordLearned(selectedEntry.id);
   $('#addCardBtn').onclick = () => openCardDialog();
   $('#cardForm').onsubmit = saveForm;
   $('#deleteDialogBtn').onclick = () => {
@@ -1474,6 +1568,8 @@ function bind() {
   };
   $('#entryReviewBtn').onclick = () => {
     if (!selectedEntry) return;
+    activateWord(selectedEntry, 'word');
+    saveCards();
     $('#entryDialog').close();
     switchView('review');
     reviewQueue = [selectedEntry];
