@@ -461,7 +461,11 @@ function switchView(name) {
 
 function renderDashboard() {
   const counts = { 'Not studied': 0, Ready: 0, Learning: 0, Weak: 0, Mastered: 0 };
-  cards.forEach(card => { counts[cardState(card)] += 1; });
+  cards.forEach(card => {
+    const state = cardState(card);
+    if (Object.prototype.hasOwnProperty.call(counts, state)) counts[state] += 1;
+    else counts['Not studied'] += 1;
+  });
   const learnedCount = cards.length - counts['Not studied'];
   const masteredPercent = cards.length ? Math.round(counts.Mastered / cards.length * 100) : 0;
   $('#masteryPercent').textContent = `${masteredPercent}%`;
@@ -1723,7 +1727,8 @@ async function init() {
 
   if ('serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('./sw.js');
+      const registration = await navigator.serviceWorker.register('./sw.js');
+      registration.update().catch(() => {});
     } catch (error) {
       console.warn('Service worker registration failed', error);
     }
