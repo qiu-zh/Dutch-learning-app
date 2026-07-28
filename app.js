@@ -8,7 +8,8 @@ const SETTINGS_KEY = 'dutchdeck.studio.settings.v1';
 const REVIEW_KEY = 'dutchdeck.studio.reviews.v1';
 const READING_KEY = 'dutchdeck.studio.reading.v1';
 const DECK_VERSION_KEY = 'dutchdeck.studio.deckVersion';
-const DECK_VERSION = '4';
+const DECK_VERSION = '5';
+const LEARN_KEY = 'dutchdeck.studio.learn.v1';
 const DAY = 86_400_000;
 
 const legacyStarters = window.DUTCHDECK_FULL_DECK || [];
@@ -237,6 +238,9 @@ let previewEntries = [];
 let selectedEntry = null;
 let selectedFamily = '';
 let readerWordIndex = new Map();
+let quizCurrent = null;
+let quizAnswered = false;
+let learnState = (() => { try { return { correct: 0, attempted: 0, family: '', ...JSON.parse(localStorage.getItem(LEARN_KEY) || '{}') }; } catch { return { correct: 0, attempted: 0, family: '' }; } })();
 
 const saveCards = () => localStorage.setItem(CARD_KEY, JSON.stringify(cards));
 const saveSettings = () => localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings));
@@ -328,6 +332,7 @@ function switchView(name) {
   $$('.view').forEach(view => view.classList.toggle('active', view.id === `${name}View`));
   if (name === 'dashboard') renderDashboard();
   if (name === 'review') buildReviewQueue();
+  if (name === 'learn') renderLearn();
   if (name === 'families') renderFamilies();
   if (name === 'dictionary') renderDictionary();
   if (name === 'reader') prepareReaderIndex();
@@ -543,6 +548,144 @@ function rate(rating) {
   current = null;
   nextCard();
   renderDashboard();
+}
+
+
+function saveLearnState() {
+  localStorage.setItem(LEARN_KEY, JSON.stringify(learnState));
+}
+
+function shuffled(list) {
+  const result = [...list];
+  for (let i = result.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
+
+function learnFamilies() {
+  return allFamilies().map(definition => ({ definition, ...familyStats(definition.id) })).filter(item => item.members.length);
+}
+
+function renderLearn() {
+  const items = learnFamilies().sort((a, b) => b.members.length - a.members.length || a.definition.title.localeCompare(b.definition.title, 'nl'));
+  if (!items.length) return;
+  const select = $('#learnFamilyFilter');
+  const previous = select.value || learnState.family;
+  select.innerHTML = items.map(item => `<option value="${escapeAttr(item.definition.id)}">${escapeHtml(item.definition.title)} · ${item.members.length} words</option>`).join('');
+  select.value = items.some(item => item.definition.id === previous) ? previous : items[0].definition.id;
+  learnState.family = select.value;
+  saveLearnState();
+  renderCurrentModule();
+  renderModuleGrid(items);
+  updateQuizScore();
+  newQuizQuestion();
+}
+
+function renderCurrentModule() {
+  const familyId = $('#learnFamilyFilter').value;
+  const definition = allFamilies().find(item => item.id === familyId);
+  const stats = familyStats(familyId);
+  if (!definition) return;
+  $('#moduleTitle').textContent = definition.title;
+  $('#moduleMeaning').textContent = definition.meaning || 'Related Dutch words';
+  $('#modulePattern').innerHTML = `<strong>Pattern:</strong> ${escapeHtml(definition.pattern || '')}<br><strong>Memory hook:</strong> ${escapeHtml(definition.hint || '')}`;
+  $('#moduleMastery').textContent = `${stats.mastery}%`;
+  $('#moduleCount').textContent = `${stats.studied}/${stats.members.length} studied`;
+  const ordered = [...stats.members].sort((a, b) => b.frequency - a.frequency || a.front.localeCompare(b.front, 'nl'));
+  $('#moduleWords').innerHTML = ordered.slice(0, 12).map((card, index) => `<button class="module-word" data-id="${escapeAttr(card.id)}"><span>${index + 1}</span><div><strong>${escapeHtml(card.front)}</strong><small>${escapeHtml(card.back)}</small></div><i>${masteryScore(card)}%</i></button>`).join('');
+  $$('#moduleWords [data-id]').forEach(button => button.onclick = () => openEntryDialog(button.dataset.id));
+}
+
+function renderModuleGrid(items = learnFamilies()) {
+  $('#moduleGrid').innerHTML = items.map(item => `<article class="family-card module-card" data-module="${escapeAttr(item.definition.id)}">
+    <div class="family-card-head"><div class="family-letter">${escapeHtml(item.definition.accent || item.definition.title[0])}</div><div><h3>${escapeHtml(item.definition.title)}</h3><p class="meaning">${escapeHtml(item.definition.meaning)}</p></div></div>
+    <p>${escapeHtml(item.definition.pattern || '')}</p>
+    <div class="family-card-stats"><span><strong>${item.members.length}</strong>words</span><span><strong>${item.studied}</strong>studied</span><span><strong>${item.mastery}%</strong>mastery</span></div>
+    <button class="btn secondary full" type="button">Open module</button>
+  </article>`).join('');
+  $$('#moduleGrid [data-module]').forEach(card => card.onclick = () => {
+    $('#learnFamilyFilter').value = card.dataset.module;
+    learnState.family = card.dataset.module;
+    saveLearnState();
+    renderCurrentModule();
+    newQuizQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
+
+function quizPool() {
+  const familyId = $('#learnFamilyFilter').value;
+  const familyCards = cards.filter(card => card.family === familyId);
+  return familyCards.length >= 4 ? familyCards : cards.filter(card => card.type === 'verb' || card.family);
+}
+
+function chooseDistractors(correct, field, pool, count = 3) {
+  const key = normalizeKey(correct[field]);
+  const options = shuffled(pool.filter(card => card.id !== correct.id && normalizeKey(card[field]) !== key)).slice(0, count).map(card => card[field]);
+  return shuffled([correct[field], ...options]);
+}
+
+function newQuizQuestion() {
+  const pool = quizPool();
+  if (!pool.length) return;
+  quizAnswered = false;
+  const mode = $('#quizMode').value;
+  const suitable = mode === 'cloze' ? pool.filter(card => card.example && normalizeKey(card.example).includes(normalizeKey(normalizedHeadword(card.front)))) : pool;
+  const source = suitable.length ? suitable : pool;
+  const card = source[Math.floor(Math.random() * source.length)];
+  let prompt = card.front;
+  let context = '';
+  let answer = card.back;
+  let options = chooseDistractors(card, 'back', cards.filter(item => item.type === card.type), 3);
+
+  if (mode === 'cloze') {
+    const head = normalizedHeadword(card.front);
+    const regex = new RegExp(head.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+    context = card.example.replace(regex, '_____');
+    prompt = 'Which word completes this sentence?';
+    answer = card.front;
+    options = chooseDistractors(card, 'front', pool, 3);
+  } else if (mode === 'family') {
+    prompt = card.front;
+    context = card.back;
+    answer = card.family || 'no family';
+    const families = shuffled(allFamilies().filter(item => item.id !== answer)).slice(0, 3).map(item => item.id);
+    options = shuffled([answer, ...families]);
+  }
+
+  quizCurrent = { card, answer, mode };
+  $('#quizPrompt').textContent = prompt;
+  $('#quizContext').textContent = context;
+  $('#quizContext').hidden = !context;
+  $('#quizFeedback').textContent = '';
+  $('#quizFeedback').className = 'quiz-feedback';
+  $('#quizOptions').innerHTML = options.map(option => `<button type="button" class="quiz-option" data-answer="${escapeAttr(option)}">${escapeHtml(option)}</button>`).join('');
+  $$('#quizOptions .quiz-option').forEach(button => button.onclick = () => answerQuiz(button));
+}
+
+function answerQuiz(button) {
+  if (!quizCurrent || quizAnswered) return;
+  quizAnswered = true;
+  const chosen = button.dataset.answer;
+  const correct = normalizeKey(chosen) === normalizeKey(quizCurrent.answer);
+  learnState.attempted += 1;
+  if (correct) learnState.correct += 1;
+  saveLearnState();
+  $$('#quizOptions .quiz-option').forEach(option => {
+    option.disabled = true;
+    if (normalizeKey(option.dataset.answer) === normalizeKey(quizCurrent.answer)) option.classList.add('correct');
+    else if (option === button) option.classList.add('incorrect');
+  });
+  $('#quizFeedback').textContent = correct ? 'Correct — goed gedaan!' : `The answer is “${quizCurrent.answer}”.`;
+  $('#quizFeedback').className = `quiz-feedback ${correct ? 'success' : 'error'}`;
+  updateQuizScore();
+}
+
+function updateQuizScore() {
+  const accuracy = learnState.attempted ? Math.round(learnState.correct / learnState.attempted * 100) : 0;
+  $('#quizScore').textContent = `${learnState.correct}/${learnState.attempted} correct · ${accuracy}%`;
 }
 
 function renderFamilies() {
@@ -892,6 +1035,7 @@ function importEntries(entries) {
   populateFilters();
   renderDashboard();
   renderFamilies();
+  renderLearn();
   renderDictionary();
   setImportStatus(`Added ${added}, updated ${updated}, skipped ${skipped}.`, 'success');
 }
@@ -1075,6 +1219,11 @@ function bindDialogs() {
 function bind() {
   $$('.nav-btn').forEach(button => button.onclick = () => switchView(button.dataset.view));
   $$('[data-go]').forEach(button => button.onclick = () => switchView(button.dataset.go));
+
+  $('#learnFamilyFilter').onchange = () => { learnState.family = $('#learnFamilyFilter').value; saveLearnState(); renderCurrentModule(); newQuizQuestion(); };
+  $('#quizMode').onchange = newQuizQuestion;
+  $('#nextQuizBtn').onclick = newQuizQuestion;
+  $('#listenQuizBtn').onclick = () => quizCurrent && speak(quizCurrent.mode === 'cloze' ? quizCurrent.card.example : quizCurrent.card.front);
 
   $('#reviewFilter').onchange = buildReviewQueue;
   $('#reviewFamilyFilter').onchange = buildReviewQueue;
@@ -1277,6 +1426,7 @@ async function init() {
   connection();
   renderDashboard();
   renderFamilies();
+  renderLearn();
   renderDictionary();
   renderDataSummary();
   buildReviewQueue();

@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="167x167" href="icons/apple-touch-icon-167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152.png">
   <link rel="stylesheet" href="styles.css">
-  <title>DutchDeck Studio — Core 3000 Ready</title>
+  <title>DutchDeck Studio — Learning Edition</title>
 </head>
 <body>
 <header class="topbar">
@@ -33,6 +33,7 @@
 <nav class="nav" aria-label="Main navigation">
   <button class="nav-btn active" data-view="dashboard">Overview</button>
   <button class="nav-btn" data-view="review">Review</button>
+  <button class="nav-btn" data-view="learn">Learn</button>
   <button class="nav-btn" data-view="families">Families</button>
   <button class="nav-btn" data-view="dictionary">Dictionary</button>
   <button class="nav-btn" data-view="reader">Read</button>
@@ -140,6 +141,55 @@
       </div>
     </div>
     <p id="emptyReview" class="empty" hidden>No matching cards. Try another review mode or add more words.</p>
+  </section>
+
+
+  <section id="learnView" class="view">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Guided modules and active recall</p>
+        <h2>Learn</h2>
+      </div>
+      <div class="learn-controls">
+        <select id="learnFamilyFilter" aria-label="Learning family"></select>
+        <select id="quizMode" aria-label="Exercise type">
+          <option value="meaning">Choose the meaning</option>
+          <option value="cloze">Complete the sentence</option>
+          <option value="family">Identify the family</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="module-hero panel">
+      <div>
+        <p class="eyebrow">Current module</p>
+        <h3 id="moduleTitle">Choose a word family</h3>
+        <p id="moduleMeaning" class="lead"></p>
+        <div id="modulePattern" class="usage-note"></div>
+      </div>
+      <div class="module-progress-ring"><strong id="moduleMastery">0%</strong><span>mastery</span></div>
+    </div>
+
+    <div class="learn-grid">
+      <article class="panel">
+        <div class="panel-head"><h3>Suggested path</h3><span id="moduleCount" class="muted"></span></div>
+        <div id="moduleWords" class="module-words"></div>
+      </article>
+      <article class="panel quiz-panel">
+        <div class="panel-head"><h3>Quick exercise</h3><span id="quizScore" class="muted">0 correct</span></div>
+        <div id="quizArea" class="quiz-area">
+          <p class="prompt">Question</p>
+          <h3 id="quizPrompt">Select a family to begin.</h3>
+          <p id="quizContext" class="example"></p>
+          <div id="quizOptions" class="quiz-options"></div>
+          <div id="quizFeedback" class="quiz-feedback" aria-live="polite"></div>
+          <div class="row"><button id="nextQuizBtn" class="btn primary">Next question</button><button id="listenQuizBtn" class="btn ghost">🔊 Listen</button></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="section-head compact-head"><div><p class="eyebrow">Course map</p><h3>Available modules</h3></div></div>
+    <div id="moduleGrid" class="family-grid"></div>
   </section>
 
   <section id="familiesView" class="view">

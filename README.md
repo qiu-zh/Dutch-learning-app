@@ -27,3 +27,12 @@ Because this version has a new service-worker cache, an installed copy may need 
 ## Data
 
 Cards, settings, favorites, reader text and review progress stay in browser local storage. Use **Settings → Export backup** before major changes or moving to another device.
+
+
+## Learning Edition additions
+
+- Guided family modules with a suggested high-frequency learning path
+- Three exercise modes: meaning choice, sentence completion, and family identification
+- Persistent quiz score and accuracy
+- Module mastery, study counts, pronunciation, and one-tap dictionary details
+- Exercises are generated automatically from every imported Core 3000 pack
