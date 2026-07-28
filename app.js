@@ -460,15 +460,17 @@ function switchView(name) {
 }
 
 function renderDashboard() {
-  const counts = { New: 0, Learning: 0, Weak: 0, Mastered: 0 };
+  const counts = { 'Not studied': 0, Ready: 0, Learning: 0, Weak: 0, Mastered: 0 };
   cards.forEach(card => { counts[cardState(card)] += 1; });
+  const learnedCount = cards.length - counts['Not studied'];
   const masteredPercent = cards.length ? Math.round(counts.Mastered / cards.length * 100) : 0;
   $('#masteryPercent').textContent = `${masteredPercent}%`;
 
   const stats = [
     ['Due now', dueCandidates().length],
     ['Total entries', cards.length],
-    ['Studied', cards.length - counts.New],
+    ['Learned', learnedCount],
+    ['Not learned', counts['Not studied']],
     ['Reviewed today', reviews()[todayKey()] || 0],
     ['Day streak', streak()]
   ];
@@ -493,7 +495,7 @@ function renderDashboard() {
   $$('#familySummary [data-family]').forEach(button => button.onclick = () => openFamilyDialog(button.dataset.family));
 
   const recommendationPool = [...cards].sort((a, b) => {
-    const stateWeight = { Weak: 4, Learning: 3, New: 2, Mastered: 1 };
+    const stateWeight = { Weak: 5, Learning: 4, Ready: 3, 'Not studied': 2, Mastered: 1 };
     return stateWeight[cardState(b)] - stateWeight[cardState(a)] || b.frequency - a.frequency || (a.due || 0) - (b.due || 0);
   });
   const seen = new Set();
@@ -933,7 +935,7 @@ function renderDecks() {
   const ids = [...new Set([...Object.keys(deckRegistry), ...cards.flatMap(card => card.deckIds)])].filter(Boolean);
   const decks = ids.map(id => {
     const members = cards.filter(card => card.deckIds.includes(id));
-    const studied = members.filter(card => cardState(card) !== 'New').length;
+    const studied = members.filter(card => isReviewEligible(card)).length;
     const mastered = members.filter(card => cardState(card) === 'Mastered').length;
     const mastery = members.length ? Math.round(members.reduce((sum, card) => sum + masteryScore(card), 0) / members.length) : 0;
     const metadata = deckRegistry[id] || { id, name: id, version: '', importedAt: '' };
@@ -1005,7 +1007,7 @@ function renderDictionary() {
 
   $('#dictionaryCount').textContent = `${list.length} of ${cards.length} entries`;
   $('#cardList').innerHTML = list.map(card => {
-    const state = cardState(card).toLowerCase();
+    const state = cardState(card).toLowerCase().replace(/\s+/g, '-');
     return `<article class="dict-card" data-id="${escapeAttr(card.id)}">
       <div class="dict-main">
         <h3>${escapeHtml(card.front)}</h3>
