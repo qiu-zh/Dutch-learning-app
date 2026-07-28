@@ -431,6 +431,7 @@ function switchView(name) {
   if (name === 'review') buildReviewQueue();
   if (name === 'learn') renderLearn();
   if (name === 'families') renderFamilies();
+  if (name === 'decks') renderDecks();
   if (name === 'dictionary') renderDictionary();
   if (name === 'reader') prepareReaderIndex();
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -838,6 +839,53 @@ function openFamilyDialog(familyId) {
   $('#familyDialog').showModal();
 }
 
+function renderDecks() {
+  const ids = [...new Set([...Object.keys(deckRegistry), ...cards.flatMap(card => card.deckIds)])].filter(Boolean);
+  const decks = ids.map(id => {
+    const members = cards.filter(card => card.deckIds.includes(id));
+    const studied = members.filter(card => cardState(card) !== 'New').length;
+    const mastered = members.filter(card => cardState(card) === 'Mastered').length;
+    const mastery = members.length ? Math.round(members.reduce((sum, card) => sum + masteryScore(card), 0) / members.length) : 0;
+    const metadata = deckRegistry[id] || { id, name: id, version: '', importedAt: '' };
+    return { id, metadata, members, studied, mastered, mastery };
+  }).filter(deck => deck.members.length).sort((a, b) => deckDisplayName(a.id).localeCompare(deckDisplayName(b.id), 'nl'));
+
+  $('#deckGrid').innerHTML = decks.map(deck => {
+    const families = new Set(deck.members.map(card => card.family).filter(Boolean)).size;
+    const imported = deck.metadata.importedAt ? new Date(deck.metadata.importedAt).toLocaleDateString() : '';
+    return `<article class="deck-card" data-deck="${escapeAttr(deck.id)}">
+      <div class="deck-card-head">
+        <div class="deck-icon">${escapeHtml(deckDisplayName(deck.id).charAt(0).toUpperCase())}</div>
+        <div><h3>${escapeHtml(deckDisplayName(deck.id))}</h3><p>${deck.metadata.version ? `Version ${escapeHtml(deck.metadata.version)}` : 'Imported vocabulary deck'}${imported ? ` · ${escapeHtml(imported)}` : ''}</p></div>
+      </div>
+      <div class="deck-stats">
+        <span><strong>${deck.members.length}</strong>words</span>
+        <span><strong>${families}</strong>families</span>
+        <span><strong>${deck.studied}</strong>studied</span>
+        <span><strong>${deck.mastery}%</strong>mastery</span>
+      </div>
+      <div class="deck-progress"><i style="width:${deck.mastery}%"></i></div>
+      <div class="deck-actions">
+        <button class="btn secondary deck-view-words">View words</button>
+        <button class="btn ghost deck-review">Review deck</button>
+      </div>
+    </article>`;
+  }).join('') || `<article class="panel empty"><h3>No decks yet</h3><p>Import a JSON vocabulary pack to see it here.</p></article>`;
+
+  $$('#deckGrid [data-deck]').forEach(element => {
+    const id = element.dataset.deck;
+    element.querySelector('.deck-view-words').onclick = () => {
+      $('#deckFilter').value = id;
+      switchView('dictionary');
+    };
+    element.querySelector('.deck-review').onclick = () => {
+      $('#reviewFilter').value = 'deck';
+      $('#reviewDeckFilter').value = id;
+      switchView('review');
+    };
+  });
+}
+
 function searchableValues(card) {
   return [card.front, card.back, card.example, card.forms, card.note, card.family, card.prefix, card.prefixMeaning, ...card.deckIds.map(deckDisplayName), ...card.tags, ...card.collocations, ...card.related];
 }
@@ -1005,6 +1053,7 @@ function saveForm(event) {
   populateFilters();
   renderDictionary();
   renderFamilies();
+  renderDecks();
   renderDashboard();
 }
 
@@ -1162,6 +1211,7 @@ function importEntries(entries, definitions = previewFamilyDefinitions, deck = p
   populateFilters();
   renderDashboard();
   renderFamilies();
+  renderDecks();
   renderLearn();
   renderDictionary();
   const definitionText = importedDefinitionCount ? ` Imported ${importedDefinitionCount} family definitions.` : '';
@@ -1565,6 +1615,7 @@ async function init() {
   connection();
   renderDashboard();
   renderFamilies();
+  renderDecks();
   renderLearn();
   renderDictionary();
   renderDataSummary();
