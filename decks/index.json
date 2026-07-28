@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updated": "2026-07-29",
   "decks": [
     {
@@ -28,6 +28,15 @@
       "words": 200,
       "families": 16,
       "description": "A third collection expanding high-value Dutch verb families."
+    },
+    {
+      "id": "core3000-pack-04",
+      "title": "Core Verb Families IV",
+      "file": "./decks/core3000-pack-04.json",
+      "version": "1.0.0",
+      "words": 200,
+      "families": 16,
+      "description": "A fourth collection of practical Dutch verb families for B1–B2 learners."
     }
   ]
 }

@@ -1,0 +1,6087 @@
+{
+  "deck": "Core Verb Families IV",
+  "deckId": "core3000-pack-04",
+  "deckName": "Core Verb Families IV",
+  "pack": "04",
+  "version": "1.0.0",
+  "language": "nl-en",
+  "entryCount": 200,
+  "cards": [
+    {
+      "front": "doen",
+      "back": "to do",
+      "example": "In deze situatie is het belangrijk om 'doen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: doen",
+      "family": "doen",
+      "separable": false,
+      "collocations": [
+        "doen in context",
+        "doen correct gebruiken"
+      ],
+      "related": [
+        "aandoen",
+        "afdoen",
+        "bijdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aandoen",
+      "back": "to put on; switch on",
+      "example": "In deze situatie is het belangrijk om 'aandoen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aandoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "aandoen in context",
+        "aandoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "afdoen",
+        "bijdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afdoen",
+      "back": "to take off; dismiss",
+      "example": "In deze situatie is het belangrijk om 'afdoen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "afdoen in context",
+        "afdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "bijdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijdoen",
+      "back": "to add",
+      "example": "In deze situatie is het belangrijk om 'bijdoen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bijdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "bijdoen in context",
+        "bijdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "dichtdoen",
+      "back": "to close",
+      "example": "In deze situatie is het belangrijk om 'dichtdoen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: dichtdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "dichtdoen in context",
+        "dichtdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "meedoen",
+      "back": "to participate",
+      "example": "In deze situatie is het belangrijk om 'meedoen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: meedoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "meedoen in context",
+        "meedoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "nadoen",
+      "back": "to imitate",
+      "example": "In deze situatie is het belangrijk om 'nadoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: nadoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "nadoen in context",
+        "nadoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "omdoen",
+      "back": "to put around",
+      "example": "In deze situatie is het belangrijk om 'omdoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: omdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "omdoen in context",
+        "omdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "opdoen",
+      "back": "to gain; open",
+      "example": "In deze situatie is het belangrijk om 'opdoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: opdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "opdoen in context",
+        "opdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "overdoen",
+      "back": "to redo",
+      "example": "In deze situatie is het belangrijk om 'overdoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: overdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "overdoen in context",
+        "overdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "toedoen",
+      "back": "to close",
+      "example": "In deze situatie is het belangrijk om 'toedoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: toedoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "toedoen in context",
+        "toedoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitdoen",
+      "back": "to take off; switch off",
+      "example": "In deze situatie is het belangrijk om 'uitdoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitdoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "uitdoen in context",
+        "uitdoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voordoen",
+      "back": "to demonstrate",
+      "example": "In deze situatie is het belangrijk om 'voordoen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: voordoen",
+      "family": "doen",
+      "separable": true,
+      "collocations": [
+        "voordoen in context",
+        "voordoen correct gebruiken"
+      ],
+      "related": [
+        "doen",
+        "aandoen",
+        "afdoen"
+      ],
+      "tags": [
+        "verb family",
+        "doen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the doen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zitten",
+      "back": "to sit",
+      "example": "In deze situatie is het belangrijk om 'zitten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: zitten",
+      "family": "zitten",
+      "separable": false,
+      "collocations": [
+        "zitten in context",
+        "zitten correct gebruiken"
+      ],
+      "related": [
+        "aanzitten",
+        "afzitten",
+        "bijzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanzitten",
+      "back": "to be seated at",
+      "example": "In deze situatie is het belangrijk om 'aanzitten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "aanzitten in context",
+        "aanzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "afzitten",
+        "bijzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afzitten",
+      "back": "to serve out; sit through",
+      "example": "In deze situatie is het belangrijk om 'afzitten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "afzitten in context",
+        "afzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "bijzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijzitten",
+      "back": "to be present",
+      "example": "In deze situatie is het belangrijk om 'bijzitten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bijzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "bijzitten in context",
+        "bijzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorzitten",
+      "back": "to sit too long; wear through",
+      "example": "In deze situatie is het belangrijk om 'doorzitten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: doorzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "doorzitten in context",
+        "doorzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inzitten",
+      "back": "to be inside; worry",
+      "example": "In deze situatie is het belangrijk om 'inzitten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: inzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "inzitten in context",
+        "inzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "meezitten",
+      "back": "to go well",
+      "example": "In deze situatie is het belangrijk om 'meezitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: meezitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "meezitten in context",
+        "meezitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "nazitten",
+      "back": "to stay after; chase",
+      "example": "In deze situatie is het belangrijk om 'nazitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: nazitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "nazitten in context",
+        "nazitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "opzitten",
+      "back": "to sit up; be stuck with",
+      "example": "In deze situatie is het belangrijk om 'opzitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: opzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "opzitten in context",
+        "opzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "tegenzitten",
+      "back": "to go badly",
+      "example": "In deze situatie is het belangrijk om 'tegenzitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: tegenzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "tegenzitten in context",
+        "tegenzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitzitten",
+      "back": "to sit out",
+      "example": "In deze situatie is het belangrijk om 'uitzitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "uitzitten in context",
+        "uitzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vastzitten",
+      "back": "to be stuck",
+      "example": "In deze situatie is het belangrijk om 'vastzitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vastzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "vastzitten in context",
+        "vastzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voorzitten",
+      "back": "to chair",
+      "example": "In deze situatie is het belangrijk om 'voorzitten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: voorzitten",
+      "family": "zitten",
+      "separable": true,
+      "collocations": [
+        "voorzitten in context",
+        "voorzitten correct gebruiken"
+      ],
+      "related": [
+        "zitten",
+        "aanzitten",
+        "afzitten"
+      ],
+      "tags": [
+        "verb family",
+        "zitten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zitten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "liggen",
+      "back": "to lie; be located",
+      "example": "In deze situatie is het belangrijk om 'liggen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: liggen",
+      "family": "liggen",
+      "separable": false,
+      "collocations": [
+        "liggen in context",
+        "liggen correct gebruiken"
+      ],
+      "related": [
+        "aanliggen",
+        "achterliggen",
+        "bijliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanliggen",
+      "back": "to be adjacent; dock",
+      "example": "In deze situatie is het belangrijk om 'aanliggen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "aanliggen in context",
+        "aanliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "achterliggen",
+        "bijliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "achterliggen",
+      "back": "to lag behind",
+      "example": "In deze situatie is het belangrijk om 'achterliggen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: achterliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "achterliggen in context",
+        "achterliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "bijliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijliggen",
+      "back": "to be up to date",
+      "example": "In deze situatie is het belangrijk om 'bijliggen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bijliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "bijliggen in context",
+        "bijliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bovenliggen",
+      "back": "to be on top",
+      "example": "In deze situatie is het belangrijk om 'bovenliggen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bovenliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "bovenliggen in context",
+        "bovenliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "klaarliggen",
+      "back": "to be ready",
+      "example": "In deze situatie is het belangrijk om 'klaarliggen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: klaarliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "klaarliggen in context",
+        "klaarliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "onderliggen",
+      "back": "to be underneath",
+      "example": "In deze situatie is het belangrijk om 'onderliggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: onderliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "onderliggen in context",
+        "onderliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "overhoopliggen",
+      "back": "to be in conflict",
+      "example": "In deze situatie is het belangrijk om 'overhoopliggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: overhoopliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "overhoopliggen in context",
+        "overhoopliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "stilleggen",
+      "back": "to shut down",
+      "example": "In deze situatie is het belangrijk om 'stilleggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: stilleggen",
+      "family": "liggen",
+      "separable": false,
+      "collocations": [
+        "stilleggen in context",
+        "stilleggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "terugliggen",
+      "back": "to be set back",
+      "example": "In deze situatie is het belangrijk om 'terugliggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: terugliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "terugliggen in context",
+        "terugliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voorliggen",
+      "back": "to be ahead; be submitted",
+      "example": "In deze situatie is het belangrijk om 'voorliggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: voorliggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "voorliggen in context",
+        "voorliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "wegleggen",
+      "back": "to put away",
+      "example": "In deze situatie is het belangrijk om 'wegleggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: wegleggen",
+      "family": "liggen",
+      "separable": true,
+      "collocations": [
+        "wegleggen in context",
+        "wegleggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "dwarsliggen",
+      "back": "to obstruct",
+      "example": "In deze situatie is het belangrijk om 'dwarsliggen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: dwarsliggen",
+      "family": "liggen",
+      "separable": false,
+      "collocations": [
+        "dwarsliggen in context",
+        "dwarsliggen correct gebruiken"
+      ],
+      "related": [
+        "liggen",
+        "aanliggen",
+        "achterliggen"
+      ],
+      "tags": [
+        "verb family",
+        "liggen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the liggen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "steken",
+      "back": "to stick; stab",
+      "example": "In deze situatie is het belangrijk om 'steken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: steken",
+      "family": "steken",
+      "separable": false,
+      "collocations": [
+        "steken in context",
+        "steken correct gebruiken"
+      ],
+      "related": [
+        "aansteken",
+        "afsteken",
+        "doorsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aansteken",
+      "back": "to light; infect",
+      "example": "In deze situatie is het belangrijk om 'aansteken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aansteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "aansteken in context",
+        "aansteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "afsteken",
+        "doorsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afsteken",
+      "back": "to set off; contrast",
+      "example": "In deze situatie is het belangrijk om 'afsteken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afsteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "afsteken in context",
+        "afsteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "doorsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorsteken",
+      "back": "to pierce through",
+      "example": "In deze situatie is het belangrijk om 'doorsteken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: doorsteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "doorsteken in context",
+        "doorsteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "insteken",
+      "back": "to insert; approach",
+      "example": "In deze situatie is het belangrijk om 'insteken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: insteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "insteken in context",
+        "insteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "neersteken",
+      "back": "to stab down",
+      "example": "In deze situatie is het belangrijk om 'neersteken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: neersteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "neersteken in context",
+        "neersteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "opsteken",
+      "back": "to raise; learn",
+      "example": "In deze situatie is het belangrijk om 'opsteken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: opsteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "opsteken in context",
+        "opsteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "oversteken",
+      "back": "to cross",
+      "example": "In deze situatie is het belangrijk om 'oversteken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: oversteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "oversteken in context",
+        "oversteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "toesteken",
+      "back": "to hand over",
+      "example": "In deze situatie is het belangrijk om 'toesteken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: toesteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "toesteken in context",
+        "toesteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitsteken",
+      "back": "to protrude; excel",
+      "example": "In deze situatie is het belangrijk om 'uitsteken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitsteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "uitsteken in context",
+        "uitsteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vaststeken",
+      "back": "to pin",
+      "example": "In deze situatie is het belangrijk om 'vaststeken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vaststeken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "vaststeken in context",
+        "vaststeken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "wegsteken",
+      "back": "to hide away",
+      "example": "In deze situatie is het belangrijk om 'wegsteken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: wegsteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "wegsteken in context",
+        "wegsteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "tussensteken",
+      "back": "to insert between",
+      "example": "In deze situatie is het belangrijk om 'tussensteken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: tussensteken",
+      "family": "steken",
+      "separable": true,
+      "collocations": [
+        "tussensteken in context",
+        "tussensteken correct gebruiken"
+      ],
+      "related": [
+        "steken",
+        "aansteken",
+        "afsteken"
+      ],
+      "tags": [
+        "verb family",
+        "steken",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the steken family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "slaan",
+      "back": "to hit; strike",
+      "example": "In deze situatie is het belangrijk om 'slaan' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: slaan",
+      "family": "slaan",
+      "separable": false,
+      "collocations": [
+        "slaan in context",
+        "slaan correct gebruiken"
+      ],
+      "related": [
+        "aanslaan",
+        "afslaan",
+        "doorslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanslaan",
+      "back": "to catch on; assess",
+      "example": "In deze situatie is het belangrijk om 'aanslaan' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "aanslaan in context",
+        "aanslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "afslaan",
+        "doorslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afslaan",
+      "back": "to turn off; reject",
+      "example": "In deze situatie is het belangrijk om 'afslaan' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "afslaan in context",
+        "afslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "doorslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorslaan",
+      "back": "to go too far",
+      "example": "In deze situatie is het belangrijk om 'doorslaan' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: doorslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "doorslaan in context",
+        "doorslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inslaan",
+      "back": "to stock up; strike in",
+      "example": "In deze situatie is het belangrijk om 'inslaan' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: inslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "inslaan in context",
+        "inslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "neerslaan",
+      "back": "to suppress; knock down",
+      "example": "In deze situatie is het belangrijk om 'neerslaan' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: neerslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "neerslaan in context",
+        "neerslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "omslaan",
+      "back": "to turn over; change",
+      "example": "In deze situatie is het belangrijk om 'omslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: omslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "omslaan in context",
+        "omslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "opslaan",
+      "back": "to store; pitch",
+      "example": "In deze situatie is het belangrijk om 'opslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: opslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "opslaan in context",
+        "opslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "overslaan",
+      "back": "to skip",
+      "example": "In deze situatie is het belangrijk om 'overslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: overslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "overslaan in context",
+        "overslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "terugslaan",
+      "back": "to strike back",
+      "example": "In deze situatie is het belangrijk om 'terugslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: terugslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "terugslaan in context",
+        "terugslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "toeslaan",
+      "back": "to strike; seize",
+      "example": "In deze situatie is het belangrijk om 'toeslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: toeslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "toeslaan in context",
+        "toeslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitslaan",
+      "back": "to break out; swing out",
+      "example": "In deze situatie is het belangrijk om 'uitslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitslaan",
+      "family": "slaan",
+      "separable": true,
+      "collocations": [
+        "uitslaan in context",
+        "uitslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verslaan",
+      "back": "to defeat; report",
+      "example": "In deze situatie is het belangrijk om 'verslaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: verslaan",
+      "family": "slaan",
+      "separable": false,
+      "collocations": [
+        "verslaan in context",
+        "verslaan correct gebruiken"
+      ],
+      "related": [
+        "slaan",
+        "aanslaan",
+        "afslaan"
+      ],
+      "tags": [
+        "verb family",
+        "slaan",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the slaan family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "winnen",
+      "back": "to win; gain",
+      "example": "In deze situatie is het belangrijk om 'winnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: winnen",
+      "family": "winnen",
+      "separable": false,
+      "collocations": [
+        "winnen in context",
+        "winnen correct gebruiken"
+      ],
+      "related": [
+        "aanwinnen",
+        "bijwinnen",
+        "herwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanwinnen",
+      "back": "to recruit; gain",
+      "example": "In deze situatie is het belangrijk om 'aanwinnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanwinnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "aanwinnen in context",
+        "aanwinnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "bijwinnen",
+        "herwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijwinnen",
+      "back": "to gain additionally",
+      "example": "In deze situatie is het belangrijk om 'bijwinnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: bijwinnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "bijwinnen in context",
+        "bijwinnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "herwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "herwinnen",
+      "back": "to regain",
+      "example": "In deze situatie is het belangrijk om 'herwinnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: herwinnen",
+      "family": "winnen",
+      "separable": false,
+      "collocations": [
+        "herwinnen in context",
+        "herwinnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inwinnen",
+      "back": "to obtain information",
+      "example": "In deze situatie is het belangrijk om 'inwinnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: inwinnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "inwinnen in context",
+        "inwinnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "overwinnen",
+      "back": "to overcome",
+      "example": "In deze situatie is het belangrijk om 'overwinnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: overwinnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "overwinnen in context",
+        "overwinnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "terugwinnen",
+      "back": "to win back",
+      "example": "In deze situatie is het belangrijk om 'terugwinnen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: terugwinnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "terugwinnen in context",
+        "terugwinnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "winnen aan",
+      "back": "to gain in",
+      "example": "In deze situatie is het belangrijk om 'winnen aan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: winnen aan",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "winnen aan in context",
+        "winnen aan correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "tijd winnen",
+      "back": "to gain time",
+      "example": "In deze situatie is het belangrijk om 'tijd winnen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: tijd winnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "tijd winnen in context",
+        "tijd winnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "terrein winnen",
+      "back": "to gain ground",
+      "example": "In deze situatie is het belangrijk om 'terrein winnen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: terrein winnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "terrein winnen in context",
+        "terrein winnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vertrouwen winnen",
+      "back": "to gain trust",
+      "example": "In deze situatie is het belangrijk om 'vertrouwen winnen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vertrouwen winnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "vertrouwen winnen in context",
+        "vertrouwen winnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "gewicht winnen",
+      "back": "to gain weight",
+      "example": "In deze situatie is het belangrijk om 'gewicht winnen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: gewicht winnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "gewicht winnen in context",
+        "gewicht winnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "energie winnen",
+      "back": "to generate energy",
+      "example": "In deze situatie is het belangrijk om 'energie winnen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: energie winnen",
+      "family": "winnen",
+      "separable": true,
+      "collocations": [
+        "energie winnen in context",
+        "energie winnen correct gebruiken"
+      ],
+      "related": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen"
+      ],
+      "tags": [
+        "verb family",
+        "winnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the winnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verliezen",
+      "back": "to lose",
+      "example": "In deze situatie is het belangrijk om 'verliezen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: verliezen",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "verliezen in context",
+        "verliezen correct gebruiken"
+      ],
+      "related": [
+        "achterlaten",
+        "kwijtraken",
+        "misgelopen"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "achterlaten",
+      "back": "to leave behind",
+      "example": "In deze situatie is het belangrijk om 'achterlaten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: achterlaten",
+      "family": "verliezen",
+      "separable": true,
+      "collocations": [
+        "achterlaten in context",
+        "achterlaten correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "kwijtraken",
+        "misgelopen"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "kwijtraken",
+      "back": "to lose; misplace",
+      "example": "In deze situatie is het belangrijk om 'kwijtraken' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: kwijtraken",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "kwijtraken in context",
+        "kwijtraken correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "misgelopen"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "misgelopen",
+      "back": "to have missed out",
+      "example": "In deze situatie is het belangrijk om 'misgelopen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: misgelopen",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "misgelopen in context",
+        "misgelopen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "prijsgeven",
+      "back": "to surrender",
+      "example": "In deze situatie is het belangrijk om 'prijsgeven' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: prijsgeven",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "prijsgeven in context",
+        "prijsgeven correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verbeuren",
+      "back": "to forfeit",
+      "example": "In deze situatie is het belangrijk om 'verbeuren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: verbeuren",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "verbeuren in context",
+        "verbeuren correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verdwalen",
+      "back": "to get lost",
+      "example": "In deze situatie is het belangrijk om 'verdwalen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: verdwalen",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "verdwalen in context",
+        "verdwalen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vergeten",
+      "back": "to forget",
+      "example": "In deze situatie is het belangrijk om 'vergeten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: vergeten",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "vergeten in context",
+        "vergeten correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verspelen",
+      "back": "to squander",
+      "example": "In deze situatie is het belangrijk om 'verspelen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: verspelen",
+      "family": "verliezen",
+      "separable": false,
+      "collocations": [
+        "verspelen in context",
+        "verspelen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "tijd verliezen",
+      "back": "to lose time",
+      "example": "In deze situatie is het belangrijk om 'tijd verliezen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: tijd verliezen",
+      "family": "verliezen",
+      "separable": true,
+      "collocations": [
+        "tijd verliezen in context",
+        "tijd verliezen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "contact verliezen",
+      "back": "to lose contact",
+      "example": "In deze situatie is het belangrijk om 'contact verliezen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: contact verliezen",
+      "family": "verliezen",
+      "separable": true,
+      "collocations": [
+        "contact verliezen in context",
+        "contact verliezen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "controle verliezen",
+      "back": "to lose control",
+      "example": "In deze situatie is het belangrijk om 'controle verliezen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: controle verliezen",
+      "family": "verliezen",
+      "separable": true,
+      "collocations": [
+        "controle verliezen in context",
+        "controle verliezen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uit het oog verliezen",
+      "back": "to lose sight of",
+      "example": "In deze situatie is het belangrijk om 'uit het oog verliezen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uit het oog verliezen",
+      "family": "verliezen",
+      "separable": true,
+      "collocations": [
+        "uit het oog verliezen in context",
+        "uit het oog verliezen correct gebruiken"
+      ],
+      "related": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken"
+      ],
+      "tags": [
+        "verb family",
+        "verliezen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the verliezen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "beginnen",
+      "back": "to begin",
+      "example": "In deze situatie is het belangrijk om 'beginnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: beginnen",
+      "family": "beginnen",
+      "separable": false,
+      "collocations": [
+        "beginnen in context",
+        "beginnen correct gebruiken"
+      ],
+      "related": [
+        "aanbeginnen",
+        "herbeginnen",
+        "opstarten"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanbeginnen",
+      "back": "to start on",
+      "example": "In deze situatie is het belangrijk om 'aanbeginnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanbeginnen",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "aanbeginnen in context",
+        "aanbeginnen correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "herbeginnen",
+        "opstarten"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "herbeginnen",
+      "back": "to restart",
+      "example": "In deze situatie is het belangrijk om 'herbeginnen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: herbeginnen",
+      "family": "beginnen",
+      "separable": false,
+      "collocations": [
+        "herbeginnen in context",
+        "herbeginnen correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "opstarten"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "opstarten",
+      "back": "to start up",
+      "example": "In deze situatie is het belangrijk om 'opstarten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: opstarten",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "opstarten in context",
+        "opstarten correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanvangen",
+      "back": "to commence",
+      "example": "In deze situatie is het belangrijk om 'aanvangen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: aanvangen",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "aanvangen in context",
+        "aanvangen correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inzetten",
+      "back": "to initiate; deploy",
+      "example": "In deze situatie is het belangrijk om 'inzetten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: inzetten",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "inzetten in context",
+        "inzetten correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "losbarsten",
+      "back": "to break out",
+      "example": "In deze situatie is het belangrijk om 'losbarsten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: losbarsten",
+      "family": "beginnen",
+      "separable": false,
+      "collocations": [
+        "losbarsten in context",
+        "losbarsten correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ontstaan",
+      "back": "to arise",
+      "example": "In deze situatie is het belangrijk om 'ontstaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: ontstaan",
+      "family": "beginnen",
+      "separable": false,
+      "collocations": [
+        "ontstaan in context",
+        "ontstaan correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "openen",
+      "back": "to open; begin",
+      "example": "In deze situatie is het belangrijk om 'openen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: openen",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "openen in context",
+        "openen correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "starten",
+      "back": "to start",
+      "example": "In deze situatie is het belangrijk om 'starten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: starten",
+      "family": "beginnen",
+      "separable": false,
+      "collocations": [
+        "starten in context",
+        "starten correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "van start gaan",
+      "back": "to get started",
+      "example": "In deze situatie is het belangrijk om 'van start gaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: van start gaan",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "van start gaan in context",
+        "van start gaan correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voorafgaan",
+      "back": "to precede",
+      "example": "In deze situatie is het belangrijk om 'voorafgaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: voorafgaan",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "voorafgaan in context",
+        "voorafgaan correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inluiden",
+      "back": "to usher in",
+      "example": "In deze situatie is het belangrijk om 'inluiden' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: inluiden",
+      "family": "beginnen",
+      "separable": true,
+      "collocations": [
+        "inluiden in context",
+        "inluiden correct gebruiken"
+      ],
+      "related": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen"
+      ],
+      "tags": [
+        "verb family",
+        "beginnen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the beginnen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "eindigen",
+      "back": "to end",
+      "example": "In deze situatie is het belangrijk om 'eindigen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: eindigen",
+      "family": "eindigen",
+      "separable": false,
+      "collocations": [
+        "eindigen in context",
+        "eindigen correct gebruiken"
+      ],
+      "related": [
+        "beëindigen",
+        "afronden",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "beëindigen",
+      "back": "to terminate",
+      "example": "In deze situatie is het belangrijk om 'beëindigen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: beëindigen",
+      "family": "eindigen",
+      "separable": false,
+      "collocations": [
+        "beëindigen in context",
+        "beëindigen correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "afronden",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afronden",
+      "back": "to complete",
+      "example": "In deze situatie is het belangrijk om 'afronden' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afronden",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "afronden in context",
+        "afronden correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afsluiten",
+      "back": "to conclude; lock",
+      "example": "In deze situatie is het belangrijk om 'afsluiten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: afsluiten",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "afsluiten in context",
+        "afsluiten correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aflopen",
+      "back": "to end; expire",
+      "example": "In deze situatie is het belangrijk om 'aflopen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: aflopen",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "aflopen in context",
+        "aflopen correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ophouden",
+      "back": "to stop",
+      "example": "In deze situatie is het belangrijk om 'ophouden' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: ophouden",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "ophouden in context",
+        "ophouden correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "stopzetten",
+      "back": "to discontinue",
+      "example": "In deze situatie is het belangrijk om 'stopzetten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: stopzetten",
+      "family": "eindigen",
+      "separable": false,
+      "collocations": [
+        "stopzetten in context",
+        "stopzetten correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitlopen op",
+      "back": "to result in",
+      "example": "In deze situatie is het belangrijk om 'uitlopen op' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: uitlopen op",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "uitlopen op in context",
+        "uitlopen op correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "neerkomen op",
+      "back": "to amount to",
+      "example": "In deze situatie is het belangrijk om 'neerkomen op' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: neerkomen op",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "neerkomen op in context",
+        "neerkomen op correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ten einde lopen",
+      "back": "to draw to a close",
+      "example": "In deze situatie is het belangrijk om 'ten einde lopen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: ten einde lopen",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "ten einde lopen in context",
+        "ten einde lopen correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitsterven",
+      "back": "to die out",
+      "example": "In deze situatie is het belangrijk om 'uitsterven' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitsterven",
+      "family": "eindigen",
+      "separable": true,
+      "collocations": [
+        "uitsterven in context",
+        "uitsterven correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voltooien",
+      "back": "to complete",
+      "example": "In deze situatie is het belangrijk om 'voltooien' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: voltooien",
+      "family": "eindigen",
+      "separable": false,
+      "collocations": [
+        "voltooien in context",
+        "voltooien correct gebruiken"
+      ],
+      "related": [
+        "eindigen",
+        "beëindigen",
+        "afronden"
+      ],
+      "tags": [
+        "verb family",
+        "eindigen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the eindigen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "helpen",
+      "back": "to help",
+      "example": "In deze situatie is het belangrijk om 'helpen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: helpen",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "helpen in context",
+        "helpen correct gebruiken"
+      ],
+      "related": [
+        "behelpen",
+        "meehelpen",
+        "verhelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "behelpen",
+      "back": "to make do",
+      "example": "In deze situatie is het belangrijk om 'behelpen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: behelpen",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "behelpen in context",
+        "behelpen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "meehelpen",
+        "verhelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "meehelpen",
+      "back": "to help along",
+      "example": "In deze situatie is het belangrijk om 'meehelpen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: meehelpen",
+      "family": "helpen",
+      "separable": true,
+      "collocations": [
+        "meehelpen in context",
+        "meehelpen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "verhelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verhelpen",
+      "back": "to remedy",
+      "example": "In deze situatie is het belangrijk om 'verhelpen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: verhelpen",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "verhelpen in context",
+        "verhelpen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vooruithelpen",
+      "back": "to help forward",
+      "example": "In deze situatie is het belangrijk om 'vooruithelpen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: vooruithelpen",
+      "family": "helpen",
+      "separable": true,
+      "collocations": [
+        "vooruithelpen in context",
+        "vooruithelpen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uithelpen",
+      "back": "to help out",
+      "example": "In deze situatie is het belangrijk om 'uithelpen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: uithelpen",
+      "family": "helpen",
+      "separable": true,
+      "collocations": [
+        "uithelpen in context",
+        "uithelpen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijstaan",
+      "back": "to assist",
+      "example": "In deze situatie is het belangrijk om 'bijstaan' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bijstaan",
+      "family": "helpen",
+      "separable": true,
+      "collocations": [
+        "bijstaan in context",
+        "bijstaan correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ondersteunen",
+      "back": "to support",
+      "example": "In deze situatie is het belangrijk om 'ondersteunen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: ondersteunen",
+      "family": "helpen",
+      "separable": true,
+      "collocations": [
+        "ondersteunen in context",
+        "ondersteunen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "assisteren",
+      "back": "to assist",
+      "example": "In deze situatie is het belangrijk om 'assisteren' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: assisteren",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "assisteren in context",
+        "assisteren correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "redden",
+      "back": "to rescue",
+      "example": "In deze situatie is het belangrijk om 'redden' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: redden",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "redden in context",
+        "redden correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "tegemoetkomen",
+      "back": "to accommodate",
+      "example": "In deze situatie is het belangrijk om 'tegemoetkomen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: tegemoetkomen",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "tegemoetkomen in context",
+        "tegemoetkomen correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ontlasten",
+      "back": "to relieve",
+      "example": "In deze situatie is het belangrijk om 'ontlasten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: ontlasten",
+      "family": "helpen",
+      "separable": false,
+      "collocations": [
+        "ontlasten in context",
+        "ontlasten correct gebruiken"
+      ],
+      "related": [
+        "helpen",
+        "behelpen",
+        "meehelpen"
+      ],
+      "tags": [
+        "verb family",
+        "helpen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the helpen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "leren",
+      "back": "to learn; teach",
+      "example": "In deze situatie is het belangrijk om 'leren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: leren",
+      "family": "leren",
+      "separable": false,
+      "collocations": [
+        "leren in context",
+        "leren correct gebruiken"
+      ],
+      "related": [
+        "aanleren",
+        "afleren",
+        "bijleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanleren",
+      "back": "to teach; acquire",
+      "example": "In deze situatie is het belangrijk om 'aanleren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "aanleren in context",
+        "aanleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "afleren",
+        "bijleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afleren",
+      "back": "to unlearn",
+      "example": "In deze situatie is het belangrijk om 'afleren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "afleren in context",
+        "afleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "bijleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijleren",
+      "back": "to learn more",
+      "example": "In deze situatie is het belangrijk om 'bijleren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bijleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "bijleren in context",
+        "bijleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorleren",
+      "back": "to continue studying",
+      "example": "In deze situatie is het belangrijk om 'doorleren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: doorleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "doorleren in context",
+        "doorleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inleren",
+      "back": "to memorize; train",
+      "example": "In deze situatie is het belangrijk om 'inleren' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: inleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "inleren in context",
+        "inleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "meeleren",
+      "back": "to learn along",
+      "example": "In deze situatie is het belangrijk om 'meeleren' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: meeleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "meeleren in context",
+        "meeleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "omleren",
+      "back": "to retrain",
+      "example": "In deze situatie is het belangrijk om 'omleren' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: omleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "omleren in context",
+        "omleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitleren",
+      "back": "to finish training",
+      "example": "In deze situatie is het belangrijk om 'uitleren' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitleren",
+      "family": "leren",
+      "separable": true,
+      "collocations": [
+        "uitleren in context",
+        "uitleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verleren",
+      "back": "to forget a skill",
+      "example": "In deze situatie is het belangrijk om 'verleren' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: verleren",
+      "family": "leren",
+      "separable": false,
+      "collocations": [
+        "verleren in context",
+        "verleren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "studeren",
+      "back": "to study",
+      "example": "In deze situatie is het belangrijk om 'studeren' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: studeren",
+      "family": "leren",
+      "separable": false,
+      "collocations": [
+        "studeren in context",
+        "studeren correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "oefenen",
+      "back": "to practise",
+      "example": "In deze situatie is het belangrijk om 'oefenen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: oefenen",
+      "family": "leren",
+      "separable": false,
+      "collocations": [
+        "oefenen in context",
+        "oefenen correct gebruiken"
+      ],
+      "related": [
+        "leren",
+        "aanleren",
+        "afleren"
+      ],
+      "tags": [
+        "verb family",
+        "leren",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the leren family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "kennen",
+      "back": "to know; be familiar with",
+      "example": "In deze situatie is het belangrijk om 'kennen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: kennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "kennen in context",
+        "kennen correct gebruiken"
+      ],
+      "related": [
+        "erkennen",
+        "herkennen",
+        "miskennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "erkennen",
+      "back": "to acknowledge",
+      "example": "In deze situatie is het belangrijk om 'erkennen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: erkennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "erkennen in context",
+        "erkennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "herkennen",
+        "miskennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "herkennen",
+      "back": "to recognize",
+      "example": "In deze situatie is het belangrijk om 'herkennen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: herkennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "herkennen in context",
+        "herkennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "miskennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "miskennen",
+      "back": "to fail to appreciate",
+      "example": "In deze situatie is het belangrijk om 'miskennen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: miskennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "miskennen in context",
+        "miskennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ontkennen",
+      "back": "to deny",
+      "example": "In deze situatie is het belangrijk om 'ontkennen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: ontkennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "ontkennen in context",
+        "ontkennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "toekennen",
+      "back": "to award",
+      "example": "In deze situatie is het belangrijk om 'toekennen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: toekennen",
+      "family": "kennen",
+      "separable": true,
+      "collocations": [
+        "toekennen in context",
+        "toekennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bekennen",
+      "back": "to confess",
+      "example": "In deze situatie is het belangrijk om 'bekennen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: bekennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "bekennen in context",
+        "bekennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verkennen",
+      "back": "to explore",
+      "example": "In deze situatie is het belangrijk om 'verkennen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: verkennen",
+      "family": "kennen",
+      "separable": false,
+      "collocations": [
+        "verkennen in context",
+        "verkennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "leren kennen",
+      "back": "to get to know",
+      "example": "In deze situatie is het belangrijk om 'leren kennen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: leren kennen",
+      "family": "kennen",
+      "separable": true,
+      "collocations": [
+        "leren kennen in context",
+        "leren kennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "kenbaar maken",
+      "back": "to make known",
+      "example": "In deze situatie is het belangrijk om 'kenbaar maken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: kenbaar maken",
+      "family": "kennen",
+      "separable": true,
+      "collocations": [
+        "kenbaar maken in context",
+        "kenbaar maken correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zichzelf kennen",
+      "back": "to know oneself",
+      "example": "In deze situatie is het belangrijk om 'zichzelf kennen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: zichzelf kennen",
+      "family": "kennen",
+      "separable": true,
+      "collocations": [
+        "zichzelf kennen in context",
+        "zichzelf kennen correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "gekend zijn",
+      "back": "to be known",
+      "example": "In deze situatie is het belangrijk om 'gekend zijn' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: gekend zijn",
+      "family": "kennen",
+      "separable": true,
+      "collocations": [
+        "gekend zijn in context",
+        "gekend zijn correct gebruiken"
+      ],
+      "related": [
+        "kennen",
+        "erkennen",
+        "herkennen"
+      ],
+      "tags": [
+        "verb family",
+        "kennen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the kennen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "weten",
+      "back": "to know",
+      "example": "In deze situatie is het belangrijk om 'weten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: weten",
+      "family": "weten",
+      "separable": false,
+      "collocations": [
+        "weten in context",
+        "weten correct gebruiken"
+      ],
+      "related": [
+        "afweten van",
+        "meeweten",
+        "te weten komen"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afweten van",
+      "back": "to know about",
+      "example": "In deze situatie is het belangrijk om 'afweten van' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afweten van",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "afweten van in context",
+        "afweten van correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "meeweten",
+        "te weten komen"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "meeweten",
+      "back": "to be privy to",
+      "example": "In deze situatie is het belangrijk om 'meeweten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: meeweten",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "meeweten in context",
+        "meeweten correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "te weten komen"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "te weten komen",
+      "back": "to find out",
+      "example": "In deze situatie is het belangrijk om 'te weten komen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: te weten komen",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "te weten komen in context",
+        "te weten komen correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "laten weten",
+      "back": "to let know",
+      "example": "In deze situatie is het belangrijk om 'laten weten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: laten weten",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "laten weten in context",
+        "laten weten correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zeker weten",
+      "back": "to know for sure",
+      "example": "In deze situatie is het belangrijk om 'zeker weten' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: zeker weten",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "zeker weten in context",
+        "zeker weten correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "beter weten",
+      "back": "to know better",
+      "example": "In deze situatie is het belangrijk om 'beter weten' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: beter weten",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "beter weten in context",
+        "beter weten correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bewust zijn",
+      "back": "to be aware",
+      "example": "In deze situatie is het belangrijk om 'bewust zijn' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: bewust zijn",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "bewust zijn in context",
+        "bewust zijn correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "beseffen",
+      "back": "to realize",
+      "example": "In deze situatie is het belangrijk om 'beseffen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: beseffen",
+      "family": "weten",
+      "separable": false,
+      "collocations": [
+        "beseffen in context",
+        "beseffen correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vermoeden",
+      "back": "to suspect",
+      "example": "In deze situatie is het belangrijk om 'vermoeden' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vermoeden",
+      "family": "weten",
+      "separable": false,
+      "collocations": [
+        "vermoeden in context",
+        "vermoeden correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorhebben",
+      "back": "to figure out",
+      "example": "In deze situatie is het belangrijk om 'doorhebben' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: doorhebben",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "doorhebben in context",
+        "doorhebben correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "inzien",
+      "back": "to understand; realize",
+      "example": "In deze situatie is het belangrijk om 'inzien' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: inzien",
+      "family": "weten",
+      "separable": true,
+      "collocations": [
+        "inzien in context",
+        "inzien correct gebruiken"
+      ],
+      "related": [
+        "weten",
+        "afweten van",
+        "meeweten"
+      ],
+      "tags": [
+        "verb family",
+        "weten",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the weten family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vragen",
+      "back": "to ask",
+      "example": "In deze situatie is het belangrijk om 'vragen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: vragen",
+      "family": "vragen",
+      "separable": false,
+      "collocations": [
+        "vragen in context",
+        "vragen correct gebruiken"
+      ],
+      "related": [
+        "aanvragen",
+        "bevragen",
+        "doorvragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "aanvragen",
+      "back": "to apply for",
+      "example": "In deze situatie is het belangrijk om 'aanvragen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: aanvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "aanvragen in context",
+        "aanvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "bevragen",
+        "doorvragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bevragen",
+      "back": "to question",
+      "example": "In deze situatie is het belangrijk om 'bevragen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: bevragen",
+      "family": "vragen",
+      "separable": false,
+      "collocations": [
+        "bevragen in context",
+        "bevragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "doorvragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorvragen",
+      "back": "to ask further",
+      "example": "In deze situatie is het belangrijk om 'doorvragen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: doorvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "doorvragen in context",
+        "doorvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "navragen",
+      "back": "to inquire",
+      "example": "In deze situatie is het belangrijk om 'navragen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: navragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "navragen in context",
+        "navragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "opvragen",
+      "back": "to request; retrieve",
+      "example": "In deze situatie is het belangrijk om 'opvragen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: opvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "opvragen in context",
+        "opvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "rondvragen",
+      "back": "to ask around",
+      "example": "In deze situatie is het belangrijk om 'rondvragen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: rondvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "rondvragen in context",
+        "rondvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "terugvragen",
+      "back": "to ask back; reclaim",
+      "example": "In deze situatie is het belangrijk om 'terugvragen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: terugvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "terugvragen in context",
+        "terugvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitvragen",
+      "back": "to question thoroughly",
+      "example": "In deze situatie is het belangrijk om 'uitvragen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: uitvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "uitvragen in context",
+        "uitvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vragen naar",
+      "back": "to ask for",
+      "example": "In deze situatie is het belangrijk om 'vragen naar' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vragen naar",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "vragen naar in context",
+        "vragen naar correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zich afvragen",
+      "back": "to wonder",
+      "example": "Je hoeft zich afvragen niet meteen toe te passen, maar probeer de betekenis in context te herkennen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: zich afvragen",
+      "family": "vragen",
+      "separable": true,
+      "collocations": [
+        "zich afvragen in context",
+        "zich afvragen correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verzoeken",
+      "back": "to request",
+      "example": "In deze situatie is het belangrijk om 'verzoeken' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: verzoeken",
+      "family": "vragen",
+      "separable": false,
+      "collocations": [
+        "verzoeken in context",
+        "verzoeken correct gebruiken"
+      ],
+      "related": [
+        "vragen",
+        "aanvragen",
+        "bevragen"
+      ],
+      "tags": [
+        "verb family",
+        "vragen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the vragen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "betalen",
+      "back": "to pay",
+      "example": "In deze situatie is het belangrijk om 'betalen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: betalen",
+      "family": "betalen",
+      "separable": false,
+      "collocations": [
+        "betalen in context",
+        "betalen correct gebruiken"
+      ],
+      "related": [
+        "afbetalen",
+        "bijbetalen",
+        "doorbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afbetalen",
+      "back": "to pay off",
+      "example": "In deze situatie is het belangrijk om 'afbetalen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: afbetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "afbetalen in context",
+        "afbetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "bijbetalen",
+        "doorbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bijbetalen",
+      "back": "to pay extra",
+      "example": "In deze situatie is het belangrijk om 'bijbetalen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: bijbetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "bijbetalen in context",
+        "bijbetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "doorbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "doorbetalen",
+      "back": "to keep paying",
+      "example": "In deze situatie is het belangrijk om 'doorbetalen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: doorbetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "doorbetalen in context",
+        "doorbetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "meebetalen",
+      "back": "to contribute",
+      "example": "In deze situatie is het belangrijk om 'meebetalen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: meebetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "meebetalen in context",
+        "meebetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "nabetalen",
+      "back": "to pay later",
+      "example": "In deze situatie is het belangrijk om 'nabetalen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: nabetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "nabetalen in context",
+        "nabetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "terugbetalen",
+      "back": "to repay",
+      "example": "In deze situatie is het belangrijk om 'terugbetalen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: terugbetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "terugbetalen in context",
+        "terugbetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "uitbetalen",
+      "back": "to pay out",
+      "example": "In deze situatie is het belangrijk om 'uitbetalen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: uitbetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "uitbetalen in context",
+        "uitbetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vooruitbetalen",
+      "back": "to pay in advance",
+      "example": "In deze situatie is het belangrijk om 'vooruitbetalen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vooruitbetalen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "vooruitbetalen in context",
+        "vooruitbetalen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "vergoeden",
+      "back": "to reimburse",
+      "example": "In deze situatie is het belangrijk om 'vergoeden' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: vergoeden",
+      "family": "betalen",
+      "separable": false,
+      "collocations": [
+        "vergoeden in context",
+        "vergoeden correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "afrekenen",
+      "back": "to settle the bill",
+      "example": "In deze situatie is het belangrijk om 'afrekenen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: afrekenen",
+      "family": "betalen",
+      "separable": true,
+      "collocations": [
+        "afrekenen in context",
+        "afrekenen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bekostigen",
+      "back": "to finance",
+      "example": "In deze situatie is het belangrijk om 'bekostigen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: bekostigen",
+      "family": "betalen",
+      "separable": false,
+      "collocations": [
+        "bekostigen in context",
+        "bekostigen correct gebruiken"
+      ],
+      "related": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen"
+      ],
+      "tags": [
+        "verb family",
+        "betalen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the betalen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zorgen",
+      "back": "to care; ensure",
+      "example": "In deze situatie is het belangrijk om 'zorgen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: zorgen",
+      "family": "zorgen",
+      "separable": false,
+      "collocations": [
+        "zorgen in context",
+        "zorgen correct gebruiken"
+      ],
+      "related": [
+        "bezorgen",
+        "verzorgen",
+        "ontzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "bezorgen",
+      "back": "to deliver; cause",
+      "example": "In deze situatie is het belangrijk om 'bezorgen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: bezorgen",
+      "family": "zorgen",
+      "separable": false,
+      "collocations": [
+        "bezorgen in context",
+        "bezorgen correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "verzorgen",
+        "ontzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "verzorgen",
+      "back": "to care for; provide",
+      "example": "In deze situatie is het belangrijk om 'verzorgen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "infinitive: verzorgen",
+      "family": "zorgen",
+      "separable": false,
+      "collocations": [
+        "verzorgen in context",
+        "verzorgen correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "ontzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ontzorgen",
+      "back": "to take worries away",
+      "example": "In deze situatie is het belangrijk om 'ontzorgen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: ontzorgen",
+      "family": "zorgen",
+      "separable": false,
+      "collocations": [
+        "ontzorgen in context",
+        "ontzorgen correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voorzorgen",
+      "back": "to take precautions",
+      "example": "In deze situatie is het belangrijk om 'voorzorgen' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: voorzorgen",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "voorzorgen in context",
+        "voorzorgen correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zorgdragen voor",
+      "back": "to ensure",
+      "example": "In deze situatie is het belangrijk om 'zorgdragen voor' correct te gebruiken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: zorgdragen voor",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "zorgdragen voor in context",
+        "zorgdragen voor correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "zich zorgen maken",
+      "back": "to worry",
+      "example": "Je hoeft zich zorgen maken niet meteen toe te passen, maar probeer de betekenis in context te herkennen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "infinitive: zich zorgen maken",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "zich zorgen maken in context",
+        "zich zorgen maken correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "ervoor zorgen",
+      "back": "to make sure",
+      "example": "In deze situatie is het belangrijk om 'ervoor zorgen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "infinitive: ervoor zorgen",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "ervoor zorgen in context",
+        "ervoor zorgen correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "oppassen op",
+      "back": "to look after",
+      "example": "In deze situatie is het belangrijk om 'oppassen op' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: oppassen op",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "oppassen op in context",
+        "oppassen op correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "rekening houden met",
+      "back": "to take into account",
+      "example": "In deze situatie is het belangrijk om 'rekening houden met' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: rekening houden met",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "rekening houden met in context",
+        "rekening houden met correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "waarborgen",
+      "back": "to safeguard",
+      "example": "In deze situatie is het belangrijk om 'waarborgen' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: waarborgen",
+      "family": "zorgen",
+      "separable": false,
+      "collocations": [
+        "waarborgen in context",
+        "waarborgen correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    },
+    {
+      "front": "voorzien in",
+      "back": "to provide for",
+      "example": "In deze situatie is het belangrijk om 'voorzien in' correct te gebruiken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "general",
+      "forms": "infinitive: voorzien in",
+      "family": "zorgen",
+      "separable": true,
+      "collocations": [
+        "voorzien in in context",
+        "voorzien in correct gebruiken"
+      ],
+      "related": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen"
+      ],
+      "tags": [
+        "verb family",
+        "zorgen",
+        "core3000",
+        "pack-04"
+      ],
+      "note": "Member of the zorgen family. Compare its meaning and particle with the other family members."
+    }
+  ],
+  "familyInfo": {
+    "doen": {
+      "root": "doen",
+      "meaning": "to do, put, or cause",
+      "pattern": "The root expresses an action or change. Particles often specify direction, completion, participation, or removal.",
+      "hint": "Focus on the particle: it tells you what is done and in which direction.",
+      "members": [
+        "doen",
+        "aandoen",
+        "afdoen",
+        "bijdoen",
+        "dichtdoen",
+        "meedoen",
+        "nadoen",
+        "omdoen",
+        "opdoen",
+        "overdoen",
+        "toedoen",
+        "uitdoen",
+        "voordoen"
+      ]
+    },
+    "zitten": {
+      "root": "zitten",
+      "meaning": "to sit, remain, or be situated",
+      "pattern": "The root describes position, involvement, or being stuck in a state.",
+      "hint": "Imagine someone fixed in a place or situation.",
+      "members": [
+        "zitten",
+        "aanzitten",
+        "afzitten",
+        "bijzitten",
+        "doorzitten",
+        "inzitten",
+        "meezitten",
+        "nazitten",
+        "opzitten",
+        "tegenzitten",
+        "uitzitten",
+        "vastzitten",
+        "voorzitten"
+      ]
+    },
+    "liggen": {
+      "root": "liggen",
+      "meaning": "to lie, be located, or remain",
+      "pattern": "The root expresses position or condition; particles add relative location or figurative status.",
+      "hint": "Picture an object lying somewhere; the particle places it.",
+      "members": [
+        "liggen",
+        "aanliggen",
+        "achterliggen",
+        "bijliggen",
+        "bovenliggen",
+        "klaarliggen",
+        "onderliggen",
+        "overhoopliggen",
+        "stilleggen",
+        "terugliggen",
+        "voorliggen",
+        "wegleggen",
+        "dwarsliggen"
+      ]
+    },
+    "steken": {
+      "root": "steken",
+      "meaning": "to stick, insert, pierce, or extend",
+      "pattern": "The root involves a pointed movement into, through, or outward.",
+      "hint": "Imagine a sharp or narrow movement and let the particle show its direction.",
+      "members": [
+        "steken",
+        "aansteken",
+        "afsteken",
+        "doorsteken",
+        "insteken",
+        "neersteken",
+        "opsteken",
+        "oversteken",
+        "toesteken",
+        "uitsteken",
+        "vaststeken",
+        "wegsteken",
+        "tussensteken"
+      ]
+    },
+    "slaan": {
+      "root": "slaan",
+      "meaning": "to hit, turn, store, or change suddenly",
+      "pattern": "The root often conveys a forceful action or sudden change.",
+      "hint": "Look for the particle to distinguish hitting, turning, storing, or breaking out.",
+      "members": [
+        "slaan",
+        "aanslaan",
+        "afslaan",
+        "doorslaan",
+        "inslaan",
+        "neerslaan",
+        "omslaan",
+        "opslaan",
+        "overslaan",
+        "terugslaan",
+        "toeslaan",
+        "uitslaan",
+        "verslaan"
+      ]
+    },
+    "winnen": {
+      "root": "winnen",
+      "meaning": "to win, gain, or obtain",
+      "pattern": "The root expresses gaining an advantage, resource, or result.",
+      "hint": "Ask what is gained: time, trust, ground, information, or a contest.",
+      "members": [
+        "winnen",
+        "aanwinnen",
+        "bijwinnen",
+        "herwinnen",
+        "inwinnen",
+        "overwinnen",
+        "terugwinnen",
+        "winnen aan",
+        "tijd winnen",
+        "terrein winnen",
+        "vertrouwen winnen",
+        "gewicht winnen",
+        "energie winnen"
+      ]
+    },
+    "verliezen": {
+      "root": "verliezen",
+      "meaning": "to lose, miss, or surrender",
+      "pattern": "This family groups common ways of losing possession, opportunity, control, or direction.",
+      "hint": "Identify what disappears or slips out of reach.",
+      "members": [
+        "verliezen",
+        "achterlaten",
+        "kwijtraken",
+        "misgelopen",
+        "prijsgeven",
+        "verbeuren",
+        "verdwalen",
+        "vergeten",
+        "verspelen",
+        "tijd verliezen",
+        "contact verliezen",
+        "controle verliezen",
+        "uit het oog verliezen"
+      ]
+    },
+    "beginnen": {
+      "root": "beginnen",
+      "meaning": "to begin, arise, or initiate",
+      "pattern": "These verbs describe starting an action, process, period, or event.",
+      "hint": "Notice whether the subject starts something or something starts by itself.",
+      "members": [
+        "beginnen",
+        "aanbeginnen",
+        "herbeginnen",
+        "opstarten",
+        "aanvangen",
+        "inzetten",
+        "losbarsten",
+        "ontstaan",
+        "openen",
+        "starten",
+        "van start gaan",
+        "voorafgaan",
+        "inluiden"
+      ]
+    },
+    "eindigen": {
+      "root": "eindigen",
+      "meaning": "to end, complete, stop, or result",
+      "pattern": "These verbs describe completion, termination, expiry, or an eventual result.",
+      "hint": "Ask whether something is completed deliberately or simply comes to an end.",
+      "members": [
+        "eindigen",
+        "beëindigen",
+        "afronden",
+        "afsluiten",
+        "aflopen",
+        "ophouden",
+        "stopzetten",
+        "uitlopen op",
+        "neerkomen op",
+        "ten einde lopen",
+        "uitsterven",
+        "voltooien"
+      ]
+    },
+    "helpen": {
+      "root": "helpen",
+      "meaning": "to help, support, or remedy",
+      "pattern": "The family covers direct help, assistance, support, relief, and solving a problem.",
+      "hint": "Focus on who receives help and what outcome improves.",
+      "members": [
+        "helpen",
+        "behelpen",
+        "meehelpen",
+        "verhelpen",
+        "vooruithelpen",
+        "uithelpen",
+        "bijstaan",
+        "ondersteunen",
+        "assisteren",
+        "redden",
+        "tegemoetkomen",
+        "ontlasten"
+      ]
+    },
+    "leren": {
+      "root": "leren",
+      "meaning": "to learn, teach, practise, or retrain",
+      "pattern": "The root concerns acquiring or transferring knowledge and skills.",
+      "hint": "Particles show whether a skill is added, removed, continued, or relearned.",
+      "members": [
+        "leren",
+        "aanleren",
+        "afleren",
+        "bijleren",
+        "doorleren",
+        "inleren",
+        "meeleren",
+        "omleren",
+        "uitleren",
+        "verleren",
+        "studeren",
+        "oefenen"
+      ]
+    },
+    "kennen": {
+      "root": "kennen",
+      "meaning": "to know, recognize, acknowledge, or explore",
+      "pattern": "The root concerns familiarity and recognition. Prefixes change it into acknowledging, denying, confessing, or exploring.",
+      "hint": "Ask whether the knowledge is personal familiarity, recognition, or public acknowledgment.",
+      "members": [
+        "kennen",
+        "erkennen",
+        "herkennen",
+        "miskennen",
+        "ontkennen",
+        "toekennen",
+        "bekennen",
+        "verkennen",
+        "leren kennen",
+        "kenbaar maken",
+        "zichzelf kennen",
+        "gekend zijn"
+      ]
+    },
+    "weten": {
+      "root": "weten",
+      "meaning": "to know, discover, realize, or suspect",
+      "pattern": "This family groups ways of possessing or acquiring factual awareness.",
+      "hint": "Distinguish certain knowledge from realization, suspicion, and discovery.",
+      "members": [
+        "weten",
+        "afweten van",
+        "meeweten",
+        "te weten komen",
+        "laten weten",
+        "zeker weten",
+        "beter weten",
+        "bewust zijn",
+        "beseffen",
+        "vermoeden",
+        "doorhebben",
+        "inzien"
+      ]
+    },
+    "vragen": {
+      "root": "vragen",
+      "meaning": "to ask, request, inquire, or wonder",
+      "pattern": "The root concerns obtaining information, permission, or something desired.",
+      "hint": "The particle often shows where the question goes or how deeply it continues.",
+      "members": [
+        "vragen",
+        "aanvragen",
+        "bevragen",
+        "doorvragen",
+        "navragen",
+        "opvragen",
+        "rondvragen",
+        "terugvragen",
+        "uitvragen",
+        "vragen naar",
+        "zich afvragen",
+        "verzoeken"
+      ]
+    },
+    "betalen": {
+      "root": "betalen",
+      "meaning": "to pay, repay, reimburse, or finance",
+      "pattern": "The root concerns transferring money and settling obligations.",
+      "hint": "The particle shows timing, direction, or whether money is added, returned, or paid out.",
+      "members": [
+        "betalen",
+        "afbetalen",
+        "bijbetalen",
+        "doorbetalen",
+        "meebetalen",
+        "nabetalen",
+        "terugbetalen",
+        "uitbetalen",
+        "vooruitbetalen",
+        "vergoeden",
+        "afrekenen",
+        "bekostigen"
+      ]
+    },
+    "zorgen": {
+      "root": "zorgen",
+      "meaning": "to care, worry, provide, or ensure",
+      "pattern": "The root covers care, concern, provision, and responsibility.",
+      "hint": "Use the surrounding preposition to distinguish caring, worrying, and ensuring.",
+      "members": [
+        "zorgen",
+        "bezorgen",
+        "verzorgen",
+        "ontzorgen",
+        "voorzorgen",
+        "zorgdragen voor",
+        "zich zorgen maken",
+        "ervoor zorgen",
+        "oppassen op",
+        "rekening houden met",
+        "waarborgen",
+        "voorzien in"
+      ]
+    }
+  },
+  "familyDefinitions": [
+    {
+      "id": "doen",
+      "root": "doen",
+      "title": "DOEN",
+      "meaning": "to do, put, or cause",
+      "pattern": "The root expresses an action or change. Particles often specify direction, completion, participation, or removal.",
+      "hint": "Focus on the particle: it tells you what is done and in which direction.",
+      "accent": "D"
+    },
+    {
+      "id": "zitten",
+      "root": "zitten",
+      "title": "ZITTEN",
+      "meaning": "to sit, remain, or be situated",
+      "pattern": "The root describes position, involvement, or being stuck in a state.",
+      "hint": "Imagine someone fixed in a place or situation.",
+      "accent": "Z"
+    },
+    {
+      "id": "liggen",
+      "root": "liggen",
+      "title": "LIGGEN",
+      "meaning": "to lie, be located, or remain",
+      "pattern": "The root expresses position or condition; particles add relative location or figurative status.",
+      "hint": "Picture an object lying somewhere; the particle places it.",
+      "accent": "L"
+    },
+    {
+      "id": "steken",
+      "root": "steken",
+      "title": "STEKEN",
+      "meaning": "to stick, insert, pierce, or extend",
+      "pattern": "The root involves a pointed movement into, through, or outward.",
+      "hint": "Imagine a sharp or narrow movement and let the particle show its direction.",
+      "accent": "S"
+    },
+    {
+      "id": "slaan",
+      "root": "slaan",
+      "title": "SLAAN",
+      "meaning": "to hit, turn, store, or change suddenly",
+      "pattern": "The root often conveys a forceful action or sudden change.",
+      "hint": "Look for the particle to distinguish hitting, turning, storing, or breaking out.",
+      "accent": "S"
+    },
+    {
+      "id": "winnen",
+      "root": "winnen",
+      "title": "WINNEN",
+      "meaning": "to win, gain, or obtain",
+      "pattern": "The root expresses gaining an advantage, resource, or result.",
+      "hint": "Ask what is gained: time, trust, ground, information, or a contest.",
+      "accent": "W"
+    },
+    {
+      "id": "verliezen",
+      "root": "verliezen",
+      "title": "VERLIEZEN",
+      "meaning": "to lose, miss, or surrender",
+      "pattern": "This family groups common ways of losing possession, opportunity, control, or direction.",
+      "hint": "Identify what disappears or slips out of reach.",
+      "accent": "V"
+    },
+    {
+      "id": "beginnen",
+      "root": "beginnen",
+      "title": "BEGINNEN",
+      "meaning": "to begin, arise, or initiate",
+      "pattern": "These verbs describe starting an action, process, period, or event.",
+      "hint": "Notice whether the subject starts something or something starts by itself.",
+      "accent": "B"
+    },
+    {
+      "id": "eindigen",
+      "root": "eindigen",
+      "title": "EINDIGEN",
+      "meaning": "to end, complete, stop, or result",
+      "pattern": "These verbs describe completion, termination, expiry, or an eventual result.",
+      "hint": "Ask whether something is completed deliberately or simply comes to an end.",
+      "accent": "E"
+    },
+    {
+      "id": "helpen",
+      "root": "helpen",
+      "title": "HELPEN",
+      "meaning": "to help, support, or remedy",
+      "pattern": "The family covers direct help, assistance, support, relief, and solving a problem.",
+      "hint": "Focus on who receives help and what outcome improves.",
+      "accent": "H"
+    },
+    {
+      "id": "leren",
+      "root": "leren",
+      "title": "LEREN",
+      "meaning": "to learn, teach, practise, or retrain",
+      "pattern": "The root concerns acquiring or transferring knowledge and skills.",
+      "hint": "Particles show whether a skill is added, removed, continued, or relearned.",
+      "accent": "L"
+    },
+    {
+      "id": "kennen",
+      "root": "kennen",
+      "title": "KENNEN",
+      "meaning": "to know, recognize, acknowledge, or explore",
+      "pattern": "The root concerns familiarity and recognition. Prefixes change it into acknowledging, denying, confessing, or exploring.",
+      "hint": "Ask whether the knowledge is personal familiarity, recognition, or public acknowledgment.",
+      "accent": "K"
+    },
+    {
+      "id": "weten",
+      "root": "weten",
+      "title": "WETEN",
+      "meaning": "to know, discover, realize, or suspect",
+      "pattern": "This family groups ways of possessing or acquiring factual awareness.",
+      "hint": "Distinguish certain knowledge from realization, suspicion, and discovery.",
+      "accent": "W"
+    },
+    {
+      "id": "vragen",
+      "root": "vragen",
+      "title": "VRAGEN",
+      "meaning": "to ask, request, inquire, or wonder",
+      "pattern": "The root concerns obtaining information, permission, or something desired.",
+      "hint": "The particle often shows where the question goes or how deeply it continues.",
+      "accent": "V"
+    },
+    {
+      "id": "betalen",
+      "root": "betalen",
+      "title": "BETALEN",
+      "meaning": "to pay, repay, reimburse, or finance",
+      "pattern": "The root concerns transferring money and settling obligations.",
+      "hint": "The particle shows timing, direction, or whether money is added, returned, or paid out.",
+      "accent": "B"
+    },
+    {
+      "id": "zorgen",
+      "root": "zorgen",
+      "title": "ZORGEN",
+      "meaning": "to care, worry, provide, or ensure",
+      "pattern": "The root covers care, concern, provision, and responsibility.",
+      "hint": "Use the surrounding preposition to distinguish caring, worrying, and ensuring.",
+      "accent": "Z"
+    }
+  ]
+}

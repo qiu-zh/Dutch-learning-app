@@ -1,4 +1,4 @@
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.0.1';
 'use strict';
 
 const $ = selector => document.querySelector(selector);
@@ -1068,7 +1068,7 @@ function renderOnlineDecks() {
     return `<article class="deck-card online-deck-card" data-online-deck="${escapeAttr(id)}">
       <div class="deck-card-head">
         <div class="deck-icon">${escapeHtml(String(item.title || id).charAt(0).toUpperCase())}</div>
-        <div><h3>${escapeHtml(item.title || id)}</h3><p>Version ${escapeHtml(item.version || '1.0.0')} · ${escapeHtml(state)}</p></div>
+        <div><h3>${escapeHtml(item.title || id)}</h3><p>Version ${escapeHtml(item.version || '1.0.1')} · ${escapeHtml(state)}</p></div>
       </div>
       <p class="online-deck-description">${escapeHtml(item.description || 'Download once and study offline on this device.')}</p>
       <div class="deck-stats">
