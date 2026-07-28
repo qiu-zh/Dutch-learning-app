@@ -1,0 +1,6473 @@
+{
+  "deck": "Core Verb Families III",
+  "deckId": "core3000-pack-03",
+  "deckName": "Core Verb Families III",
+  "pack": "Pack03_Core_Verb_Families_III",
+  "version": "1.0.0",
+  "language": "nl-en",
+  "entryCount": 200,
+  "cards": [
+    {
+      "front": "schrijven",
+      "back": "to write",
+      "example": "Ik schrijf elke dag een korte tekst.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "schrijft · schreef · heeft geschreven",
+      "family": "schrijven",
+      "separable": false,
+      "collocations": [
+        "schrijven in context",
+        "schrijven goed",
+        "schrijven zorgvuldig"
+      ],
+      "related": [
+        "aanschrijven",
+        "afschrijven",
+        "beschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanschrijven",
+      "back": "to write to; address formally",
+      "example": "We schrijven de leverancier vandaag aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "schrijft aan · schreef aan · heeft aangeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "aanschrijven in context",
+        "aanschrijven goed",
+        "aanschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "afschrijven",
+        "beschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afschrijven",
+      "back": "to write off; copy",
+      "example": "De bank schrijft het bedrag morgen af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "schrijft af · schreef af · heeft afgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "afschrijven in context",
+        "afschrijven goed",
+        "afschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "beschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "beschrijven",
+      "back": "to describe",
+      "example": "Kun je de situatie duidelijk beschrijven?",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "beschrijft · schreef · heeft schreven",
+      "family": "schrijven",
+      "separable": false,
+      "collocations": [
+        "beschrijven in context",
+        "beschrijven goed",
+        "beschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bijschrijven",
+      "back": "to credit; add in writing",
+      "example": "De rente wordt aan het einde van het jaar bijgeschreven.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "schrijft bij · schreef bij · heeft bijgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "bijschrijven in context",
+        "bijschrijven goed",
+        "bijschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorschrijven",
+      "back": "to continue writing",
+      "example": "Na de pauze schreef ze nog een uur door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "schrijft door · schreef door · heeft doorgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "doorschrijven in context",
+        "doorschrijven goed",
+        "doorschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inschrijven",
+      "back": "to register; enroll",
+      "example": "Je kunt je online voor de cursus inschrijven.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "schrijft in · schreef in · heeft ingeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "inschrijven in context",
+        "inschrijven goed",
+        "inschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meeschrijven",
+      "back": "to take notes along with others",
+      "example": "Tijdens de vergadering schreef ik actief mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "schrijft mee · schreef mee · heeft meegeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "meeschrijven in context",
+        "meeschrijven goed",
+        "meeschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "omschrijven",
+      "back": "to define; describe in other words",
+      "example": "Hoe zou je dit begrip omschrijven?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "schrijft om · schreef om · heeft omgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "omschrijven in context",
+        "omschrijven goed",
+        "omschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opschrijven",
+      "back": "to write down",
+      "example": "Schrijf het nieuwe woord meteen op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "schrijft op · schreef op · heeft opgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "opschrijven in context",
+        "opschrijven goed",
+        "opschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "overschrijven",
+      "back": "to transfer money; copy",
+      "example": "Ik heb het bedrag gisteren overgeschreven.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "schrijft over · schreef over · heeft overgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "overschrijven in context",
+        "overschrijven goed",
+        "overschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "toeschrijven",
+      "back": "to attribute to",
+      "example": "De verbetering wordt aan betere training toegeschreven.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "schrijft toe · schreef toe · heeft toegeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "toeschrijven in context",
+        "toeschrijven goed",
+        "toeschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitschrijven",
+      "back": "to write out; deregister",
+      "example": "De arts schreef het recept volledig uit.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "schrijft uit · schreef uit · heeft uitgeschreven",
+      "family": "schrijven",
+      "separable": true,
+      "collocations": [
+        "uitschrijven in context",
+        "uitschrijven goed",
+        "uitschrijven zorgvuldig"
+      ],
+      "related": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven"
+      ],
+      "tags": [
+        "verb family",
+        "schrijven",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the schrijven family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "lezen",
+      "back": "to read",
+      "example": "Ik lees elke ochtend de krant.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "leest · las · heeft gelezen",
+      "family": "lezen",
+      "separable": false,
+      "collocations": [
+        "lezen in context",
+        "lezen goed",
+        "lezen zorgvuldig"
+      ],
+      "related": [
+        "aflezen",
+        "doorlezen",
+        "inlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aflezen",
+      "back": "to read off",
+      "example": "Je kunt de temperatuur op het scherm aflezen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "leest af · las af · heeft afgelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "aflezen in context",
+        "aflezen goed",
+        "aflezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "doorlezen",
+        "inlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorlezen",
+      "back": "to read through",
+      "example": "Lees het contract goed door.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "leest door · las door · heeft doorgelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "doorlezen in context",
+        "doorlezen goed",
+        "doorlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "inlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inlezen",
+      "back": "to read in; familiarize oneself",
+      "example": "Ik moet me eerst in het onderwerp inlezen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "leest in · las in · heeft ingelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "inlezen in context",
+        "inlezen goed",
+        "inlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meelezen",
+      "back": "to read along",
+      "example": "Lees je even mee met deze alinea?",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "leest mee · las mee · heeft meegelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "meelezen in context",
+        "meelezen goed",
+        "meelezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "nalezen",
+      "back": "to check by reading",
+      "example": "Wil je mijn e-mail nog even nalezen?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "leest na · las na · heeft nagelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "nalezen in context",
+        "nalezen goed",
+        "nalezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "oplezen",
+      "back": "to read aloud",
+      "example": "De docent leest de opdracht voor.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "leest op · las op · heeft opgelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "oplezen in context",
+        "oplezen goed",
+        "oplezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "overlezen",
+      "back": "to reread; overlook while reading",
+      "example": "Ik heb die fout blijkbaar overlezen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "leest over · las over · heeft overgelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "overlezen in context",
+        "overlezen goed",
+        "overlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "voorlezen",
+      "back": "to read aloud to someone",
+      "example": "Ze leest haar kinderen elke avond voor.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "leest voor · las voor · heeft voorgelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "voorlezen in context",
+        "voorlezen goed",
+        "voorlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitlezen",
+      "back": "to finish reading; read data",
+      "example": "Ik heb het boek in één weekend uitgelezen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "leest uit · las uit · heeft uitgelezen",
+      "family": "lezen",
+      "separable": true,
+      "collocations": [
+        "uitlezen in context",
+        "uitlezen goed",
+        "uitlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verlezen",
+      "back": "to misread",
+      "example": "Ik had het nummer verkeerd gelezen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "verleest · las · heeft lezen",
+      "family": "lezen",
+      "separable": false,
+      "collocations": [
+        "verlezen in context",
+        "verlezen goed",
+        "verlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "herlezen",
+      "back": "to reread",
+      "example": "Voor het examen herlees ik mijn aantekeningen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "herleest · las · heeft lezen",
+      "family": "lezen",
+      "separable": false,
+      "collocations": [
+        "herlezen in context",
+        "herlezen goed",
+        "herlezen zorgvuldig"
+      ],
+      "related": [
+        "lezen",
+        "aflezen",
+        "doorlezen"
+      ],
+      "tags": [
+        "verb family",
+        "lezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the lezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "zien",
+      "back": "to see",
+      "example": "Ik zie hem morgen op kantoor.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "ziet · zag · heeft gezien",
+      "family": "zien",
+      "separable": false,
+      "collocations": [
+        "zien in context",
+        "zien goed",
+        "zien zorgvuldig"
+      ],
+      "related": [
+        "aanzien",
+        "afzien",
+        "bezien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanzien",
+      "back": "to regard as; watch",
+      "example": "Veel mensen zien haar als een expert aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "ziet aan · zag aan · heeft aangezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "aanzien in context",
+        "aanzien goed",
+        "aanzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "afzien",
+        "bezien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afzien",
+      "back": "to refrain from; suffer",
+      "example": "We zien voorlopig van de reis af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "ziet af · zag af · heeft afgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "afzien in context",
+        "afzien goed",
+        "afzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "bezien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bezien",
+      "back": "to examine; view",
+      "example": "We moeten het probleem van meerdere kanten bezien.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "beziet · zag · heeft zien",
+      "family": "zien",
+      "separable": false,
+      "collocations": [
+        "bezien in context",
+        "bezien goed",
+        "bezien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorzien",
+      "back": "to see through; understand",
+      "example": "Zij doorzag zijn bedoeling meteen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "ziet door · zag door · heeft doorgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "doorzien in context",
+        "doorzien goed",
+        "doorzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inzien",
+      "back": "to realize; inspect",
+      "example": "Ik zie nu in dat je gelijk had.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "ziet in · zag in · heeft ingezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "inzien in context",
+        "inzien goed",
+        "inzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meezien",
+      "back": "to watch along",
+      "example": "Kun je op mijn scherm meezien?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "ziet mee · zag mee · heeft meegezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "meezien in context",
+        "meezien goed",
+        "meezien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "omzien",
+      "back": "to look back; care for",
+      "example": "Hij ziet goed naar zijn ouders om.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "ziet om · zag om · heeft omgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "omzien in context",
+        "omzien goed",
+        "omzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opzien",
+      "back": "to look up to; dread",
+      "example": "Veel collega’s zien tegen de presentatie op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "ziet op · zag op · heeft opgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "opzien in context",
+        "opzien goed",
+        "opzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "overzien",
+      "back": "to survey; comprehend",
+      "example": "Vanaf hier kun je de hele stad overzien.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "ziet over · zag over · heeft overgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "overzien in context",
+        "overzien goed",
+        "overzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "voorzien",
+      "back": "to provide; foresee",
+      "example": "Het gebouw is van zonnepanelen voorzien.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "ziet voor · zag voor · heeft voorgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "voorzien in context",
+        "voorzien goed",
+        "voorzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitzien",
+      "back": "to look forward to; appear",
+      "example": "Ik zie uit naar onze volgende les.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "ziet uit · zag uit · heeft uitgezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "uitzien in context",
+        "uitzien goed",
+        "uitzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terugzien",
+      "back": "to see again; look back",
+      "example": "Ik hoop je snel terug te zien.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "ziet terug · zag terug · heeft teruggezien",
+      "family": "zien",
+      "separable": true,
+      "collocations": [
+        "terugzien in context",
+        "terugzien goed",
+        "terugzien zorgvuldig"
+      ],
+      "related": [
+        "zien",
+        "aanzien",
+        "afzien"
+      ],
+      "tags": [
+        "verb family",
+        "zien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "horen",
+      "back": "to hear; belong",
+      "example": "Ik hoor muziek uit de woonkamer.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "hoort · hoorde · heeft gehoord",
+      "family": "horen",
+      "separable": false,
+      "collocations": [
+        "horen in context",
+        "horen goed",
+        "horen zorgvuldig"
+      ],
+      "related": [
+        "aanhoren",
+        "afhoren",
+        "behoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanhoren",
+      "back": "to listen to",
+      "example": "De commissie hoorde alle argumenten aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "hoort aan · hoorde aan · heeft aangehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "aanhoren in context",
+        "aanhoren goed",
+        "aanhoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "afhoren",
+        "behoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afhoren",
+      "back": "to test orally; listen in",
+      "example": "De docent hoort de leerlingen morgen af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "hoort af · hoorde af · heeft afgehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "afhoren in context",
+        "afhoren goed",
+        "afhoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "behoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "behoren",
+      "back": "to belong",
+      "example": "Dit document behoort tot het dossier.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "behoort · hoorde · heeft hoord",
+      "family": "horen",
+      "separable": false,
+      "collocations": [
+        "behoren in context",
+        "behoren goed",
+        "behoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorhoren",
+      "back": "to question thoroughly",
+      "example": "De politie hoorde de getuige lang door.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "hoort door · hoorde door · heeft doorgehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "doorhoren in context",
+        "doorhoren goed",
+        "doorhoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "gehoorzamen",
+      "back": "to obey",
+      "example": "Kinderen moeten niet blind gehoorzamen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "hoort · hoorde · heeft hoord",
+      "family": "horen",
+      "separable": false,
+      "collocations": [
+        "gehoorzamen in context",
+        "gehoorzamen goed",
+        "gehoorzamen zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inhouden",
+      "back": "to entail",
+      "example": "Deze maatregel houdt extra kosten in.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "hoort · hoorde · heeft gehoord",
+      "family": "horen",
+      "separable": false,
+      "collocations": [
+        "inhouden in context",
+        "inhouden goed",
+        "inhouden zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meehoren",
+      "back": "to overhear along with others",
+      "example": "Ik kon het gesprek vanuit de gang meehoren.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "hoort mee · hoorde mee · heeft meegehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "meehoren in context",
+        "meehoren goed",
+        "meehoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "overhoren",
+      "back": "to quiz; interrogate",
+      "example": "Wil je mij de woorden overhoren?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "hoort over · hoorde over · heeft overgehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "overhoren in context",
+        "overhoren goed",
+        "overhoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "toebehoren",
+      "back": "to belong to",
+      "example": "Het landgoed behoorde vroeger aan één familie toe.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "hoort toebe · hoorde toebe · heeft toebegehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "toebehoren in context",
+        "toebehoren goed",
+        "toebehoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uithoren",
+      "back": "to question closely",
+      "example": "Ze probeerden hem over de plannen uit te horen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "hoort uit · hoorde uit · heeft uitgehoord",
+      "family": "horen",
+      "separable": true,
+      "collocations": [
+        "uithoren in context",
+        "uithoren goed",
+        "uithoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verhoren",
+      "back": "to interrogate",
+      "example": "De verdachte werd urenlang verhoord.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "verhoort · hoorde · heeft hoord",
+      "family": "horen",
+      "separable": false,
+      "collocations": [
+        "verhoren in context",
+        "verhoren goed",
+        "verhoren zorgvuldig"
+      ],
+      "related": [
+        "horen",
+        "aanhoren",
+        "afhoren"
+      ],
+      "tags": [
+        "verb family",
+        "horen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the horen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "zoeken",
+      "back": "to search; look for",
+      "example": "Ik zoek mijn sleutels.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "zoekt · zocht · heeft gezocht",
+      "family": "zoeken",
+      "separable": false,
+      "collocations": [
+        "zoeken in context",
+        "zoeken goed",
+        "zoeken zorgvuldig"
+      ],
+      "related": [
+        "afzoeken",
+        "bezoeken",
+        "doorzoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afzoeken",
+      "back": "to search thoroughly",
+      "example": "De politie zocht het terrein af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "zoekt af · zocht af · heeft afgezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "afzoeken in context",
+        "afzoeken goed",
+        "afzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "bezoeken",
+        "doorzoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bezoeken",
+      "back": "to visit",
+      "example": "We bezoeken morgen het museum.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "bezoekt · zocht · heeft zocht",
+      "family": "zoeken",
+      "separable": false,
+      "collocations": [
+        "bezoeken in context",
+        "bezoeken goed",
+        "bezoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "doorzoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorzoeken",
+      "back": "to search through",
+      "example": "De agenten doorzochten de woning.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "zoekt door · zocht door · heeft doorgezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "doorzoeken in context",
+        "doorzoeken goed",
+        "doorzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inzoeken",
+      "back": "to look something up in a system",
+      "example": "Je kunt het adres in de database inzoeken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "zoekt in · zocht in · heeft ingezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "inzoeken in context",
+        "inzoeken goed",
+        "inzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meezoeken",
+      "back": "to help search",
+      "example": "Wil je even meezoeken naar mijn bril?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "zoekt mee · zocht mee · heeft meegezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "meezoeken in context",
+        "meezoeken goed",
+        "meezoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opzoeken",
+      "back": "to look up; visit",
+      "example": "Ik zoek het woord in het woordenboek op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "zoekt op · zocht op · heeft opgezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "opzoeken in context",
+        "opzoeken goed",
+        "opzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "onderzoeken",
+      "back": "to investigate; examine",
+      "example": "Wetenschappers onderzoeken het effect.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "zoekt onder · zocht onder · heeft ondergezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "onderzoeken in context",
+        "onderzoeken goed",
+        "onderzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitzoeken",
+      "back": "to find out; select",
+      "example": "Ik zoek uit hoe het systeem werkt.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "zoekt uit · zocht uit · heeft uitgezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "uitzoeken in context",
+        "uitzoeken goed",
+        "uitzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verzoeken",
+      "back": "to request",
+      "example": "Wij verzoeken u tijdig te reageren.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "verzoekt · zocht · heeft zocht",
+      "family": "zoeken",
+      "separable": false,
+      "collocations": [
+        "verzoeken in context",
+        "verzoeken goed",
+        "verzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terugzoeken",
+      "back": "to retrieve by searching",
+      "example": "Ik moest de oude e-mail terugzoeken.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "zoekt terug · zocht terug · heeft teruggezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "terugzoeken in context",
+        "terugzoeken goed",
+        "terugzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "rondzoeken",
+      "back": "to search around",
+      "example": "Hij zocht een tijdje rond op internet.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "zoekt rond · zocht rond · heeft rondgezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "rondzoeken in context",
+        "rondzoeken goed",
+        "rondzoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "nazoeken",
+      "back": "to verify by searching",
+      "example": "Ik zal die informatie nog even nazoeken.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "zoekt na · zocht na · heeft nagezocht",
+      "family": "zoeken",
+      "separable": true,
+      "collocations": [
+        "nazoeken in context",
+        "nazoeken goed",
+        "nazoeken zorgvuldig"
+      ],
+      "related": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken"
+      ],
+      "tags": [
+        "verb family",
+        "zoeken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the zoeken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "kiezen",
+      "back": "to choose; elect",
+      "example": "Je kunt uit drie opties kiezen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kiest · koos · heeft gekozen",
+      "family": "kiezen",
+      "separable": false,
+      "collocations": [
+        "kiezen in context",
+        "kiezen goed",
+        "kiezen zorgvuldig"
+      ],
+      "related": [
+        "uitkiezen",
+        "verkiezen",
+        "herkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitkiezen",
+      "back": "to select",
+      "example": "We hebben samen een cadeau uitgekozen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kiest uit · koos uit · heeft uitgekozen",
+      "family": "kiezen",
+      "separable": true,
+      "collocations": [
+        "uitkiezen in context",
+        "uitkiezen goed",
+        "uitkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "verkiezen",
+        "herkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verkiezen",
+      "back": "to prefer; elect",
+      "example": "Ik verkies rust boven drukte.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "verkiest · koos · heeft kozen",
+      "family": "kiezen",
+      "separable": false,
+      "collocations": [
+        "verkiezen in context",
+        "verkiezen goed",
+        "verkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "herkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "herkiezen",
+      "back": "to re-elect",
+      "example": "De voorzitter werd opnieuw herkozen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "herkiest · koos · heeft kozen",
+      "family": "kiezen",
+      "separable": false,
+      "collocations": [
+        "herkiezen in context",
+        "herkiezen goed",
+        "herkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "kiezen voor",
+      "back": "to opt for",
+      "example": "Steeds meer mensen kiezen voor de trein.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "kiest · koos · heeft gekozen",
+      "family": "kiezen",
+      "separable": false,
+      "collocations": [
+        "kiezen voor in context",
+        "kiezen voor goed",
+        "kiezen voor zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "kiezen tussen",
+      "back": "to choose between",
+      "example": "Ik kan moeilijk tussen beide opties kiezen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "kiest · koos · heeft gekozen",
+      "family": "kiezen",
+      "separable": false,
+      "collocations": [
+        "kiezen tussen in context",
+        "kiezen tussen goed",
+        "kiezen tussen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitverkiezen",
+      "back": "to select specially",
+      "example": "Zij werd voor het project uitverkoren.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "kiest uitver · koos uitver · heeft uitvergekozen",
+      "family": "kiezen",
+      "separable": true,
+      "collocations": [
+        "uitverkiezen in context",
+        "uitverkiezen goed",
+        "uitverkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "voorkiezen",
+      "back": "to preselect",
+      "example": "Het systeem kiest automatisch enkele opties voor.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "kiest voor · koos voor · heeft voorgekozen",
+      "family": "kiezen",
+      "separable": true,
+      "collocations": [
+        "voorkiezen in context",
+        "voorkiezen goed",
+        "voorkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bijkiezen",
+      "back": "to elect additionally",
+      "example": "De raad kan later extra leden bijkiezen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "kiest bij · koos bij · heeft bijgekozen",
+      "family": "kiezen",
+      "separable": true,
+      "collocations": [
+        "bijkiezen in context",
+        "bijkiezen goed",
+        "bijkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afkiezen",
+      "back": "to deselect",
+      "example": "Je kunt deze optie weer afkiezen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "kiest af · koos af · heeft afgekozen",
+      "family": "kiezen",
+      "separable": true,
+      "collocations": [
+        "afkiezen in context",
+        "afkiezen goed",
+        "afkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorkiezen",
+      "back": "to dial through; continue choosing",
+      "example": "Toets nul om door te kiezen naar de receptie.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "kiest door · koos door · heeft doorgekozen",
+      "family": "kiezen",
+      "separable": true,
+      "collocations": [
+        "doorkiezen in context",
+        "doorkiezen goed",
+        "doorkiezen zorgvuldig"
+      ],
+      "related": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen"
+      ],
+      "tags": [
+        "verb family",
+        "kiezen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the kiezen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "sluiten",
+      "back": "to close; conclude",
+      "example": "We sluiten de winkel om zes uur.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "sluit · sloot · heeft gesloten",
+      "family": "sluiten",
+      "separable": false,
+      "collocations": [
+        "sluiten in context",
+        "sluiten goed",
+        "sluiten zorgvuldig"
+      ],
+      "related": [
+        "aansluiten",
+        "afsluiten",
+        "besluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aansluiten",
+      "back": "to connect; join",
+      "example": "De kabel sluit je hier aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "sluit aan · sloot aan · heeft aangesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "aansluiten in context",
+        "aansluiten goed",
+        "aansluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "afsluiten",
+        "besluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afsluiten",
+      "back": "to close off; conclude",
+      "example": "We sluiten de vergadering af met een samenvatting.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "sluit af · sloot af · heeft afgesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "afsluiten in context",
+        "afsluiten goed",
+        "afsluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "besluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "besluiten",
+      "back": "to decide",
+      "example": "We hebben besloten thuis te blijven.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "besluit · sloot · heeft sloten",
+      "family": "sluiten",
+      "separable": false,
+      "collocations": [
+        "besluiten in context",
+        "besluiten goed",
+        "besluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "binnensluiten",
+      "back": "to lock in",
+      "example": "De conciërge had zichzelf per ongeluk binnengesloten.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "sluit binnen · sloot binnen · heeft binnengesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "binnensluiten in context",
+        "binnensluiten goed",
+        "binnensluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "insluiten",
+      "back": "to enclose; surround",
+      "example": "De brief is in een envelop ingesloten.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "sluit in · sloot in · heeft ingesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "insluiten in context",
+        "insluiten goed",
+        "insluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meesluiten",
+      "back": "to include when closing",
+      "example": "Sluit ook het achterraam mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "sluit mee · sloot mee · heeft meegesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "meesluiten in context",
+        "meesluiten goed",
+        "meesluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "omsluiten",
+      "back": "to surround; enclose",
+      "example": "Een hoge muur omsluit de tuin.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "sluit om · sloot om · heeft omgesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "omsluiten in context",
+        "omsluiten goed",
+        "omsluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opsluiten",
+      "back": "to lock up",
+      "example": "De fiets werd in de schuur opgesloten.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "sluit op · sloot op · heeft opgesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "opsluiten in context",
+        "opsluiten goed",
+        "opsluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitsluiten",
+      "back": "to exclude",
+      "example": "We kunnen geen enkele oorzaak uitsluiten.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "sluit uit · sloot uit · heeft uitgesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "uitsluiten in context",
+        "uitsluiten goed",
+        "uitsluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "toesluiten",
+      "back": "to close shut",
+      "example": "Ze sloot de kast zorgvuldig toe.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "sluit toe · sloot toe · heeft toegesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "toesluiten in context",
+        "toesluiten goed",
+        "toesluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "vastsluiten",
+      "back": "to fasten securely",
+      "example": "Sluit de koffer goed vast.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "sluit vast · sloot vast · heeft vastgesloten",
+      "family": "sluiten",
+      "separable": true,
+      "collocations": [
+        "vastsluiten in context",
+        "vastsluiten goed",
+        "vastsluiten zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "heropenen",
+      "back": "to reopen",
+      "example": "Na de verbouwing wordt het gebouw heropend.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "sluit · sloot · heeft sloten",
+      "family": "sluiten",
+      "separable": false,
+      "collocations": [
+        "heropenen in context",
+        "heropenen goed",
+        "heropenen zorgvuldig"
+      ],
+      "related": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten"
+      ],
+      "tags": [
+        "verb family",
+        "sluiten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the sluiten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "leiden",
+      "back": "to lead; manage",
+      "example": "Zij leidt een internationaal team.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "leidt · leidde · heeft geleid",
+      "family": "leiden",
+      "separable": false,
+      "collocations": [
+        "leiden in context",
+        "leiden goed",
+        "leiden zorgvuldig"
+      ],
+      "related": [
+        "afleiden",
+        "begeleiden",
+        "inleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afleiden",
+      "back": "to distract; derive",
+      "example": "Lawaai leidt me snel af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "leidt af · leidde af · heeft afgeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "afleiden in context",
+        "afleiden goed",
+        "afleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "begeleiden",
+        "inleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "begeleiden",
+      "back": "to guide; supervise",
+      "example": "Een mentor begeleidt de nieuwe medewerkers.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "begeleidt · leidde · heeft leid",
+      "family": "leiden",
+      "separable": false,
+      "collocations": [
+        "begeleiden in context",
+        "begeleiden goed",
+        "begeleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "inleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inleiden",
+      "back": "to introduce",
+      "example": "De voorzitter leidde het onderwerp kort in.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "leidt in · leidde in · heeft ingeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "inleiden in context",
+        "inleiden goed",
+        "inleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "misleiden",
+      "back": "to mislead",
+      "example": "De reclame kan consumenten misleiden.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "misleidt · leidde · heeft leid",
+      "family": "leiden",
+      "separable": false,
+      "collocations": [
+        "misleiden in context",
+        "misleiden goed",
+        "misleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "omleiden",
+      "back": "to divert; reroute",
+      "example": "Het verkeer wordt tijdelijk omgeleid.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "leidt om · leidde om · heeft omgeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "omleiden in context",
+        "omleiden goed",
+        "omleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opleiden",
+      "back": "to train; educate",
+      "example": "Het bedrijf leidt jonge technici op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "leidt op · leidde op · heeft opgeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "opleiden in context",
+        "opleiden goed",
+        "opleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "rondleiden",
+      "back": "to show around",
+      "example": "Een gids leidt ons door het museum rond.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "leidt rond · leidde rond · heeft rondgeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "rondleiden in context",
+        "rondleiden goed",
+        "rondleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terugleiden",
+      "back": "to trace back; lead back",
+      "example": "De storing was tot één kabel terug te leiden.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "leidt terug · leidde terug · heeft teruggeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "terugleiden in context",
+        "terugleiden goed",
+        "terugleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitleiden",
+      "back": "to escort out",
+      "example": "De beveiliging leidde de bezoeker naar buiten.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "leidt uit · leidde uit · heeft uitgeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "uitleiden in context",
+        "uitleiden goed",
+        "uitleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "voortleiden",
+      "back": "to lead onward",
+      "example": "De route leidde ons verder langs de rivier.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "leidt voort · leidde voort · heeft voortgeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "voortleiden in context",
+        "voortleiden goed",
+        "voortleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "wegleiden",
+      "back": "to lead away",
+      "example": "De politie leidde de menigte rustig weg.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "leidt weg · leidde weg · heeft weggeleid",
+      "family": "leiden",
+      "separable": true,
+      "collocations": [
+        "wegleiden in context",
+        "wegleiden goed",
+        "wegleiden zorgvuldig"
+      ],
+      "related": [
+        "leiden",
+        "afleiden",
+        "begeleiden"
+      ],
+      "tags": [
+        "verb family",
+        "leiden",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the leiden family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bouwen",
+      "back": "to build",
+      "example": "Ze bouwen een nieuwe school.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "bouwt · bouwde · heeft gebouwd",
+      "family": "bouwen",
+      "separable": false,
+      "collocations": [
+        "bouwen in context",
+        "bouwen goed",
+        "bouwen zorgvuldig"
+      ],
+      "related": [
+        "aanbouwen",
+        "afbouwen",
+        "bijbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanbouwen",
+      "back": "to add an extension",
+      "example": "We bouwen een extra kamer aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "bouwt aan · bouwde aan · heeft aangebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "aanbouwen in context",
+        "aanbouwen goed",
+        "aanbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "afbouwen",
+        "bijbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afbouwen",
+      "back": "to finish building; phase out",
+      "example": "De subsidie wordt langzaam afgebouwd.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "bouwt af · bouwde af · heeft afgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "afbouwen in context",
+        "afbouwen goed",
+        "afbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "bijbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bijbouwen",
+      "back": "to build additionally",
+      "example": "De gemeente wil honderd woningen bijbouwen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "bouwt bij · bouwde bij · heeft bijgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "bijbouwen in context",
+        "bijbouwen goed",
+        "bijbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "ombouwen",
+      "back": "to convert; rebuild",
+      "example": "Ze bouwen het kantoor om tot appartementen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "bouwt om · bouwde om · heeft omgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "ombouwen in context",
+        "ombouwen goed",
+        "ombouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opbouwen",
+      "back": "to build up",
+      "example": "Het team bouwt veel ervaring op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "bouwt op · bouwde op · heeft opgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "opbouwen in context",
+        "opbouwen goed",
+        "opbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitbouwen",
+      "back": "to expand",
+      "example": "Het bedrijf wil zijn diensten verder uitbouwen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "bouwt uit · bouwde uit · heeft uitgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "uitbouwen in context",
+        "uitbouwen goed",
+        "uitbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verbouwen",
+      "back": "to renovate",
+      "example": "We verbouwen volgend jaar de keuken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "verbouwt · bouwde · heeft bouwd",
+      "family": "bouwen",
+      "separable": false,
+      "collocations": [
+        "verbouwen in context",
+        "verbouwen goed",
+        "verbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "herbouwen",
+      "back": "to rebuild",
+      "example": "Na de brand werd het huis herbouwd.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "herbouwt · bouwde · heeft bouwd",
+      "family": "bouwen",
+      "separable": false,
+      "collocations": [
+        "herbouwen in context",
+        "herbouwen goed",
+        "herbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "volbouwen",
+      "back": "to build up completely",
+      "example": "Het gebied mag niet helemaal worden volgebouwd.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "bouwt vol · bouwde vol · heeft volgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "volbouwen in context",
+        "volbouwen goed",
+        "volbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorbouwen",
+      "back": "to continue building",
+      "example": "Ondanks de regen bouwde men door.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "bouwt door · bouwde door · heeft doorgebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "doorbouwen in context",
+        "doorbouwen goed",
+        "doorbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "samenbouwen",
+      "back": "to assemble together",
+      "example": "De onderdelen worden in de fabriek samengebouwd.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "bouwt samen · bouwde samen · heeft samengebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "samenbouwen in context",
+        "samenbouwen goed",
+        "samenbouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "nabouwen",
+      "back": "to replicate by building",
+      "example": "Studenten bouwden het model nauwkeurig na.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "bouwt na · bouwde na · heeft nagebouwd",
+      "family": "bouwen",
+      "separable": true,
+      "collocations": [
+        "nabouwen in context",
+        "nabouwen goed",
+        "nabouwen zorgvuldig"
+      ],
+      "related": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen"
+      ],
+      "tags": [
+        "verb family",
+        "bouwen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the bouwen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "groeien",
+      "back": "to grow",
+      "example": "De economie groeit langzaam.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "groeit · groeide · is gegroeid",
+      "family": "groeien",
+      "separable": false,
+      "collocations": [
+        "groeien in context",
+        "groeien goed",
+        "groeien zorgvuldig"
+      ],
+      "related": [
+        "aangroeien",
+        "doorgroeien",
+        "ingroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aangroeien",
+      "back": "to increase gradually",
+      "example": "De schuld groeide in enkele maanden aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "groeit aan · groeide aan · is aangegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "aangroeien in context",
+        "aangroeien goed",
+        "aangroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "doorgroeien",
+        "ingroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorgroeien",
+      "back": "to advance; keep growing",
+      "example": "Zij wil doorgroeien naar een leidinggevende functie.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "groeit door · groeide door · is doorgegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "doorgroeien in context",
+        "doorgroeien goed",
+        "doorgroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "ingroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "ingroeien",
+      "back": "to grow into",
+      "example": "De nieuwe medewerker moet nog in zijn rol ingroeien.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "groeit in · groeide in · is ingegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "ingroeien in context",
+        "ingroeien goed",
+        "ingroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meegroeien",
+      "back": "to grow along",
+      "example": "Het systeem moet met het bedrijf meegroeien.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "groeit mee · groeide mee · is meegegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "meegroeien in context",
+        "meegroeien goed",
+        "meegroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opgroeien",
+      "back": "to grow up",
+      "example": "Ik ben in Utrecht opgegroeid.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "groeit op · groeide op · is opgegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "opgroeien in context",
+        "opgroeien goed",
+        "opgroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitgroeien",
+      "back": "to grow into",
+      "example": "Het initiatief groeide uit tot een nationaal project.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "groeit uit · groeide uit · is uitgegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "uitgroeien in context",
+        "uitgroeien goed",
+        "uitgroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "vastgroeien",
+      "back": "to become fixed by growth",
+      "example": "De wortels zijn aan de muur vastgegroeid.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "groeit vast · groeide vast · is vastgegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "vastgroeien in context",
+        "vastgroeien goed",
+        "vastgroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "volgroeien",
+      "back": "to become fully grown",
+      "example": "De plant is nog niet volgroeid.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "groeit vol · groeide vol · is volgegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "volgroeien in context",
+        "volgroeien goed",
+        "volgroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "teruggroeien",
+      "back": "to grow back",
+      "example": "Na enkele maanden groeide het haar terug.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "groeit terug · groeide terug · is teruggegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "teruggroeien in context",
+        "teruggroeien goed",
+        "teruggroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "overgroeien",
+      "back": "to become overgrown",
+      "example": "Het pad was volledig overgroeid.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "groeit over · groeide over · is overgegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "overgroeien in context",
+        "overgroeien goed",
+        "overgroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "samengroeien",
+      "back": "to grow together",
+      "example": "De twee organisaties zijn langzaam samengegroeid.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "groeit samen · groeide samen · is samengegroeid",
+      "family": "groeien",
+      "separable": true,
+      "collocations": [
+        "samengroeien in context",
+        "samengroeien goed",
+        "samengroeien zorgvuldig"
+      ],
+      "related": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien"
+      ],
+      "tags": [
+        "verb family",
+        "groeien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the groeien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "draaien",
+      "back": "to turn; operate",
+      "example": "De motor draait nog steeds.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "draait · draaide · heeft gedraaid",
+      "family": "draaien",
+      "separable": false,
+      "collocations": [
+        "draaien in context",
+        "draaien goed",
+        "draaien zorgvuldig"
+      ],
+      "related": [
+        "aandraaien",
+        "afdraaien",
+        "doordraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aandraaien",
+      "back": "to tighten",
+      "example": "Draai de schroef stevig aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "draait aan · draaide aan · heeft aangedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "aandraaien in context",
+        "aandraaien goed",
+        "aandraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "afdraaien",
+        "doordraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afdraaien",
+      "back": "to turn off; machine down",
+      "example": "Draai de verwarming even af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "draait af · draaide af · heeft afgedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "afdraaien in context",
+        "afdraaien goed",
+        "afdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "doordraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doordraaien",
+      "back": "to keep running; go mad",
+      "example": "De machine draaide de hele nacht door.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "draait door · draaide door · heeft doorgedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "doordraaien in context",
+        "doordraaien goed",
+        "doordraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "indraaien",
+      "back": "to screw in; turn into",
+      "example": "Draai de lamp voorzichtig in.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "draait in · draaide in · heeft ingedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "indraaien in context",
+        "indraaien goed",
+        "indraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meedraaien",
+      "back": "to participate; rotate along",
+      "example": "Na een week draaide hij volledig mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "draait mee · draaide mee · heeft meegedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "meedraaien in context",
+        "meedraaien goed",
+        "meedraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "omdraaien",
+      "back": "to turn around",
+      "example": "Draai het papier om.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "draait om · draaide om · heeft omgedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "omdraaien in context",
+        "omdraaien goed",
+        "omdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opdraaien",
+      "back": "to wind up; pay for",
+      "example": "Wie draait voor de schade op?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "draait op · draaide op · heeft opgedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "opdraaien in context",
+        "opdraaien goed",
+        "opdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terugdraaien",
+      "back": "to reverse; roll back",
+      "example": "De maatregel werd later teruggedraaid.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "draait terug · draaide terug · heeft teruggedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "terugdraaien in context",
+        "terugdraaien goed",
+        "terugdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitdraaien",
+      "back": "to turn off; end up",
+      "example": "De discussie draaide uit op een compromis.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "draait uit · draaide uit · heeft uitgedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "uitdraaien in context",
+        "uitdraaien goed",
+        "uitdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verdraaien",
+      "back": "to distort; twist",
+      "example": "Je verdraait mijn woorden.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "verdraait · draaide · heeft draaid",
+      "family": "draaien",
+      "separable": false,
+      "collocations": [
+        "verdraaien in context",
+        "verdraaien goed",
+        "verdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "wegdraaien",
+      "back": "to turn away",
+      "example": "Hij draaide zijn hoofd weg.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "draait weg · draaide weg · heeft weggedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "wegdraaien in context",
+        "wegdraaien goed",
+        "wegdraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "rondraaien",
+      "back": "to rotate",
+      "example": "De ventilator draait langzaam rond.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "draait ron · draaide ron · heeft rongedraaid",
+      "family": "draaien",
+      "separable": true,
+      "collocations": [
+        "rondraaien in context",
+        "rondraaien goed",
+        "rondraaien zorgvuldig"
+      ],
+      "related": [
+        "draaien",
+        "aandraaien",
+        "afdraaien"
+      ],
+      "tags": [
+        "verb family",
+        "draaien",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the draaien family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "wijzen",
+      "back": "to point; indicate",
+      "example": "Hij wijst naar de uitgang.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "wijst · wees · heeft gewezen",
+      "family": "wijzen",
+      "separable": false,
+      "collocations": [
+        "wijzen in context",
+        "wijzen goed",
+        "wijzen zorgvuldig"
+      ],
+      "related": [
+        "aanwijzen",
+        "afwijzen",
+        "bewijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanwijzen",
+      "back": "to point out; appoint",
+      "example": "Kun je de juiste knop aanwijzen?",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "wijst aan · wees aan · heeft aangewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "aanwijzen in context",
+        "aanwijzen goed",
+        "aanwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "afwijzen",
+        "bewijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afwijzen",
+      "back": "to reject",
+      "example": "De aanvraag werd afgewezen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "wijst af · wees af · heeft afgewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "afwijzen in context",
+        "afwijzen goed",
+        "afwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "bewijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "bewijzen",
+      "back": "to prove",
+      "example": "De onderzoeker kon zijn theorie bewijzen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "bewijst · wees · heeft wezen",
+      "family": "wijzen",
+      "separable": false,
+      "collocations": [
+        "bewijzen in context",
+        "bewijzen goed",
+        "bewijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorverwijzen",
+      "back": "to refer onward",
+      "example": "De huisarts verwees me door naar een specialist.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "wijst doorver · wees doorver · heeft doorvergewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "doorverwijzen in context",
+        "doorverwijzen goed",
+        "doorverwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inwijzen",
+      "back": "to initiate; brief",
+      "example": "Een collega wees mij in het systeem in.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "wijst in · wees in · heeft ingewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "inwijzen in context",
+        "inwijzen goed",
+        "inwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "na wijzen",
+      "back": "to point after",
+      "example": "De leraar wees de juiste uitspraak nog eens na.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "wijst · wees · heeft gewezen",
+      "family": "wijzen",
+      "separable": false,
+      "collocations": [
+        "na wijzen in context",
+        "na wijzen goed",
+        "na wijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opwijzen",
+      "back": "to point upward",
+      "example": "Hij wees naar het bord boven de deur.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "wijst op · wees op · heeft opgewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "opwijzen in context",
+        "opwijzen goed",
+        "opwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terechtwijzen",
+      "back": "to reprimand",
+      "example": "De manager wees hem rustig terecht.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "wijst terecht · wees terecht · heeft terechtgewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "terechtwijzen in context",
+        "terechtwijzen goed",
+        "terechtwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "toewijzen",
+      "back": "to allocate; assign",
+      "example": "De gemeente wees ons een woning toe.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "wijst toe · wees toe · heeft toegewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "toewijzen in context",
+        "toewijzen goed",
+        "toewijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitwijzen",
+      "back": "to show; deport",
+      "example": "Onderzoek wijst uit dat slaap belangrijk is.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "wijst uit · wees uit · heeft uitgewezen",
+      "family": "wijzen",
+      "separable": true,
+      "collocations": [
+        "uitwijzen in context",
+        "uitwijzen goed",
+        "uitwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verwijzen",
+      "back": "to refer",
+      "example": "De tekst verwijst naar een eerder onderzoek.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "verwijst · wees · heeft wezen",
+      "family": "wijzen",
+      "separable": false,
+      "collocations": [
+        "verwijzen in context",
+        "verwijzen goed",
+        "verwijzen zorgvuldig"
+      ],
+      "related": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen"
+      ],
+      "tags": [
+        "verb family",
+        "wijzen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the wijzen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "delen",
+      "back": "to share; divide",
+      "example": "We delen de kosten eerlijk.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "deelt · deelde · heeft gedeeld",
+      "family": "delen",
+      "separable": false,
+      "collocations": [
+        "delen in context",
+        "delen goed",
+        "delen zorgvuldig"
+      ],
+      "related": [
+        "aandelen",
+        "afdelen",
+        "indelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aandelen",
+      "back": "to allocate shares",
+      "example": "Het bedrijf deelde nieuwe aandelen uit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "deelt aan · deelde aan · heeft aangedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "aandelen in context",
+        "aandelen goed",
+        "aandelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "afdelen",
+        "indelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afdelen",
+      "back": "to partition",
+      "example": "De ruimte is met panelen afgedeeld.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "deelt af · deelde af · heeft afgedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "afdelen in context",
+        "afdelen goed",
+        "afdelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "indelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "indelen",
+      "back": "to classify; schedule",
+      "example": "We delen de deelnemers in groepen in.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "deelt in · deelde in · heeft ingedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "indelen in context",
+        "indelen goed",
+        "indelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meedelen",
+      "back": "to inform; communicate",
+      "example": "Ik moet u helaas slecht nieuws meedelen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "deelt mee · deelde mee · heeft meegedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "meedelen in context",
+        "meedelen goed",
+        "meedelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opdelen",
+      "back": "to split up",
+      "example": "Het project is in drie fases opgedeeld.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "deelt op · deelde op · heeft opgedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "opdelen in context",
+        "opdelen goed",
+        "opdelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "toedelen",
+      "back": "to allocate",
+      "example": "De taken worden eerlijk toegedeeld.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "deelt toe · deelde toe · heeft toegedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "toedelen in context",
+        "toedelen goed",
+        "toedelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitdelen",
+      "back": "to hand out",
+      "example": "De docent deelt de formulieren uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "deelt uit · deelde uit · heeft uitgedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "uitdelen in context",
+        "uitdelen goed",
+        "uitdelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verdelen",
+      "back": "to distribute; divide",
+      "example": "We verdelen het werk onder vier mensen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "verdeelt · deelde · heeft deeld",
+      "family": "delen",
+      "separable": false,
+      "collocations": [
+        "verdelen in context",
+        "verdelen goed",
+        "verdelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "onderverdelen",
+      "back": "to subdivide",
+      "example": "De categorie is verder onderverdeeld.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "deelt onderver · deelde onderver · heeft ondervergedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "onderverdelen in context",
+        "onderverdelen goed",
+        "onderverdelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "herverdelen",
+      "back": "to redistribute",
+      "example": "De middelen worden volgend jaar herverdeeld.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "herverdeelt · deelde · heeft deeld",
+      "family": "delen",
+      "separable": false,
+      "collocations": [
+        "herverdelen in context",
+        "herverdelen goed",
+        "herverdelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doordelen",
+      "back": "to continue dividing",
+      "example": "Je kunt het bedrag nog verder doordelen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "deelt door · deelde door · heeft doorgedeeld",
+      "family": "delen",
+      "separable": true,
+      "collocations": [
+        "doordelen in context",
+        "doordelen goed",
+        "doordelen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "samen delen",
+      "back": "to share together",
+      "example": "We delen samen één werkruimte.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "deelt · deelde · heeft gedeeld",
+      "family": "delen",
+      "separable": false,
+      "collocations": [
+        "samen delen in context",
+        "samen delen goed",
+        "samen delen zorgvuldig"
+      ],
+      "related": [
+        "delen",
+        "aandelen",
+        "afdelen"
+      ],
+      "tags": [
+        "verb family",
+        "delen",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the delen family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "richten",
+      "back": "to direct; set up",
+      "example": "We richten onze aandacht op kwaliteit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "richt · richtte · heeft gericht",
+      "family": "richten",
+      "separable": false,
+      "collocations": [
+        "richten in context",
+        "richten goed",
+        "richten zorgvuldig"
+      ],
+      "related": [
+        "aanrichten",
+        "africhten",
+        "berichten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanrichten",
+      "back": "to cause; prepare",
+      "example": "De storm richtte veel schade aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "richt aan · richtte aan · heeft aangericht",
+      "family": "richten",
+      "separable": true,
+      "collocations": [
+        "aanrichten in context",
+        "aanrichten goed",
+        "aanrichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "africhten",
+        "berichten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "africhten",
+      "back": "to train an animal",
+      "example": "De hond wordt professioneel afgericht.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "richt af · richtte af · heeft afgericht",
+      "family": "richten",
+      "separable": true,
+      "collocations": [
+        "africhten in context",
+        "africhten goed",
+        "africhten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "berichten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "berichten",
+      "back": "to inform; report",
+      "example": "We berichten u zodra er nieuws is.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "bericht · richtte · heeft richt",
+      "family": "richten",
+      "separable": false,
+      "collocations": [
+        "berichten in context",
+        "berichten goed",
+        "berichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inrichten",
+      "back": "to furnish; organize",
+      "example": "Ze richten het nieuwe kantoor modern in.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "richt in · richtte in · heeft ingericht",
+      "family": "richten",
+      "separable": true,
+      "collocations": [
+        "inrichten in context",
+        "inrichten goed",
+        "inrichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "oprichten",
+      "back": "to establish; erect",
+      "example": "Hij richtte een stichting op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "richt op · richtte op · heeft opgericht",
+      "family": "richten",
+      "separable": true,
+      "collocations": [
+        "oprichten in context",
+        "oprichten goed",
+        "oprichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "toerichten",
+      "back": "to direct toward",
+      "example": "De camera werd op de ingang toegericht.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "richt toe · richtte toe · heeft toegericht",
+      "family": "richten",
+      "separable": true,
+      "collocations": [
+        "toerichten in context",
+        "toerichten goed",
+        "toerichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitrichten",
+      "back": "to convey; accomplish",
+      "example": "Kun je hem mijn groeten uitrichten?",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "richt uit · richtte uit · heeft uitgericht",
+      "family": "richten",
+      "separable": true,
+      "collocations": [
+        "uitrichten in context",
+        "uitrichten goed",
+        "uitrichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verrichten",
+      "back": "to perform",
+      "example": "De arts verrichtte een uitgebreid onderzoek.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "verricht · richtte · heeft richt",
+      "family": "richten",
+      "separable": false,
+      "collocations": [
+        "verrichten in context",
+        "verrichten goed",
+        "verrichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "herinrichten",
+      "back": "to redesign; reorganize",
+      "example": "De straat wordt volgend jaar heringericht.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "herinricht · richtte · heeft richt",
+      "family": "richten",
+      "separable": false,
+      "collocations": [
+        "herinrichten in context",
+        "herinrichten goed",
+        "herinrichten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terecht richten",
+      "back": "to aim correctly",
+      "example": "Richt de microfoon goed op de spreker.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "richt · richtte · heeft gericht",
+      "family": "richten",
+      "separable": false,
+      "collocations": [
+        "terecht richten in context",
+        "terecht richten goed",
+        "terecht richten zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "zich richten op",
+      "back": "to focus on",
+      "example": "Deze cursus richt zich op gevorderde studenten.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "richt · richtte · heeft gericht",
+      "family": "richten",
+      "separable": false,
+      "collocations": [
+        "zich richten op in context",
+        "zich richten op goed",
+        "zich richten op zorgvuldig"
+      ],
+      "related": [
+        "richten",
+        "aanrichten",
+        "africhten"
+      ],
+      "tags": [
+        "verb family",
+        "richten",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the richten family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "voeren",
+      "back": "to conduct; feed; carry",
+      "example": "We voeren een open gesprek.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "voert · voerde · heeft gevoerd",
+      "family": "voeren",
+      "separable": false,
+      "collocations": [
+        "voeren in context",
+        "voeren goed",
+        "voeren zorgvuldig"
+      ],
+      "related": [
+        "aanvoeren",
+        "afvoeren",
+        "doorvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanvoeren",
+      "back": "to supply; cite",
+      "example": "De advocaat voerde nieuw bewijs aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "voert aan · voerde aan · heeft aangevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "aanvoeren in context",
+        "aanvoeren goed",
+        "aanvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "afvoeren",
+        "doorvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afvoeren",
+      "back": "to remove; transport away",
+      "example": "Het afval wordt apart afgevoerd.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "voert af · voerde af · heeft afgevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "afvoeren in context",
+        "afvoeren goed",
+        "afvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "doorvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorvoeren",
+      "back": "to implement; pass through",
+      "example": "De organisatie voert grote veranderingen door.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "voert door · voerde door · heeft doorgevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "doorvoeren in context",
+        "doorvoeren goed",
+        "doorvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "invoeren",
+      "back": "to introduce; enter",
+      "example": "We voeren volgend jaar een nieuw systeem in.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "voert in · voerde in · heeft ingevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "invoeren in context",
+        "invoeren goed",
+        "invoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meevoeren",
+      "back": "to carry along",
+      "example": "De rivier voerde veel zand mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "voert mee · voerde mee · heeft meegevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "meevoeren in context",
+        "meevoeren goed",
+        "meevoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "opvoeren",
+      "back": "to perform; increase",
+      "example": "Het theater voert een nieuw stuk op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "voert op · voerde op · heeft opgevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "opvoeren in context",
+        "opvoeren goed",
+        "opvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "overvoeren",
+      "back": "to overfeed",
+      "example": "Je moet de vissen niet overvoeren.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "voert over · voerde over · heeft overgevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "overvoeren in context",
+        "overvoeren goed",
+        "overvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terugvoeren",
+      "back": "to trace back; return",
+      "example": "Het probleem is op een fout terug te voeren.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "voert terug · voerde terug · heeft teruggevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "terugvoeren in context",
+        "terugvoeren goed",
+        "terugvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitvoeren",
+      "back": "to carry out; export",
+      "example": "We voeren het plan stap voor stap uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "voert uit · voerde uit · heeft uitgevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "uitvoeren in context",
+        "uitvoeren goed",
+        "uitvoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "vervoeren",
+      "back": "to transport",
+      "example": "De goederen worden per trein vervoerd.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "vervoert · voerde · heeft voerd",
+      "family": "voeren",
+      "separable": false,
+      "collocations": [
+        "vervoeren in context",
+        "vervoeren goed",
+        "vervoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorvervoeren",
+      "back": "to transit onward",
+      "example": "De lading wordt via Rotterdam doorgevoerd.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "voert doorver · voerde doorver · heeft doorvergevoerd",
+      "family": "voeren",
+      "separable": true,
+      "collocations": [
+        "doorvervoeren in context",
+        "doorvervoeren goed",
+        "doorvervoeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afzonderlijk voeren",
+      "back": "to keep separate accounts",
+      "example": "De afdeling voert een afzonderlijke administratie.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "voert · voerde · heeft gevoerd",
+      "family": "voeren",
+      "separable": false,
+      "collocations": [
+        "afzonderlijk voeren in context",
+        "afzonderlijk voeren goed",
+        "afzonderlijk voeren zorgvuldig"
+      ],
+      "related": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren"
+      ],
+      "tags": [
+        "verb family",
+        "voeren",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the voeren family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "pakken",
+      "back": "to take; grab; catch",
+      "example": "Ik pak de trein van acht uur.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "pakt · pakte · heeft gepakt",
+      "family": "pakken",
+      "separable": false,
+      "collocations": [
+        "pakken in context",
+        "pakken goed",
+        "pakken zorgvuldig"
+      ],
+      "related": [
+        "aanpakken",
+        "afpakken",
+        "beetpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "aanpakken",
+      "back": "to tackle; handle",
+      "example": "We moeten dit probleem snel aanpakken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "pakt aan · pakte aan · heeft aangepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "aanpakken in context",
+        "aanpakken goed",
+        "aanpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "afpakken",
+        "beetpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "afpakken",
+      "back": "to take away",
+      "example": "De docent pakte zijn telefoon af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "pakt af · pakte af · heeft afgepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "afpakken in context",
+        "afpakken goed",
+        "afpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "beetpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "beetpakken",
+      "back": "to grab hold of",
+      "example": "Pak het touw stevig beet.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "beetpakt · pakte · heeft pakt",
+      "family": "pakken",
+      "separable": false,
+      "collocations": [
+        "beetpakken in context",
+        "beetpakken goed",
+        "beetpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "doorpakken",
+      "back": "to push through",
+      "example": "Na de pauze moeten we echt doorpakken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "pakt door · pakte door · heeft doorgepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "doorpakken in context",
+        "doorpakken goed",
+        "doorpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "inpakken",
+      "back": "to wrap; pack",
+      "example": "Ik pak het cadeau mooi in.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "pakt in · pakte in · heeft ingepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "inpakken in context",
+        "inpakken goed",
+        "inpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "meepakken",
+      "back": "to take along; benefit from",
+      "example": "We pakken onderweg nog een museum mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "pakt mee · pakte mee · heeft meegepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "meepakken in context",
+        "meepakken goed",
+        "meepakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "oppakken",
+      "back": "to pick up; arrest; resume",
+      "example": "We pakken het project volgende week weer op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "pakt op · pakte op · heeft opgepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "oppakken in context",
+        "oppakken goed",
+        "oppakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "uitpakken",
+      "back": "to unpack; turn out",
+      "example": "Het plan pakte beter uit dan verwacht.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "pakt uit · pakte uit · heeft uitgepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "uitpakken in context",
+        "uitpakken goed",
+        "uitpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "verpakken",
+      "back": "to package",
+      "example": "De producten worden duurzaam verpakt.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "verpakt · pakte · heeft pakt",
+      "family": "pakken",
+      "separable": false,
+      "collocations": [
+        "verpakken in context",
+        "verpakken goed",
+        "verpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "inseparable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "terugpakken",
+      "back": "to take back",
+      "example": "Ik pak mijn boek morgen terug.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "pakt terug · pakte terug · heeft teruggepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "terugpakken in context",
+        "terugpakken goed",
+        "terugpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "wegpakken",
+      "back": "to remove quickly",
+      "example": "Pak die dozen hier even weg.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "pakt weg · pakte weg · heeft weggepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "wegpakken in context",
+        "wegpakken goed",
+        "wegpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    },
+    {
+      "front": "vastpakken",
+      "back": "to grab firmly",
+      "example": "Pak de leuning stevig vast.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal/advanced",
+      "forms": "pakt vast · pakte vast · heeft vastgepakt",
+      "family": "pakken",
+      "separable": true,
+      "collocations": [
+        "vastpakken in context",
+        "vastpakken goed",
+        "vastpakken zorgvuldig"
+      ],
+      "related": [
+        "pakken",
+        "aanpakken",
+        "afpakken"
+      ],
+      "tags": [
+        "verb family",
+        "pakken",
+        "separable verb",
+        "core3000",
+        "pack-03"
+      ],
+      "note": "Member of the pakken family. Study how the prefix changes the core meaning."
+    }
+  ],
+  "familyInfo": {
+    "schrijven": {
+      "coreMeaning": "to write or record",
+      "pattern": "The root concerns putting language or information into written form. Prefixes add direction, repetition, registration, transfer, or attribution.",
+      "memoryHook": "Picture information moving onto paper or into a record; the prefix tells you what happens to it.",
+      "members": [
+        "schrijven",
+        "aanschrijven",
+        "afschrijven",
+        "beschrijven",
+        "bijschrijven",
+        "doorschrijven",
+        "inschrijven",
+        "meeschrijven",
+        "omschrijven",
+        "opschrijven",
+        "overschrijven",
+        "toeschrijven",
+        "uitschrijven"
+      ]
+    },
+    "lezen": {
+      "coreMeaning": "to read or interpret",
+      "pattern": "The root concerns extracting meaning from text, symbols, or data. Prefixes add completion, repetition, checking, or reading aloud.",
+      "memoryHook": "Imagine your eyes moving through a text; the prefix tells you how or why you read it.",
+      "members": [
+        "lezen",
+        "aflezen",
+        "doorlezen",
+        "inlezen",
+        "meelezen",
+        "nalezen",
+        "oplezen",
+        "overlezen",
+        "voorlezen",
+        "uitlezen",
+        "verlezen",
+        "herlezen"
+      ]
+    },
+    "zien": {
+      "coreMeaning": "to see, notice, or understand",
+      "pattern": "The root covers visual perception and figurative understanding. Prefixes add inspection, realization, anticipation, or looking back.",
+      "memoryHook": "Start with seeing; then let the prefix tell you the direction of attention.",
+      "members": [
+        "zien",
+        "aanzien",
+        "afzien",
+        "bezien",
+        "doorzien",
+        "inzien",
+        "meezien",
+        "omzien",
+        "opzien",
+        "overzien",
+        "voorzien",
+        "uitzien",
+        "terugzien"
+      ]
+    },
+    "horen": {
+      "coreMeaning": "to hear, listen, or belong",
+      "pattern": "The root concerns sound, listening, and in some forms belonging. Prefixes add testing, questioning, or intensive listening.",
+      "memoryHook": "Think of sound reaching you; the prefix changes whether you listen, test, or question.",
+      "members": [
+        "horen",
+        "aanhoren",
+        "afhoren",
+        "behoren",
+        "doorhoren",
+        "gehoorzamen",
+        "inhouden",
+        "meehoren",
+        "overhoren",
+        "toebehoren",
+        "uithoren",
+        "verhoren"
+      ]
+    },
+    "zoeken": {
+      "coreMeaning": "to search, investigate, or request",
+      "pattern": "The root expresses looking for information, people, objects, or solutions. Prefixes add depth, direction, verification, or formal requesting.",
+      "memoryHook": "Picture yourself searching; the prefix tells you where and how thoroughly.",
+      "members": [
+        "zoeken",
+        "afzoeken",
+        "bezoeken",
+        "doorzoeken",
+        "inzoeken",
+        "meezoeken",
+        "opzoeken",
+        "onderzoeken",
+        "uitzoeken",
+        "verzoeken",
+        "terugzoeken",
+        "rondzoeken",
+        "nazoeken"
+      ]
+    },
+    "kiezen": {
+      "coreMeaning": "to choose, select, or elect",
+      "pattern": "The root expresses selection between alternatives. Prefixes add preference, preselection, repetition, or special appointment.",
+      "memoryHook": "Imagine several options in front of you; the prefix tells you how the choice is made.",
+      "members": [
+        "kiezen",
+        "uitkiezen",
+        "verkiezen",
+        "herkiezen",
+        "kiezen voor",
+        "kiezen tussen",
+        "uitverkiezen",
+        "voorkiezen",
+        "bijkiezen",
+        "afkiezen",
+        "doorkiezen"
+      ]
+    },
+    "sluiten": {
+      "coreMeaning": "to close, connect, or conclude",
+      "pattern": "The root concerns closing, joining, or reaching a conclusion. Prefixes add connection, exclusion, enclosure, or completion.",
+      "memoryHook": "Think of two sides coming together; the prefix shows what is closed, joined, or excluded.",
+      "members": [
+        "sluiten",
+        "aansluiten",
+        "afsluiten",
+        "besluiten",
+        "binnensluiten",
+        "insluiten",
+        "meesluiten",
+        "omsluiten",
+        "opsluiten",
+        "uitsluiten",
+        "toesluiten",
+        "vastsluiten",
+        "heropenen"
+      ]
+    },
+    "leiden": {
+      "coreMeaning": "to lead, guide, or cause",
+      "pattern": "The root concerns guiding people, processes, or attention. Prefixes add introduction, training, diversion, or deduction.",
+      "memoryHook": "Picture a route with someone guiding it; the prefix tells you where the route goes.",
+      "members": [
+        "leiden",
+        "afleiden",
+        "begeleiden",
+        "inleiden",
+        "misleiden",
+        "omleiden",
+        "opleiden",
+        "rondleiden",
+        "terugleiden",
+        "uitleiden",
+        "voortleiden",
+        "wegleiden"
+      ]
+    },
+    "bouwen": {
+      "coreMeaning": "to build, construct, or develop",
+      "pattern": "The root concerns creating structures or gradually developing systems. Prefixes add expansion, conversion, completion, or reconstruction.",
+      "memoryHook": "Imagine blocks being added; the prefix shows whether you build up, out, again, or differently.",
+      "members": [
+        "bouwen",
+        "aanbouwen",
+        "afbouwen",
+        "bijbouwen",
+        "ombouwen",
+        "opbouwen",
+        "uitbouwen",
+        "verbouwen",
+        "herbouwen",
+        "volbouwen",
+        "doorbouwen",
+        "samenbouwen",
+        "nabouwen"
+      ]
+    },
+    "groeien": {
+      "coreMeaning": "to grow or develop",
+      "pattern": "The root expresses increase, maturation, or development over time. Prefixes add continuation, adaptation, return, or completion.",
+      "memoryHook": "Picture something becoming larger or more mature; the prefix shows the direction of growth.",
+      "members": [
+        "groeien",
+        "aangroeien",
+        "doorgroeien",
+        "ingroeien",
+        "meegroeien",
+        "opgroeien",
+        "uitgroeien",
+        "vastgroeien",
+        "volgroeien",
+        "teruggroeien",
+        "overgroeien",
+        "samengroeien"
+      ]
+    },
+    "draaien": {
+      "coreMeaning": "to turn, rotate, or operate",
+      "pattern": "The root concerns rotation, operation, or a change of direction. Prefixes add tightening, reversal, continuation, or outcome.",
+      "memoryHook": "Imagine a wheel turning; the prefix tells you how or where it turns.",
+      "members": [
+        "draaien",
+        "aandraaien",
+        "afdraaien",
+        "doordraaien",
+        "indraaien",
+        "meedraaien",
+        "omdraaien",
+        "opdraaien",
+        "terugdraaien",
+        "uitdraaien",
+        "verdraaien",
+        "wegdraaien",
+        "rondraaien"
+      ]
+    },
+    "wijzen": {
+      "coreMeaning": "to point, indicate, or assign",
+      "pattern": "The root concerns pointing, showing, or directing attention. Prefixes add rejection, allocation, proof, or referral.",
+      "memoryHook": "Picture a finger pointing; the prefix tells you what is being indicated or decided.",
+      "members": [
+        "wijzen",
+        "aanwijzen",
+        "afwijzen",
+        "bewijzen",
+        "doorverwijzen",
+        "inwijzen",
+        "na wijzen",
+        "opwijzen",
+        "terechtwijzen",
+        "toewijzen",
+        "uitwijzen",
+        "verwijzen"
+      ]
+    },
+    "delen": {
+      "coreMeaning": "to divide, share, or distribute",
+      "pattern": "The root concerns splitting something into parts or sharing information and resources. Prefixes add allocation, subdivision, or redistribution.",
+      "memoryHook": "Imagine one whole becoming several parts; the prefix tells you how those parts are handled.",
+      "members": [
+        "delen",
+        "aandelen",
+        "afdelen",
+        "indelen",
+        "meedelen",
+        "opdelen",
+        "toedelen",
+        "uitdelen",
+        "verdelen",
+        "onderverdelen",
+        "herverdelen",
+        "doordelen",
+        "samen delen"
+      ]
+    },
+    "richten": {
+      "coreMeaning": "to direct, organize, or establish",
+      "pattern": "The root concerns aiming, arranging, or setting something up. Prefixes add creation, furnishing, performance, or causing an effect.",
+      "memoryHook": "Picture an arrow being aimed; the prefix tells you what is directed or established.",
+      "members": [
+        "richten",
+        "aanrichten",
+        "africhten",
+        "berichten",
+        "inrichten",
+        "oprichten",
+        "toerichten",
+        "uitrichten",
+        "verrichten",
+        "herinrichten",
+        "terecht richten",
+        "zich richten op"
+      ]
+    },
+    "voeren": {
+      "coreMeaning": "to conduct, carry, feed, or transport",
+      "pattern": "The root concerns carrying something forward: a conversation, policy, person, material, or process. Prefixes add entry, removal, implementation, or transport.",
+      "memoryHook": "Imagine moving something through a process; the prefix tells you where it enters or leaves.",
+      "members": [
+        "voeren",
+        "aanvoeren",
+        "afvoeren",
+        "doorvoeren",
+        "invoeren",
+        "meevoeren",
+        "opvoeren",
+        "overvoeren",
+        "terugvoeren",
+        "uitvoeren",
+        "vervoeren",
+        "doorvervoeren",
+        "afzonderlijk voeren"
+      ]
+    },
+    "pakken": {
+      "coreMeaning": "to take, grab, or handle",
+      "pattern": "The root concerns taking hold of something physically or figuratively. Prefixes add tackling, removing, packing, resuming, or outcome.",
+      "memoryHook": "Picture your hand taking hold; the prefix tells you what kind of action follows.",
+      "members": [
+        "pakken",
+        "aanpakken",
+        "afpakken",
+        "beetpakken",
+        "doorpakken",
+        "inpakken",
+        "meepakken",
+        "oppakken",
+        "uitpakken",
+        "verpakken",
+        "terugpakken",
+        "wegpakken",
+        "vastpakken"
+      ]
+    }
+  },
+  "familyDefinitions": [
+    {
+      "id": "schrijven",
+      "root": "schrijven",
+      "title": "SCHRIJVEN",
+      "meaning": "to write or record",
+      "pattern": "The root concerns putting language or information into written form. Prefixes add direction, repetition, registration, transfer, or attribution.",
+      "hint": "Picture information moving onto paper or into a record; the prefix tells you what happens to it.",
+      "accent": "S"
+    },
+    {
+      "id": "lezen",
+      "root": "lezen",
+      "title": "LEZEN",
+      "meaning": "to read or interpret",
+      "pattern": "The root concerns extracting meaning from text, symbols, or data. Prefixes add completion, repetition, checking, or reading aloud.",
+      "hint": "Imagine your eyes moving through a text; the prefix tells you how or why you read it.",
+      "accent": "L"
+    },
+    {
+      "id": "zien",
+      "root": "zien",
+      "title": "ZIEN",
+      "meaning": "to see, notice, or understand",
+      "pattern": "The root covers visual perception and figurative understanding. Prefixes add inspection, realization, anticipation, or looking back.",
+      "hint": "Start with seeing; then let the prefix tell you the direction of attention.",
+      "accent": "Z"
+    },
+    {
+      "id": "horen",
+      "root": "horen",
+      "title": "HOREN",
+      "meaning": "to hear, listen, or belong",
+      "pattern": "The root concerns sound, listening, and in some forms belonging. Prefixes add testing, questioning, or intensive listening.",
+      "hint": "Think of sound reaching you; the prefix changes whether you listen, test, or question.",
+      "accent": "H"
+    },
+    {
+      "id": "zoeken",
+      "root": "zoeken",
+      "title": "ZOEKEN",
+      "meaning": "to search, investigate, or request",
+      "pattern": "The root expresses looking for information, people, objects, or solutions. Prefixes add depth, direction, verification, or formal requesting.",
+      "hint": "Picture yourself searching; the prefix tells you where and how thoroughly.",
+      "accent": "Z"
+    },
+    {
+      "id": "kiezen",
+      "root": "kiezen",
+      "title": "KIEZEN",
+      "meaning": "to choose, select, or elect",
+      "pattern": "The root expresses selection between alternatives. Prefixes add preference, preselection, repetition, or special appointment.",
+      "hint": "Imagine several options in front of you; the prefix tells you how the choice is made.",
+      "accent": "K"
+    },
+    {
+      "id": "sluiten",
+      "root": "sluiten",
+      "title": "SLUITEN",
+      "meaning": "to close, connect, or conclude",
+      "pattern": "The root concerns closing, joining, or reaching a conclusion. Prefixes add connection, exclusion, enclosure, or completion.",
+      "hint": "Think of two sides coming together; the prefix shows what is closed, joined, or excluded.",
+      "accent": "S"
+    },
+    {
+      "id": "leiden",
+      "root": "leiden",
+      "title": "LEIDEN",
+      "meaning": "to lead, guide, or cause",
+      "pattern": "The root concerns guiding people, processes, or attention. Prefixes add introduction, training, diversion, or deduction.",
+      "hint": "Picture a route with someone guiding it; the prefix tells you where the route goes.",
+      "accent": "L"
+    },
+    {
+      "id": "bouwen",
+      "root": "bouwen",
+      "title": "BOUWEN",
+      "meaning": "to build, construct, or develop",
+      "pattern": "The root concerns creating structures or gradually developing systems. Prefixes add expansion, conversion, completion, or reconstruction.",
+      "hint": "Imagine blocks being added; the prefix shows whether you build up, out, again, or differently.",
+      "accent": "B"
+    },
+    {
+      "id": "groeien",
+      "root": "groeien",
+      "title": "GROEIEN",
+      "meaning": "to grow or develop",
+      "pattern": "The root expresses increase, maturation, or development over time. Prefixes add continuation, adaptation, return, or completion.",
+      "hint": "Picture something becoming larger or more mature; the prefix shows the direction of growth.",
+      "accent": "G"
+    },
+    {
+      "id": "draaien",
+      "root": "draaien",
+      "title": "DRAAIEN",
+      "meaning": "to turn, rotate, or operate",
+      "pattern": "The root concerns rotation, operation, or a change of direction. Prefixes add tightening, reversal, continuation, or outcome.",
+      "hint": "Imagine a wheel turning; the prefix tells you how or where it turns.",
+      "accent": "D"
+    },
+    {
+      "id": "wijzen",
+      "root": "wijzen",
+      "title": "WIJZEN",
+      "meaning": "to point, indicate, or assign",
+      "pattern": "The root concerns pointing, showing, or directing attention. Prefixes add rejection, allocation, proof, or referral.",
+      "hint": "Picture a finger pointing; the prefix tells you what is being indicated or decided.",
+      "accent": "W"
+    },
+    {
+      "id": "delen",
+      "root": "delen",
+      "title": "DELEN",
+      "meaning": "to divide, share, or distribute",
+      "pattern": "The root concerns splitting something into parts or sharing information and resources. Prefixes add allocation, subdivision, or redistribution.",
+      "hint": "Imagine one whole becoming several parts; the prefix tells you how those parts are handled.",
+      "accent": "D"
+    },
+    {
+      "id": "richten",
+      "root": "richten",
+      "title": "RICHTEN",
+      "meaning": "to direct, organize, or establish",
+      "pattern": "The root concerns aiming, arranging, or setting something up. Prefixes add creation, furnishing, performance, or causing an effect.",
+      "hint": "Picture an arrow being aimed; the prefix tells you what is directed or established.",
+      "accent": "R"
+    },
+    {
+      "id": "voeren",
+      "root": "voeren",
+      "title": "VOEREN",
+      "meaning": "to conduct, carry, feed, or transport",
+      "pattern": "The root concerns carrying something forward: a conversation, policy, person, material, or process. Prefixes add entry, removal, implementation, or transport.",
+      "hint": "Imagine moving something through a process; the prefix tells you where it enters or leaves.",
+      "accent": "V"
+    },
+    {
+      "id": "pakken",
+      "root": "pakken",
+      "title": "PAKKEN",
+      "meaning": "to take, grab, or handle",
+      "pattern": "The root concerns taking hold of something physically or figuratively. Prefixes add tackling, removing, packing, resuming, or outcome.",
+      "hint": "Picture your hand taking hold; the prefix tells you what kind of action follows.",
+      "accent": "P"
+    }
+  ],
+  "title": "Core Verb Families III",
+  "description": "A third collection expanding high-value Dutch verb families."
+}

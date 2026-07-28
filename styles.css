@@ -123,3 +123,6 @@ textarea{resize:vertical}dialog{border:0;border-radius:22px;padding:0;width:min(
 .update-banner{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:center;gap:1rem;padding:.75rem 1rem;background:#fff7db;border-bottom:1px solid #ead58b;color:#493b09;box-shadow:0 8px 24px #11182712}
 .update-banner[hidden]{display:none}.update-banner .btn{padding:.55rem .8rem}.app-footer{text-align:center;color:var(--muted);font-size:.8rem;padding:1.5rem 0 .5rem}.app-version-line{margin-top:1rem;color:var(--muted);font-size:.86rem}
 @media(max-width:600px){.update-banner{top:0;justify-content:space-between;font-size:.82rem}.update-banner span{max-width:68%}}
+
+/* Online deck library */
+.online-library-head{display:flex;justify-content:space-between;align-items:end;gap:1rem;margin:1.5rem 0 .35rem}.online-library-head h3{margin:.1rem 0;font-size:1.35rem}.installed-head{margin-top:2rem}.online-deck-grid{margin-top:1rem}.online-deck-description{min-height:2.8em;color:var(--muted);line-height:1.45}.online-deck-card .deck-actions{justify-content:flex-end}.online-deck-card button:disabled{opacity:.65;cursor:default}@media(max-width:600px){.online-library-head{align-items:flex-start;flex-direction:column}.online-library-head .btn{width:100%}}

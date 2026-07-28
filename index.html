@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180.png">
   <link rel="apple-touch-icon" sizes="167x167" href="icons/apple-touch-icon-167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152.png">
-  <link rel="stylesheet" href="styles.css?v=0.9.16">
+  <link rel="stylesheet" href="styles.css?v=1.0.0">
   <title>DutchDeck Studio — Learning Edition</title>
 </head>
 <body>
@@ -240,9 +240,16 @@
       <div>
         <p class="eyebrow">Your library</p>
         <h2>Decks</h2>
-        <p class="muted">Browse imported vocabulary by source deck. Word families remain shared across all decks.</p>
+        <p class="muted">Download shared vocabulary from GitHub once, then study it offline. Progress remains private on this device.</p>
       </div>
     </div>
+    <div class="online-library-head">
+      <div><p class="eyebrow">Shared vocabulary</p><h3>Online deck library</h3></div>
+      <button id="refreshOnlineDecksBtn" class="btn secondary">Check for decks</button>
+    </div>
+    <p id="onlineDeckStatus" class="muted">Checking the online library…</p>
+    <div id="onlineDeckGrid" class="deck-grid online-deck-grid"></div>
+    <div class="online-library-head installed-head"><div><p class="eyebrow">On this device</p><h3>Downloaded decks</h3></div></div>
     <div id="deckGrid" class="deck-grid"></div>
   </section>
 
@@ -377,11 +384,11 @@
         <h3>About the built-in knowledge base</h3>
         <p class="help">This edition includes the original vocabulary plus a curated core-verb-family pack. Built-in updates merge into your existing deck without deleting favorites, intervals or review history. CEFR labels are practical learning estimates and remain editable.</p>
         <div id="dataSummary" class="summary-pills"></div>
-        <p class="app-version-line">DutchDeck Studio <strong id="settingsAppVersion">v0.9.16</strong></p>
+        <p class="app-version-line">DutchDeck Studio <strong id="settingsAppVersion">v1.0.0</strong></p>
       </article>
     </div>
   </section>
-  <footer class="app-footer">DutchDeck Studio <span id="footerAppVersion">v0.9.16</span></footer>
+  <footer class="app-footer">DutchDeck Studio <span id="footerAppVersion">v1.0.0</span></footer>
 </main>
 
 <dialog id="iosInstallDialog">
@@ -446,8 +453,8 @@
   </form>
 </dialog>
 
-<script src="full-deck.js?v=0.9.16" defer></script>
-<script src="family-pack.js?v=0.9.16" defer></script>
-<script src="app.js?v=0.9.16" defer></script>
+<script src="full-deck.js?v=1.0.0" defer></script>
+<script src="family-pack.js?v=1.0.0" defer></script>
+<script src="app.js?v=1.0.0" defer></script>
 </body>
 </html>

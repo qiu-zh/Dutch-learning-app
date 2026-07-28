@@ -1,0 +1,6272 @@
+{
+  "deck": "Core Verb Families II",
+  "version": "2.0",
+  "language": "nl-en",
+  "entryCount": 200,
+  "cards": [
+    {
+      "front": "lopen",
+      "back": "to walk; to run; to function",
+      "example": "We lopen elke ochtend naar het station.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "loopt · liep · heeft gelopen",
+      "family": "lopen",
+      "separable": false,
+      "collocations": [
+        "hard lopen",
+        "stage lopen",
+        "goed lopen"
+      ],
+      "related": [
+        "aflopen",
+        "binnenlopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Broad everyday verb; context determines whether it means walking, running, or functioning."
+    },
+    {
+      "front": "aflopen",
+      "back": "to end; expire; walk down",
+      "example": "Mijn contract loopt volgende maand af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "loopt af · liep af · is afgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "een contract loopt af",
+        "slecht aflopen",
+        "de trap aflopen"
+      ],
+      "related": [
+        "lopen",
+        "binnenlopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often used for periods, contracts, events, and outcomes."
+    },
+    {
+      "front": "binnenlopen",
+      "back": "to walk in; drop by",
+      "example": "Hij liep zonder afspraak het kantoor binnen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "loopt binnen · liep binnen · is binnengelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "een winkel binnenlopen",
+        "even binnenlopen",
+        "zomaar binnenlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Informal and common for entering casually."
+    },
+    {
+      "front": "doorlopen",
+      "back": "to continue walking; go through; complete",
+      "example": "Lees de tekst eerst rustig door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "loopt door · liep door · is/heeft doorgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "een opleiding doorlopen",
+        "een proces doorlopen",
+        "gewoon doorlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be separable or inseparable depending on meaning."
+    },
+    {
+      "front": "inlopen",
+      "back": "to catch up; walk in; break in",
+      "example": "We moeten de verloren tijd snel inlopen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "loopt in · liep in · is ingelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "achterstand inlopen",
+        "schoenen inlopen",
+        "op iemand inlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Meaning depends strongly on the object."
+    },
+    {
+      "front": "meelopen",
+      "back": "to walk along; join in",
+      "example": "Loop je een stukje met ons mee?",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "loopt mee · liep mee · is meegelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "met iemand meelopen",
+        "een dag meelopen",
+        "gewoon meelopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often means joining temporarily to observe or participate."
+    },
+    {
+      "front": "omlopen",
+      "back": "to walk around; take a detour",
+      "example": "Door de werkzaamheden moesten we omlopen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "loopt om · liep om · is omgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "een blokje omlopen",
+        "ver omlopen",
+        "moeten omlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually separable when it means taking a detour."
+    },
+    {
+      "front": "oplopen",
+      "back": "to walk on; increase",
+      "example": "De kosten zijn dit jaar sterk opgelopen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "loopt op · liep op · is opgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "kosten lopen op",
+        "spanning loopt op",
+        "letsel oplopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Written as oplopen; included here under the lopen family."
+    },
+    {
+      "front": "overlopen",
+      "back": "to overflow; defect; review",
+      "example": "De emmer liep langzaam over.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "loopt over · liep over · is overgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "de emmer loopt over",
+        "naar de tegenpartij overlopen",
+        "de lijst overlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be literal or figurative."
+    },
+    {
+      "front": "rondlopen",
+      "back": "to walk around; be walking about",
+      "example": "Er loopt al dagen een kat in de tuin rond.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "loopt rond · liep rond · heeft rondgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "buiten rondlopen",
+        "met een idee rondlopen",
+        "vrij rondlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Also used figuratively for carrying an idea or concern."
+    },
+    {
+      "front": "teruglopen",
+      "back": "to walk back; decrease",
+      "example": "Na de pauze liepen we terug naar kantoor.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "loopt terug · liep terug · is teruggelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "naar huis teruglopen",
+        "de omzet loopt terug",
+        "een stukje teruglopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "For figures, it can mean decline."
+    },
+    {
+      "front": "uitlopen",
+      "back": "to run out; overrun; lead to",
+      "example": "De vergadering liep twintig minuten uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "loopt uit · liep uit · is uitgelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "een vergadering loopt uit",
+        "uitlopen op",
+        "schoenen uitlopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common for events taking longer than planned."
+    },
+    {
+      "front": "weglopen",
+      "back": "to walk away; run away",
+      "example": "De hond is tijdens de wandeling weggelopen.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "loopt weg · liep weg · is weggelopen",
+      "family": "lopen",
+      "separable": true,
+      "collocations": [
+        "van huis weglopen",
+        "boos weglopen",
+        "zomaar weglopen"
+      ],
+      "related": [
+        "lopen",
+        "aflopen"
+      ],
+      "tags": [
+        "verb family",
+        "lopen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can imply leaving suddenly or escaping."
+    },
+    {
+      "front": "kijken",
+      "back": "to look; watch",
+      "example": "We kijken vanavond naar een film.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kijkt · keek · heeft gekeken",
+      "family": "kijken",
+      "separable": false,
+      "collocations": [
+        "naar iets kijken",
+        "televisie kijken",
+        "goed kijken"
+      ],
+      "related": [
+        "aankijken",
+        "afkijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually takes naar when the object is explicit."
+    },
+    {
+      "front": "aankijken",
+      "back": "to look at; face",
+      "example": "Ze keek me verbaasd aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kijkt aan · keek aan · heeft aangekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "iemand aankijken",
+        "elkaar aankijken",
+        "tegen iets aankijken"
+      ],
+      "related": [
+        "kijken",
+        "afkijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Tegen iets aankijken means to view or anticipate something."
+    },
+    {
+      "front": "afkijken",
+      "back": "to copy; watch to the end",
+      "example": "Hij keek de serie in één weekend af.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "kijkt af · keek af · heeft afgekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "bij iemand afkijken",
+        "een film afkijken",
+        "het kunstje afkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "At school, it often means copying someone’s answers."
+    },
+    {
+      "front": "bekijken",
+      "back": "to examine; view",
+      "example": "We bekijken alle opties zorgvuldig.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "bekijkt · bekeek · heeft bekeken",
+      "family": "kijken",
+      "separable": false,
+      "collocations": [
+        "een situatie bekijken",
+        "iets van dichtbij bekijken",
+        "kritisch bekijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable and often more deliberate than kijken."
+    },
+    {
+      "front": "doorkijken",
+      "back": "to keep watching; look through",
+      "example": "Ik kijk de documenten vanavond nog even door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "kijkt door · keek door · heeft doorgekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "papieren doorkijken",
+        "blijven doorkijken",
+        "een aflevering doorkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often means reviewing quickly."
+    },
+    {
+      "front": "meekijken",
+      "back": "to watch along; observe",
+      "example": "Mag ik even met je meekijken?",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kijkt mee · keek mee · heeft meegekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "met iemand meekijken",
+        "op het scherm meekijken",
+        "live meekijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in work and learning contexts."
+    },
+    {
+      "front": "nakijken",
+      "back": "to check; correct",
+      "example": "De docent kijkt de toetsen vanavond na.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "kijkt na · keek na · heeft nagekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "huiswerk nakijken",
+        "gegevens nakijken",
+        "iets zorgvuldig nakijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often used for checking work or information."
+    },
+    {
+      "front": "omkijken",
+      "back": "to look back; care about",
+      "example": "Ze keek nog één keer om.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "kijkt om · keek om · heeft omgekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "achterom kijken",
+        "naar iemand omkijken",
+        "niet meer omkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Naar iemand omkijken means to care for someone."
+    },
+    {
+      "front": "opkijken",
+      "back": "to look up; admire; be surprised",
+      "example": "Iedereen keek op toen de deur openging.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "kijkt op · keek op · heeft opgekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "van iets opkijken",
+        "tegen iemand opkijken",
+        "even opkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Tegen iemand opkijken means to admire or respect."
+    },
+    {
+      "front": "rondkijken",
+      "back": "to look around",
+      "example": "We keken rustig rond in het museum.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kijkt rond · keek rond · heeft rondgekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "even rondkijken",
+        "in een winkel rondkijken",
+        "nieuwsgierig rondkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common when exploring a place or options."
+    },
+    {
+      "front": "terugkijken",
+      "back": "to look back; watch again",
+      "example": "Ik kijk met plezier op die periode terug.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "kijkt terug · keek terug · heeft teruggekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "op iets terugkijken",
+        "een programma terugkijken",
+        "positief terugkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Op iets terugkijken is a common fixed pattern."
+    },
+    {
+      "front": "uitkijken",
+      "back": "to look out; look forward to",
+      "example": "Ik kijk uit naar de vakantie.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "kijkt uit · keek uit · heeft uitgekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "uitkijken naar",
+        "goed uitkijken",
+        "voor gevaar uitkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Uitkijken naar means to look forward to."
+    },
+    {
+      "front": "wegkijken",
+      "back": "to look away; ignore",
+      "example": "We mogen niet wegkijken van dit probleem.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "kijkt weg · keek weg · heeft weggekeken",
+      "family": "kijken",
+      "separable": true,
+      "collocations": [
+        "bewust wegkijken",
+        "snel wegkijken",
+        "niet langer wegkijken"
+      ],
+      "related": [
+        "kijken",
+        "aankijken"
+      ],
+      "tags": [
+        "verb family",
+        "kijken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often figurative: refusing to confront a problem."
+    },
+    {
+      "front": "werken",
+      "back": "to work; function",
+      "example": "Deze methode werkt verrassend goed.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "werkt · werkte · heeft gewerkt",
+      "family": "werken",
+      "separable": false,
+      "collocations": [
+        "hard werken",
+        "thuis werken",
+        "goed werken"
+      ],
+      "related": [
+        "afwerken",
+        "bewerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Used for people, systems, methods, and medicines."
+    },
+    {
+      "front": "afwerken",
+      "back": "to finish; process",
+      "example": "Ik wil deze lijst vandaag afwerken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "werkt af · werkte af · heeft afgewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "een lijst afwerken",
+        "netjes afwerken",
+        "bestellingen afwerken"
+      ],
+      "related": [
+        "werken",
+        "bewerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often means completing tasks one by one."
+    },
+    {
+      "front": "bewerken",
+      "back": "to edit; process; cultivate",
+      "example": "Ze bewerkte de foto op haar laptop.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "bewerkt · bewerkte · heeft bewerkt",
+      "family": "werken",
+      "separable": false,
+      "collocations": [
+        "een tekst bewerken",
+        "grond bewerken",
+        "gegevens bewerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable; meaning varies by object."
+    },
+    {
+      "front": "doorwerken",
+      "back": "to keep working; have an effect",
+      "example": "De maatregel werkt nog jaren door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "werkt door · werkte door · heeft doorgewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "lang doorwerken",
+        "tot laat doorwerken",
+        "doorwerken in"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can mean continuing or having lasting effects."
+    },
+    {
+      "front": "inwerken",
+      "back": "to train; become familiar",
+      "example": "Mijn collega werkt me deze week in.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "werkt in · werkte in · heeft ingewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "iemand inwerken",
+        "zich inwerken in",
+        "goed ingewerkt zijn"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in workplace onboarding."
+    },
+    {
+      "front": "meewerken",
+      "back": "to cooperate; contribute",
+      "example": "Iedereen werkte enthousiast aan het project mee.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "werkt mee · werkte mee · heeft meegewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "meewerken aan",
+        "volledig meewerken",
+        "niet willen meewerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually takes aan."
+    },
+    {
+      "front": "omwerken",
+      "back": "to rework; transform",
+      "example": "De auteur werkte het verhaal om tot een roman.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 2,
+      "register": "formal",
+      "forms": "werkt om · werkte om · heeft omgewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "omwerken tot",
+        "een tekst omwerken",
+        "grondig omwerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Less frequent; often used for adaptations."
+    },
+    {
+      "front": "opwerken",
+      "back": "to work up; upgrade",
+      "example": "Het bedrijf werkt afval op tot nieuwe grondstoffen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "werkt op · werkte op · heeft opgewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "zich opwerken",
+        "opwerken tot",
+        "materiaal opwerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Zich opwerken means to rise through effort."
+    },
+    {
+      "front": "samenwerken",
+      "back": "to collaborate",
+      "example": "Onze teams werken nauw samen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "werkt samen · werkte samen · heeft samengewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "samenwerken met",
+        "nauw samenwerken",
+        "internationaal samenwerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common in professional contexts."
+    },
+    {
+      "front": "tegenwerken",
+      "back": "to obstruct; work against",
+      "example": "Slecht weer werkte de planning tegen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "werkt tegen · werkte tegen · heeft tegengewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "iemand tegenwerken",
+        "elkaar tegenwerken",
+        "de ontwikkeling tegenwerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be intentional or caused by circumstances."
+    },
+    {
+      "front": "uitwerken",
+      "back": "to elaborate; work out",
+      "example": "We werken het voorstel verder uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "werkt uit · werkte uit · heeft uitgewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "een plan uitwerken",
+        "details uitwerken",
+        "goed uitgewerkt"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in planning and writing."
+    },
+    {
+      "front": "verwerken",
+      "back": "to process; cope with",
+      "example": "Het kost tijd om zo’n verlies te verwerken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "verwerkt · verwerkte · heeft verwerkt",
+      "family": "werken",
+      "separable": false,
+      "collocations": [
+        "informatie verwerken",
+        "afval verwerken",
+        "verdriet verwerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable; used for materials, data, and emotions."
+    },
+    {
+      "front": "wegwerken",
+      "back": "to eliminate; finish off",
+      "example": "We moeten de achterstand snel wegwerken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "werkt weg · werkte weg · heeft weggewerkt",
+      "family": "werken",
+      "separable": true,
+      "collocations": [
+        "een achterstand wegwerken",
+        "vlekken wegwerken",
+        "eten wegwerken"
+      ],
+      "related": [
+        "werken",
+        "afwerken"
+      ],
+      "tags": [
+        "verb family",
+        "werken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often implies removing something through effort."
+    },
+    {
+      "front": "trekken",
+      "back": "to pull; draw; travel",
+      "example": "Hij trok de deur voorzichtig open.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "trekt · trok · heeft/is getrokken",
+      "family": "trekken",
+      "separable": false,
+      "collocations": [
+        "aandacht trekken",
+        "conclusies trekken",
+        "door het land trekken"
+      ],
+      "related": [
+        "aantrekken",
+        "aftrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "A broad irregular verb with many figurative uses."
+    },
+    {
+      "front": "aantrekken",
+      "back": "to put on; attract",
+      "example": "Trek een warme jas aan.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "trekt aan · trok aan · heeft aangetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "kleren aantrekken",
+        "klanten aantrekken",
+        "de economie trekt aan"
+      ],
+      "related": [
+        "trekken",
+        "aftrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Also used for recovery or increasing activity."
+    },
+    {
+      "front": "aftrekken",
+      "back": "to subtract; pull off",
+      "example": "Je moet de korting van het totaal aftrekken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "trekt af · trok af · heeft afgetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "een bedrag aftrekken",
+        "kosten aftrekken",
+        "zich terugtrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Do not confuse with uittrekken."
+    },
+    {
+      "front": "betrekken",
+      "back": "to involve; occupy; obtain from",
+      "example": "We betrekken bewoners bij het plan.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "betrekt · betrok · heeft betrokken",
+      "family": "trekken",
+      "separable": false,
+      "collocations": [
+        "iemand bij iets betrekken",
+        "een woning betrekken",
+        "energie betrekken van"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable and common in formal contexts."
+    },
+    {
+      "front": "doortrekken",
+      "back": "to pull through; extend; flush",
+      "example": "De gemeente wil de tramlijn doortrekken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "trekt door · trok door · heeft doorgetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "een lijn doortrekken",
+        "het toilet doortrekken",
+        "naar het noorden doortrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Meaning depends on context."
+    },
+    {
+      "front": "intrekken",
+      "back": "to withdraw; move in; revoke",
+      "example": "De organisatie trok het voorstel in.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "trekt in · trok in · heeft/is ingetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "een besluit intrekken",
+        "bij iemand intrekken",
+        "een vergunning intrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can take hebben or zijn depending on meaning."
+    },
+    {
+      "front": "meetrekken",
+      "back": "to pull along; draw in",
+      "example": "De sterke stroming trok hem mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "trekt mee · trok mee · heeft meegetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "iemand meetrekken",
+        "zich laten meetrekken",
+        "de markt meetrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often figurative for influencing others."
+    },
+    {
+      "front": "optrekken",
+      "back": "to pull up; accelerate; associate",
+      "example": "De auto trok snel op bij het stoplicht.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "trekt op · trok op · heeft/is opgetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "met iemand optrekken",
+        "een muur optrekken",
+        "snel optrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Multiple unrelated common meanings."
+    },
+    {
+      "front": "overtrekken",
+      "back": "to pull over; pass over",
+      "example": "Een zware bui trok over de stad.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "trekt over · trok over · is overgetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "een bui trekt over",
+        "de grens overtrekken",
+        "rook trekt over"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Written overtrekken in some meanings."
+    },
+    {
+      "front": "terugtrekken",
+      "back": "to withdraw; retreat",
+      "example": "Het bedrijf trok zich uit de markt terug.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "trekt terug · trok terug · heeft/is teruggetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "zich terugtrekken",
+        "troepen terugtrekken",
+        "een kandidatuur terugtrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Reflexive use is very common."
+    },
+    {
+      "front": "uittrekken",
+      "back": "to take off; pull out; allocate",
+      "example": "Hij trok zijn schoenen uit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "trekt uit · trok uit · heeft/is uitgetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "kleren uittrekken",
+        "tijd uittrekken voor",
+        "een bedrag uittrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Also means reserving time or money."
+    },
+    {
+      "front": "vertrekken",
+      "back": "to leave; depart",
+      "example": "De trein vertrekt om half acht.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "vertrekt · vertrok · is vertrokken",
+      "family": "trekken",
+      "separable": false,
+      "collocations": [
+        "op tijd vertrekken",
+        "naar huis vertrekken",
+        "vanaf spoor drie vertrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable despite the apparent prefix."
+    },
+    {
+      "front": "wegtrekken",
+      "back": "to pull away; move away; disappear",
+      "example": "De mist trok tegen de middag weg.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "trekt weg · trok weg · is/heeft weggetrokken",
+      "family": "trekken",
+      "separable": true,
+      "collocations": [
+        "uit de stad wegtrekken",
+        "de pijn trekt weg",
+        "troepen wegtrekken"
+      ],
+      "related": [
+        "trekken",
+        "aantrekken"
+      ],
+      "tags": [
+        "verb family",
+        "trekken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Used for movement and symptoms disappearing."
+    },
+    {
+      "front": "leggen",
+      "back": "to put; lay",
+      "example": "Leg de sleutels maar op tafel.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "legt · legde · heeft gelegd",
+      "family": "leggen",
+      "separable": false,
+      "collocations": [
+        "op tafel leggen",
+        "de nadruk leggen op",
+        "contact leggen"
+      ],
+      "related": [
+        "aanleggen",
+        "afleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually describes placing something horizontally or deliberately."
+    },
+    {
+      "front": "aanleggen",
+      "back": "to construct; dock; create",
+      "example": "De gemeente legt een nieuw park aan.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "legt aan · legde aan · heeft aangelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "een weg aanleggen",
+        "een voorraad aanleggen",
+        "een schip legt aan"
+      ],
+      "related": [
+        "leggen",
+        "afleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very broad; often creating infrastructure or reserves."
+    },
+    {
+      "front": "afleggen",
+      "back": "to take; cover; make a statement",
+      "example": "Ze legde gisteren haar rijexamen af.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "legt af · legde af · heeft afgelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "een examen afleggen",
+        "een verklaring afleggen",
+        "een afstand afleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Highly productive fixed combinations."
+    },
+    {
+      "front": "beleggen",
+      "back": "to invest; cover; organize",
+      "example": "Hij belegt een deel van zijn spaargeld.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "belegt · belegde · heeft belegd",
+      "family": "leggen",
+      "separable": false,
+      "collocations": [
+        "geld beleggen",
+        "een vergadering beleggen",
+        "brood beleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Different meanings share the same spelling."
+    },
+    {
+      "front": "blootleggen",
+      "back": "to expose; reveal",
+      "example": "Het onderzoek legde ernstige fouten bloot.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "legt bloot · legde bloot · heeft blootgelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "problemen blootleggen",
+        "een structuur blootleggen",
+        "misstanden blootleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in journalism and research."
+    },
+    {
+      "front": "inleggen",
+      "back": "to insert; contribute",
+      "example": "Iedere deelnemer legt tien euro in.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "legt in · legde in · heeft ingelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "geld inleggen",
+        "een zool inleggen",
+        "groente inleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can mean contributing money or preserving food."
+    },
+    {
+      "front": "neerleggen",
+      "back": "to put down; resign oneself",
+      "example": "De minister legde zijn functie neer.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "legt neer · legde neer · heeft neergelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "een functie neerleggen",
+        "iets naast zich neerleggen",
+        "een voorstel neerleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in formal and figurative uses."
+    },
+    {
+      "front": "opleggen",
+      "back": "to impose; order",
+      "example": "De rechter legde een hoge boete op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "formal",
+      "forms": "legt op · legde op · heeft opgelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "een boete opleggen",
+        "regels opleggen",
+        "zich beperkingen opleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually implies authority or obligation."
+    },
+    {
+      "front": "overleggen",
+      "back": "to consult; submit",
+      "example": "We moeten eerst met de directie overleggen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "overlegt · overlegde · heeft overlegd",
+      "family": "leggen",
+      "separable": false,
+      "collocations": [
+        "met iemand overleggen",
+        "documenten overleggen",
+        "goed overleg plegen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Stress and separability differ by meaning; consult is inseparable."
+    },
+    {
+      "front": "terugleggen",
+      "back": "to put back",
+      "example": "Leg het boek na gebruik terug.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "legt terug · legde terug · heeft teruggelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "op zijn plaats terugleggen",
+        "geld terugleggen",
+        "de verantwoordelijkheid terugleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often literal, sometimes figurative."
+    },
+    {
+      "front": "uitleggen",
+      "back": "to explain; lay out",
+      "example": "Kun je deze regel nog eens uitleggen?",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "legt uit · legde uit · heeft uitgelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "duidelijk uitleggen",
+        "aan iemand uitleggen",
+        "een plan uitleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "One of the most important separable verbs."
+    },
+    {
+      "front": "vastleggen",
+      "back": "to record; establish; secure",
+      "example": "We leggen de afspraken schriftelijk vast.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "legt vast · legde vast · heeft vastgelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "afspraken vastleggen",
+        "gegevens vastleggen",
+        "wettelijk vastleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in administration, law, and media."
+    },
+    {
+      "front": "voorleggen",
+      "back": "to submit; present",
+      "example": "De commissie legt het plan aan de raad voor.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "legt voor · legde voor · heeft voorgelegd",
+      "family": "leggen",
+      "separable": true,
+      "collocations": [
+        "een voorstel voorleggen",
+        "een vraag voorleggen",
+        "aan iemand voorleggen"
+      ],
+      "related": [
+        "leggen",
+        "aanleggen"
+      ],
+      "tags": [
+        "verb family",
+        "leggen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually takes aan for the person receiving it."
+    },
+    {
+      "front": "komen",
+      "back": "to come",
+      "example": "Kom je morgen ook naar de vergadering?",
+      "cefr": "A1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "komt · kwam · is gekomen",
+      "family": "komen",
+      "separable": false,
+      "collocations": [
+        "thuis komen",
+        "te weten komen",
+        "in aanmerking komen"
+      ],
+      "related": [
+        "aankomen",
+        "afkomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Core irregular motion verb with many fixed expressions."
+    },
+    {
+      "front": "aankomen",
+      "back": "to arrive; gain weight",
+      "example": "De trein kwam tien minuten te laat aan.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "komt aan · kwam aan · is aangekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "op tijd aankomen",
+        "in Amsterdam aankomen",
+        "een paar kilo aankomen"
+      ],
+      "related": [
+        "komen",
+        "afkomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Context distinguishes arrival from weight gain."
+    },
+    {
+      "front": "afkomen",
+      "back": "to come off; approach",
+      "example": "Er kwamen veel mensen op het evenement af.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "komt af · kwam af · is afgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "op iets afkomen",
+        "ergens vanaf komen",
+        "goed afkomen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often appears with op or van."
+    },
+    {
+      "front": "bijkomen",
+      "back": "to recover; join; be added",
+      "example": "Na de operatie moest hij rustig bijkomen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "komt bij · kwam bij · is bijgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "even bijkomen",
+        "van de schrik bijkomen",
+        "er komen kosten bij"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common for physical or emotional recovery."
+    },
+    {
+      "front": "binnenkomen",
+      "back": "to enter; come in",
+      "example": "Ze kwam precies om negen uur binnen.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "komt binnen · kwam binnen · is binnengekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "een kamer binnenkomen",
+        "geld komt binnen",
+        "een bericht komt binnen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Also used for incoming money or messages."
+    },
+    {
+      "front": "doorkomen",
+      "back": "to get through; come through",
+      "example": "Ik kon telefonisch nauwelijks doorkomen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "komt door · kwam door · is doorgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "de selectie doorkomen",
+        "goed doorkomen",
+        "een boodschap komt door"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Used for communication, survival, and selection."
+    },
+    {
+      "front": "meekomen",
+      "back": "to come along",
+      "example": "Kom je vanavond met ons mee?",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "komt mee · kwam mee · is meegekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "met iemand meekomen",
+        "niet kunnen meekomen",
+        "goed meekomen op school"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Figuratively, meekomen means keeping up."
+    },
+    {
+      "front": "omkomen",
+      "back": "to perish; die",
+      "example": "Bij de ramp kwamen meerdere mensen om.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "komt om · kwam om · is omgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "bij een ongeluk omkomen",
+        "in de oorlog omkomen",
+        "door geweld omkomen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Serious register; generally used for unnatural death."
+    },
+    {
+      "front": "opkomen",
+      "back": "to arise; stand up for; attend",
+      "example": "Ze komt altijd voor haar collega’s op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "komt op · kwam op · is opgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "voor iemand opkomen",
+        "een idee komt op",
+        "de zon komt op"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very broad family member."
+    },
+    {
+      "front": "overkomen",
+      "back": "to happen to; come across",
+      "example": "Zoiets is mij nog nooit overkomen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "overkomt · overkwam · is overkomen",
+      "family": "komen",
+      "separable": false,
+      "collocations": [
+        "iets overkomt iemand",
+        "sympathiek overkomen",
+        "geloofwaardig overkomen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable when meaning happen or appear."
+    },
+    {
+      "front": "terugkomen",
+      "back": "to return; revisit",
+      "example": "Ik kom later op dit punt terug.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "komt terug · kwam terug · is teruggekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "naar huis terugkomen",
+        "ergens op terugkomen",
+        "steeds terugkomen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Op iets terugkomen means revisit or retract."
+    },
+    {
+      "front": "uitkomen",
+      "back": "to come out; be released; work out",
+      "example": "De nieuwe editie komt volgende maand uit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "komt uit · kwam uit · is uitgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "een boek komt uit",
+        "goed uitkomen",
+        "ervoor uitkomen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Also used for convenience and openly admitting something."
+    },
+    {
+      "front": "voorkomen",
+      "back": "to occur; prevent; appear",
+      "example": "Dit probleem komt vooral in grote steden voor.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "komt voor · kwam voor · is voorgekomen",
+      "family": "komen",
+      "separable": true,
+      "collocations": [
+        "vaak voorkomen",
+        "iets voorkomen",
+        "mij bekend voorkomen"
+      ],
+      "related": [
+        "komen",
+        "aankomen"
+      ],
+      "tags": [
+        "verb family",
+        "komen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Stress and separability differ: occur is separable; prevent is inseparable."
+    },
+    {
+      "front": "vallen",
+      "back": "to fall",
+      "example": "Het glas viel van tafel.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "valt · viel · is gevallen",
+      "family": "vallen",
+      "separable": false,
+      "collocations": [
+        "in slaap vallen",
+        "een besluit valt",
+        "onder iets vallen"
+      ],
+      "related": [
+        "aanvallen",
+        "afvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Many figurative fixed expressions."
+    },
+    {
+      "front": "aanvallen",
+      "back": "to attack",
+      "example": "De hond viel de fietser plotseling aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "valt aan · viel aan · heeft aangevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "iemand aanvallen",
+        "een land aanvallen",
+        "verbaal aanvallen"
+      ],
+      "related": [
+        "vallen",
+        "afvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be literal or verbal."
+    },
+    {
+      "front": "afvallen",
+      "back": "to lose weight; drop out",
+      "example": "Ze is sinds januari vijf kilo afgevallen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "valt af · viel af · is afgevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "veel afvallen",
+        "een kandidaat valt af",
+        "stukken vallen af"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Context distinguishes weight loss and elimination."
+    },
+    {
+      "front": "bevallen",
+      "back": "to please; give birth",
+      "example": "De nieuwe baan bevalt haar goed.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "bevalt · beviel · is bevallen",
+      "family": "vallen",
+      "separable": false,
+      "collocations": [
+        "goed bevallen",
+        "van een kind bevallen",
+        "slecht bevallen"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Different senses have different argument structures."
+    },
+    {
+      "front": "binnenvallen",
+      "back": "to burst in; invade",
+      "example": "Hij viel zonder te kloppen binnen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "valt binnen · viel binnen · is binnengevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "zomaar binnenvallen",
+        "een land binnenvallen",
+        "bij iemand binnenvallen"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be casual or military."
+    },
+    {
+      "front": "meevallen",
+      "back": "to be better than expected",
+      "example": "Het examen viel gelukkig mee.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "valt mee · viel mee · is meegevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "erg meevallen",
+        "de schade valt mee",
+        "het valt wel mee"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common Dutch evaluative expression."
+    },
+    {
+      "front": "omvallen",
+      "back": "to fall over",
+      "example": "Door de storm viel een boom om.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "valt om · viel om · is omgevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "bijna omvallen",
+        "een kast valt om",
+        "van vermoeidheid omvallen"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually literal, sometimes exaggerated."
+    },
+    {
+      "front": "opvallen",
+      "back": "to stand out; be noticed",
+      "example": "Het viel me op dat hij stil was.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "valt op · viel op · is opgevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "iemand valt op",
+        "iets valt op",
+        "opvallend gedrag"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common pattern: het valt me op dat..."
+    },
+    {
+      "front": "overvallen",
+      "back": "to rob; overwhelm; surprise",
+      "example": "De winkel werd gisteravond overvallen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "overvalt · overviel · heeft overvallen",
+      "family": "vallen",
+      "separable": false,
+      "collocations": [
+        "een bank overvallen",
+        "door emoties overvallen",
+        "iemand onverwacht overvallen"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable."
+    },
+    {
+      "front": "tegenvallen",
+      "back": "to disappoint; be worse than expected",
+      "example": "De resultaten vielen behoorlijk tegen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "valt tegen · viel tegen · is tegengevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "erg tegenvallen",
+        "de kosten vallen tegen",
+        "een tegenvallend resultaat"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Opposite of meevallen."
+    },
+    {
+      "front": "terugvallen",
+      "back": "to relapse; fall back",
+      "example": "Na een goede maand viel de verkoop terug.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "valt terug · viel terug · is teruggevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "terugvallen op",
+        "in oude gewoonten terugvallen",
+        "sterk terugvallen"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often takes op when relying on a fallback."
+    },
+    {
+      "front": "uitvallen",
+      "back": "to fail; drop out; lash out",
+      "example": "Door de storing viel het internet uit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "valt uit · viel uit · is uitgevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "de stroom valt uit",
+        "tegen iemand uitvallen",
+        "een speler valt uit"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common for systems and people."
+    },
+    {
+      "front": "voorvallen",
+      "back": "to occur; incident",
+      "example": "Er is gisteren iets vreemds voorgevallen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal",
+      "forms": "valt voor · viel voor · is voorgevallen",
+      "family": "vallen",
+      "separable": true,
+      "collocations": [
+        "wat is er voorgevallen",
+        "een incident dat voorviel",
+        "zelden voorvallen"
+      ],
+      "related": [
+        "vallen",
+        "aanvallen"
+      ],
+      "tags": [
+        "verb family",
+        "vallen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "More formal than gebeuren."
+    },
+    {
+      "front": "blijven",
+      "back": "to stay; remain; keep",
+      "example": "Blijf nog even zitten.",
+      "cefr": "A1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "blijft · bleef · is gebleven",
+      "family": "blijven",
+      "separable": false,
+      "collocations": [
+        "thuis blijven",
+        "gezond blijven",
+        "blijven proberen"
+      ],
+      "related": [
+        "achterblijven",
+        "bijblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often combines with an infinitive to mean keep doing."
+    },
+    {
+      "front": "achterblijven",
+      "back": "to stay behind; lag",
+      "example": "De resultaten blijven achter bij de verwachtingen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "blijft achter · bleef achter · is achtergebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "achterblijven bij",
+        "alleen achterblijven",
+        "economisch achterblijven"
+      ],
+      "related": [
+        "blijven",
+        "bijblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common both literally and statistically."
+    },
+    {
+      "front": "bijblijven",
+      "back": "to keep up; stay informed",
+      "example": "Het is lastig om alle ontwikkelingen bij te blijven.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "blijft bij · bleef bij · is bijgebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "de ontwikkelingen bijblijven",
+        "goed bijblijven",
+        "niet kunnen bijblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often used without a preposition before the object."
+    },
+    {
+      "front": "binnenblijven",
+      "back": "to stay indoors",
+      "example": "Vanwege de storm bleven we binnen.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "blijft binnen · bleef binnen · is binnengebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "de hele dag binnenblijven",
+        "veilig binnenblijven",
+        "liever binnenblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Straightforward separable verb."
+    },
+    {
+      "front": "doorblijven",
+      "back": "to remain continuously",
+      "example": "Hij is na sluitingstijd nog even doorgebleven.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 2,
+      "register": "everyday",
+      "forms": "blijft door · bleef door · is doorgebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "nog even doorblijven",
+        "lang doorblijven",
+        "op kantoor doorblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Less frequent and mainly conversational."
+    },
+    {
+      "front": "overblijven",
+      "back": "to remain; be left over",
+      "example": "Na de lunch bleef weinig brood over.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "blijft over · bleef over · is overgebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "tijd overblijven",
+        "geld overblijven",
+        "als enige overblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common for leftovers and remaining options."
+    },
+    {
+      "front": "samenblijven",
+      "back": "to stay together",
+      "example": "Ondanks de problemen zijn ze samen gebleven.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "blijft samen · bleef samen · is samengebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "als groep samenblijven",
+        "lang samenblijven",
+        "bij elkaar blijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often written as two words depending on syntax."
+    },
+    {
+      "front": "thuisblijven",
+      "back": "to stay home",
+      "example": "Ik blijf vandaag thuis omdat ik ziek ben.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "blijft thuis · bleef thuis · is thuisgebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "van school thuisblijven",
+        "een avond thuisblijven",
+        "ziek thuisblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common everyday verb."
+    },
+    {
+      "front": "uitblijven",
+      "back": "to fail to occur; stay away",
+      "example": "Een reactie van de minister bleef uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "blijft uit · bleef uit · is uitgebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "een reactie blijft uit",
+        "succes blijft uit",
+        "lang uitblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often formal and used for expected results that do not happen."
+    },
+    {
+      "front": "vastblijven",
+      "back": "to remain stuck",
+      "example": "De lade bleef halverwege vastzitten.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 2,
+      "register": "everyday",
+      "forms": "blijft vast · bleef vast · is vastgebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "in de modder vastblijven",
+        "ergens vastblijven",
+        "vast blijven zitten"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually expressed as vast blijven zitten."
+    },
+    {
+      "front": "wegblijven",
+      "back": "to stay away",
+      "example": "Veel bezoekers bleven door het slechte weer weg.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "blijft weg · bleef weg · is weggebleven",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "van school wegblijven",
+        "lang wegblijven",
+        "bewust wegblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can imply absence by choice or circumstance."
+    },
+    {
+      "front": "zittenblijven",
+      "back": "to repeat a school year; remain seated",
+      "example": "Hij bleef in de derde klas zitten.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "blijft zitten · bleef zitten · is blijven zitten",
+      "family": "blijven",
+      "separable": true,
+      "collocations": [
+        "op school blijven zitten",
+        "rustig blijven zitten",
+        "een jaar zittenblijven"
+      ],
+      "related": [
+        "blijven",
+        "achterblijven"
+      ],
+      "tags": [
+        "verb family",
+        "blijven",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "School meaning is lexicalized."
+    },
+    {
+      "front": "voelen",
+      "back": "to feel",
+      "example": "Ik voel me vandaag veel beter.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "voelt · voelde · heeft gevoeld",
+      "family": "voelen",
+      "separable": false,
+      "collocations": [
+        "zich goed voelen",
+        "pijn voelen",
+        "druk voelen"
+      ],
+      "related": [
+        "aanvoelen",
+        "bevoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Reflexive use describes one’s condition."
+    },
+    {
+      "front": "aanvoelen",
+      "back": "to sense; feel like",
+      "example": "De situatie voelde meteen vreemd aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "voelt aan · voelde aan · heeft aangevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "goed aanvoelen",
+        "iets intuïtief aanvoelen",
+        "zacht aanvoelen"
+      ],
+      "related": [
+        "voelen",
+        "bevoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can describe intuition or physical texture."
+    },
+    {
+      "front": "bevoelen",
+      "back": "to feel; examine by touch",
+      "example": "De arts bevoelde voorzichtig zijn knie.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 2,
+      "register": "formal",
+      "forms": "bevoelt · bevoelde · heeft bevoeld",
+      "family": "voelen",
+      "separable": false,
+      "collocations": [
+        "een wond bevoelen",
+        "voorzichtig bevoelen",
+        "met de hand bevoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "More deliberate and less common than voelen."
+    },
+    {
+      "front": "meevoelen",
+      "back": "to sympathize; empathize",
+      "example": "We voelen intens met de familie mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "voelt mee · voelde mee · heeft meegevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "met iemand meevoelen",
+        "oprecht meevoelen",
+        "sterk meevoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually takes met."
+    },
+    {
+      "front": "navoelen",
+      "back": "to feel afterward; palpate",
+      "example": "De fysiotherapeut voelde de spier nog even na.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 2,
+      "register": "neutral",
+      "forms": "voelt na · voelde na · heeft nagevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "een plek navoelen",
+        "voorzichtig navoelen",
+        "de pijn nog voelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Written navoelen; relatively uncommon."
+    },
+    {
+      "front": "opvoelen",
+      "back": "to feel up; perceive upward",
+      "example": "Deze vorm is zeldzaam in modern algemeen Nederlands.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 1,
+      "register": "rare",
+      "forms": "voelt op · voelde op · heeft opgevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "zeldzaam gebruik",
+        "dialectaal voorkomen",
+        "letterlijk voelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Included for family completeness but low priority."
+    },
+    {
+      "front": "terugvoelen",
+      "back": "to feel in return; sense back",
+      "example": "In virtual reality kun je soms weerstand terugvoelen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 1,
+      "register": "technical",
+      "forms": "voelt terug · voelde terug · heeft teruggevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "weerstand terugvoelen",
+        "contact terugvoelen",
+        "nauwelijks terugvoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Technical or context-specific."
+    },
+    {
+      "front": "uitvoelen",
+      "back": "to explore by feeling; sound out",
+      "example": "Ze probeerde voorzichtig uit te voelen wat de groep wilde.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 2,
+      "register": "neutral",
+      "forms": "voelt uit · voelde uit · heeft uitgevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "een situatie uitvoelen",
+        "iemand uitvoelen",
+        "voorzichtig uitvoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often means tactfully finding out."
+    },
+    {
+      "front": "voorvoelen",
+      "back": "to foresee intuitively",
+      "example": "Hij voelde al voor dat er iets mis zou gaan.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 2,
+      "register": "literary",
+      "forms": "voelt voor · voelde voor · heeft voorgevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "onraad voorvoelen",
+        "gevaar voorvoelen",
+        "iets voorvoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Less common than aanvoelen."
+    },
+    {
+      "front": "zich invoelen",
+      "back": "to empathize; imagine oneself",
+      "example": "Probeer je in de klant in te voelen.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "voelt zich in · voelde zich in · heeft zich ingeleefd/ingevoeld",
+      "family": "voelen",
+      "separable": true,
+      "collocations": [
+        "zich invoelen in",
+        "goed kunnen invoelen",
+        "emotioneel invoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inleven is often more idiomatic."
+    },
+    {
+      "front": "gevoelen",
+      "back": "to feel; sentiment",
+      "example": "Dit werkwoord klinkt tegenwoordig formeel of ouderwets.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 1,
+      "register": "formal",
+      "forms": "gevoelt · gevoelde · heeft gevoeld",
+      "family": "voelen",
+      "separable": false,
+      "collocations": [
+        "een behoefte gevoelen",
+        "medelijden gevoelen",
+        "sterk gevoelen"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Mostly formal or archaic as a verb."
+    },
+    {
+      "front": "gevoelloos worden",
+      "back": "to become numb",
+      "example": "Mijn vingers werden door de kou gevoelloos.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "wordt gevoelloos · werd gevoelloos · is gevoelloos geworden",
+      "family": "voelen",
+      "separable": false,
+      "collocations": [
+        "lichamelijk gevoelloos",
+        "emotioneel gevoelloos",
+        "langzaam gevoelloos worden"
+      ],
+      "related": [
+        "voelen",
+        "aanvoelen"
+      ],
+      "tags": [
+        "verb family",
+        "voelen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "A useful related expression rather than a strict prefix verb."
+    },
+    {
+      "front": "laten",
+      "back": "to let; leave; have something done",
+      "example": "Laat het raam maar open.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "laat · liet · heeft gelaten",
+      "family": "laten",
+      "separable": false,
+      "collocations": [
+        "iemand laten gaan",
+        "iets laten doen",
+        "met rust laten"
+      ],
+      "related": [
+        "achterlaten",
+        "aflaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Core causative and permissive verb."
+    },
+    {
+      "front": "achterlaten",
+      "back": "to leave behind",
+      "example": "De reiziger liet zijn tas in de trein achter.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "laat achter · liet achter · heeft achtergelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "sporen achterlaten",
+        "een boodschap achterlaten",
+        "iemand achterlaten"
+      ],
+      "related": [
+        "laten",
+        "aflaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Literal and figurative."
+    },
+    {
+      "front": "aflaten",
+      "back": "to desist; release",
+      "example": "Hij liet uiteindelijk af van zijn eis.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal",
+      "forms": "laat af · liet af · heeft afgelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "aflaten van",
+        "stoom aflaten",
+        "niet aflaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often appears as aflaten van."
+    },
+    {
+      "front": "binnenlaten",
+      "back": "to let in",
+      "example": "De bewaker liet ons pas na controle binnen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "laat binnen · liet binnen · heeft binnengelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "iemand binnenlaten",
+        "geen bezoekers binnenlaten",
+        "licht binnenlaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common and transparent."
+    },
+    {
+      "front": "doorlaten",
+      "back": "to let through; transmit",
+      "example": "Dit materiaal laat weinig licht door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "laat door · liet door · heeft doorgelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "licht doorlaten",
+        "iemand doorlaten",
+        "water doorlaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Used for access and physical transmission."
+    },
+    {
+      "front": "loslaten",
+      "back": "to let go; release",
+      "example": "Je moet die gedachte proberen los te laten.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "laat los · liet los · heeft losgelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "iemand loslaten",
+        "een idee loslaten",
+        "de controle loslaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common figuratively."
+    },
+    {
+      "front": "nalaten",
+      "back": "to fail to do; leave behind",
+      "example": "De organisatie liet na de bewoners te informeren.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "laat na · liet na · heeft nagelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "iets nalaten",
+        "bezittingen nalaten",
+        "niet kunnen nalaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Formal; can mean omit or bequeath."
+    },
+    {
+      "front": "openlaten",
+      "back": "to leave open",
+      "example": "We laten deze mogelijkheid voorlopig open.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "laat open · liet open · heeft opengelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "een deur openlaten",
+        "een vraag openlaten",
+        "opties openlaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common literal and figurative phrase."
+    },
+    {
+      "front": "overlaten",
+      "back": "to leave to; entrust",
+      "example": "Ik laat de keuze aan jou over.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "laat over · liet over · heeft overgelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "aan iemand overlaten",
+        "niets aan het toeval overlaten",
+        "werk overlaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often takes aan."
+    },
+    {
+      "front": "toelaten",
+      "back": "to admit; allow",
+      "example": "De school laat dit jaar meer studenten toe.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "formal",
+      "forms": "laat toe · liet toe · heeft toegelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "iemand toelaten",
+        "niet toelaten dat",
+        "toegang toelaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "More formal than laten."
+    },
+    {
+      "front": "uitlaten",
+      "back": "to take out; express; exhaust",
+      "example": "Ik moet de hond nog uitlaten.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "laat uit · liet uit · heeft uitgelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "de hond uitlaten",
+        "zich uitlaten over",
+        "gas uitlaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Zich uitlaten over means express an opinion about."
+    },
+    {
+      "front": "weglaten",
+      "back": "to omit",
+      "example": "Je kunt deze alinea beter weglaten.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "laat weg · liet weg · heeft weggelaten",
+      "family": "laten",
+      "separable": true,
+      "collocations": [
+        "details weglaten",
+        "bewust weglaten",
+        "een woord weglaten"
+      ],
+      "related": [
+        "laten",
+        "achterlaten"
+      ],
+      "tags": [
+        "verb family",
+        "laten",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in editing and explanation."
+    },
+    {
+      "front": "halen",
+      "back": "to get; fetch; achieve",
+      "example": "Ik haal straks boodschappen.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "haalt · haalde · heeft gehaald",
+      "family": "halen",
+      "separable": false,
+      "collocations": [
+        "een diploma halen",
+        "boodschappen halen",
+        "op tijd halen"
+      ],
+      "related": [
+        "afhalen",
+        "behalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very broad everyday verb."
+    },
+    {
+      "front": "afhalen",
+      "back": "to pick up; collect",
+      "example": "Je kunt het pakket morgen afhalen.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "haalt af · haalde af · heeft afgehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "een bestelling afhalen",
+        "iemand afhalen",
+        "eten afhalen"
+      ],
+      "related": [
+        "halen",
+        "behalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often used for takeaway food and collections."
+    },
+    {
+      "front": "behalen",
+      "back": "to achieve; obtain",
+      "example": "Het team behaalde een overtuigende overwinning.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "formal",
+      "forms": "behaalt · behaalde · heeft behaald",
+      "family": "halen",
+      "separable": false,
+      "collocations": [
+        "succes behalen",
+        "een doel behalen",
+        "resultaten behalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Formal counterpart to halen in achievement contexts."
+    },
+    {
+      "front": "binnenhalen",
+      "back": "to bring in; secure",
+      "example": "Het bedrijf haalde een groot contract binnen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "haalt binnen · haalde binnen · heeft binnengehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "een klant binnenhalen",
+        "geld binnenhalen",
+        "de oogst binnenhalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in business and sport."
+    },
+    {
+      "front": "doorhalen",
+      "back": "to cross out; stay up all night",
+      "example": "Streep het verkeerde antwoord door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "haalt door · haalde door · heeft doorgehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "een woord doorhalen",
+        "een nacht doorhalen",
+        "een plan doorhalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Written doorhalen; multiple meanings."
+    },
+    {
+      "front": "inhalen",
+      "back": "to overtake; catch up",
+      "example": "De auto haalde ons rechts in.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "haalt in · haalde in · heeft ingehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "een auto inhalen",
+        "een achterstand inhalen",
+        "gemiste lessen inhalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common literal and figurative verb."
+    },
+    {
+      "front": "neerhalen",
+      "back": "to bring down; criticize",
+      "example": "De storm haalde enkele bomen neer.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "haalt neer · haalde neer · heeft neergehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "een vliegtuig neerhalen",
+        "iemand neerhalen",
+        "een muur neerhalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be physical or verbal."
+    },
+    {
+      "front": "ophalen",
+      "back": "to pick up; collect; recall",
+      "example": "Ik haal je om acht uur op.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "haalt op · haalde op · heeft opgehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "iemand ophalen",
+        "geld ophalen",
+        "herinneringen ophalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common and broad."
+    },
+    {
+      "front": "overhalen",
+      "back": "to persuade; pull over",
+      "example": "Ze haalde me over om mee te gaan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "haalt over · haalde over · heeft overgehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "iemand overhalen",
+        "de trekker overhalen",
+        "zich laten overhalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually takes om te for persuasion."
+    },
+    {
+      "front": "terughalen",
+      "back": "to retrieve; recall",
+      "example": "De fabrikant haalt het product terug.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "haalt terug · haalde terug · heeft teruggehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "een product terughalen",
+        "herinneringen terughalen",
+        "iemand terughalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in recalls and memory."
+    },
+    {
+      "front": "uithalen",
+      "back": "to take out; lash out; achieve",
+      "example": "Hij haalde plotseling naar zijn tegenstander uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "haalt uit · haalde uit · heeft uitgehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "naar iemand uithalen",
+        "een grap uithalen",
+        "alles uit de kast halen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Several idiomatic uses."
+    },
+    {
+      "front": "weghalen",
+      "back": "to remove; take away",
+      "example": "Kun je die lege dozen weghalen?",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "haalt weg · haalde weg · heeft weggehaald",
+      "family": "halen",
+      "separable": true,
+      "collocations": [
+        "afval weghalen",
+        "een obstakel weghalen",
+        "snel weghalen"
+      ],
+      "related": [
+        "halen",
+        "afhalen"
+      ],
+      "tags": [
+        "verb family",
+        "halen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common everyday verb."
+    },
+    {
+      "front": "rijden",
+      "back": "to drive; ride",
+      "example": "Ze rijdt elke dag met de trein naar Utrecht.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "rijdt · reed · heeft/is gereden",
+      "family": "rijden",
+      "separable": false,
+      "collocations": [
+        "auto rijden",
+        "hard rijden",
+        "naar huis rijden"
+      ],
+      "related": [
+        "aanrijden",
+        "afrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Uses hebben or zijn depending on focus and construction."
+    },
+    {
+      "front": "aanrijden",
+      "back": "to hit with a vehicle; drive up",
+      "example": "De fietser werd door een auto aangereden.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "rijdt aan · reed aan · heeft/is aangereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "iemand aanrijden",
+        "komen aanrijden",
+        "een paaltje aanrijden"
+      ],
+      "related": [
+        "rijden",
+        "afrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in traffic reports."
+    },
+    {
+      "front": "afrijden",
+      "back": "to take a driving test; drive down",
+      "example": "Ze moet volgende week afrijden.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "rijdt af · reed af · heeft/is afgereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "voor het rijbewijs afrijden",
+        "een helling afrijden",
+        "de route afrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Dutch-specific driving-test meaning is very common."
+    },
+    {
+      "front": "binnenrijden",
+      "back": "to drive in",
+      "example": "De vrachtwagen reed het terrein binnen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "rijdt binnen · reed binnen · is binnengereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "een garage binnenrijden",
+        "de stad binnenrijden",
+        "rustig binnenrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Transparent separable verb."
+    },
+    {
+      "front": "doorrijden",
+      "back": "to drive on; continue",
+      "example": "Rijd bij het volgende kruispunt rechtdoor.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "rijdt door · reed door · is/heeft doorgereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "gewoon doorrijden",
+        "na een ongeval doorrijden",
+        "lang doorrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can imply failing to stop after an accident."
+    },
+    {
+      "front": "inrijden",
+      "back": "to break in; drive into",
+      "example": "De nieuwe motor moet voorzichtig worden ingereden.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "rijdt in · reed in · heeft/is ingereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "een motor inrijden",
+        "op een menigte inrijden",
+        "een straat inrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Meaning depends on object and preposition."
+    },
+    {
+      "front": "meerijden",
+      "back": "to ride along",
+      "example": "Kun je morgen met mij meerijden?",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "rijdt mee · reed mee · is meegereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "met iemand meerijden",
+        "gratis meerijden",
+        "een stukje meerijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common for sharing transport."
+    },
+    {
+      "front": "omrijden",
+      "back": "to take a detour by vehicle",
+      "example": "Door de afsluiting moesten we tien kilometer omrijden.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "rijdt om · reed om · is omgereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "ver omrijden",
+        "moeten omrijden",
+        "via de snelweg omrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common travel verb."
+    },
+    {
+      "front": "oprijden",
+      "back": "to drive up; use up",
+      "example": "Rijd rustig de brug op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "rijdt op · reed op · heeft/is opgereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "een helling oprijden",
+        "brandstof oprijden",
+        "de snelweg oprijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be motion or consumption."
+    },
+    {
+      "front": "overrijden",
+      "back": "to run over",
+      "example": "De bestuurder reed per ongeluk een paaltje omver.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "rijdt over · reed over · heeft overreden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "iemand overrijden",
+        "een dier overrijden",
+        "bijna overreden worden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Participle is overreden."
+    },
+    {
+      "front": "terugrijden",
+      "back": "to drive back",
+      "example": "We reden dezelfde avond terug naar huis.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "rijdt terug · reed terug · is teruggereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "naar huis terugrijden",
+        "een stuk terugrijden",
+        "meteen terugrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Transparent motion verb."
+    },
+    {
+      "front": "wegrijden",
+      "back": "to drive away",
+      "example": "De bus reed net voor onze neus weg.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "rijdt weg · reed weg · is weggereden",
+      "family": "rijden",
+      "separable": true,
+      "collocations": [
+        "snel wegrijden",
+        "van huis wegrijden",
+        "zonder te betalen wegrijden"
+      ],
+      "related": [
+        "rijden",
+        "aanrijden"
+      ],
+      "tags": [
+        "verb family",
+        "rijden",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common everyday verb."
+    },
+    {
+      "front": "dragen",
+      "back": "to carry; wear; bear",
+      "example": "Ze draagt vandaag een blauwe jas.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "draagt · droeg · heeft gedragen",
+      "family": "dragen",
+      "separable": false,
+      "collocations": [
+        "kleding dragen",
+        "verantwoordelijkheid dragen",
+        "kosten dragen"
+      ],
+      "related": [
+        "aandragen",
+        "afdragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Broad irregular verb."
+    },
+    {
+      "front": "aandragen",
+      "back": "to bring forward; suggest",
+      "example": "De werkgroep droeg verschillende oplossingen aan.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "draagt aan · droeg aan · heeft aangedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "een idee aandragen",
+        "argumenten aandragen",
+        "kandidaten aandragen"
+      ],
+      "related": [
+        "dragen",
+        "afdragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in meetings and reports."
+    },
+    {
+      "front": "afdragen",
+      "back": "to remit; wear out",
+      "example": "Werkgevers dragen belasting en premies af.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "draagt af · droeg af · heeft afgedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "belasting afdragen",
+        "premies afdragen",
+        "kleding afdragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Financial meaning is common in formal contexts."
+    },
+    {
+      "front": "bijdragen",
+      "back": "to contribute",
+      "example": "Iedereen kan aan een betere sfeer bijdragen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "draagt bij · droeg bij · heeft bijgedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "bijdragen aan",
+        "een bijdrage leveren",
+        "financieel bijdragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually takes aan."
+    },
+    {
+      "front": "meedragen",
+      "back": "to carry along; bear with oneself",
+      "example": "Hij draagt die herinnering altijd met zich mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "draagt mee · droeg mee · heeft meegedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "met zich meedragen",
+        "een geheim meedragen",
+        "bagage meedragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often figurative and reflexive-like."
+    },
+    {
+      "front": "nadragen",
+      "back": "to bear a grudge; carry after",
+      "example": "Ze draagt hem die opmerking nog steeds na.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "draagt na · droeg na · heeft nagedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "iemand iets nadragen",
+        "lang nadragen",
+        "geen wrok nadragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Fixed pattern: iemand iets nadragen."
+    },
+    {
+      "front": "opdragen",
+      "back": "to assign; dedicate",
+      "example": "De manager droeg mij een nieuwe taak op.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "formal",
+      "forms": "draagt op · droeg op · heeft opgedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "een taak opdragen",
+        "een boek opdragen aan",
+        "iemand iets opdragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Two important argument patterns."
+    },
+    {
+      "front": "overdragen",
+      "back": "to transfer; transmit",
+      "example": "Hij droeg zijn taken aan een collega over.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "draagt over · droeg over · heeft overgedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "kennis overdragen",
+        "een bedrijf overdragen",
+        "een ziekte overdragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common in professional and medical contexts."
+    },
+    {
+      "front": "uitdragen",
+      "back": "to convey; promote",
+      "example": "De organisatie draagt duidelijke waarden uit.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "draagt uit · droeg uit · heeft uitgedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "een boodschap uitdragen",
+        "waarden uitdragen",
+        "enthousiasme uitstralen en uitdragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often used for identity and values."
+    },
+    {
+      "front": "verdragen",
+      "back": "to tolerate; endure",
+      "example": "Ik kan harde muziek slecht verdragen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "verdraagt · verdroeg · heeft verdragen",
+      "family": "dragen",
+      "separable": false,
+      "collocations": [
+        "pijn verdragen",
+        "kritiek verdragen",
+        "elkaar goed verdragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable and frequently used with kunnen."
+    },
+    {
+      "front": "voordragen",
+      "back": "to nominate; recite; present",
+      "example": "De commissie droeg haar voor als voorzitter.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "draagt voor · droeg voor · heeft voorgedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "iemand voordragen",
+        "een gedicht voordragen",
+        "een presentatie voordragen"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Used for nomination and recitation."
+    },
+    {
+      "front": "wegdragen",
+      "back": "to carry away",
+      "example": "De medewerkers droegen het oude meubilair weg.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "draagt weg · droeg weg · heeft weggedragen",
+      "family": "dragen",
+      "separable": true,
+      "collocations": [
+        "afval wegdragen",
+        "iemand wegdragen",
+        "door water weggedragen worden"
+      ],
+      "related": [
+        "dragen",
+        "aandragen"
+      ],
+      "tags": [
+        "verb family",
+        "dragen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often literal."
+    },
+    {
+      "front": "breken",
+      "back": "to break",
+      "example": "Hij brak zijn arm tijdens het skiën.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "breekt · brak · heeft/is gebroken",
+      "family": "breken",
+      "separable": false,
+      "collocations": [
+        "een bot breken",
+        "een record breken",
+        "met iemand breken"
+      ],
+      "related": [
+        "afbreken",
+        "aanbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be transitive or intransitive."
+    },
+    {
+      "front": "afbreken",
+      "back": "to demolish; interrupt; break off",
+      "example": "De oude fabriek wordt volgend jaar afgebroken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "breekt af · brak af · heeft afgebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "een gebouw afbreken",
+        "een gesprek afbreken",
+        "kritiek afbreken"
+      ],
+      "related": [
+        "breken",
+        "aanbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common literal and figurative verb."
+    },
+    {
+      "front": "aanbreken",
+      "back": "to dawn; open",
+      "example": "Na maanden wachten brak de grote dag aan.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "literary",
+      "forms": "breekt aan · brak aan · is/heeft aangebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "de dag breekt aan",
+        "een nieuwe periode breekt aan",
+        "een verpakking aanbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Uses zijn for time beginning, hebben for opening."
+    },
+    {
+      "front": "doorbreken",
+      "back": "to break through; interrupt",
+      "example": "De zon brak eindelijk door.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "breekt door · brak door · is/heeft doorgebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "een patroon doorbreken",
+        "internationaal doorbreken",
+        "de stilte doorbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common figuratively."
+    },
+    {
+      "front": "inbreken",
+      "back": "to break in; burglarize",
+      "example": "Er is vannacht bij de buren ingebroken.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "breekt in · brak in · heeft/is ingebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "in een huis inbreken",
+        "digitaal inbreken",
+        "een gesprek inbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Digital meaning is increasingly common."
+    },
+    {
+      "front": "losbreken",
+      "back": "to break loose; erupt",
+      "example": "Na het doelpunt brak een groot feest los.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "breekt los · brak los · is losgebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "een storm breekt los",
+        "paniek breekt los",
+        "zich losbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often used for sudden events."
+    },
+    {
+      "front": "onderbreken",
+      "back": "to interrupt",
+      "example": "Sorry dat ik je onderbreek.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "onderbreekt · onderbrak · heeft onderbroken",
+      "family": "breken",
+      "separable": false,
+      "collocations": [
+        "een gesprek onderbreken",
+        "tijdelijk onderbreken",
+        "iemand onderbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable and common."
+    },
+    {
+      "front": "opbreken",
+      "back": "to dismantle; cost dearly",
+      "example": "Het gebrek aan slaap begon hem op te breken.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "breekt op · brak op · heeft opgebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "de straat opbreken",
+        "iemand opbreken",
+        "vroeg opbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Figurative sense means having harmful consequences."
+    },
+    {
+      "front": "uitbreken",
+      "back": "to break out; escape",
+      "example": "In de nacht brak brand uit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "breekt uit · brak uit · is uitgebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "brand breekt uit",
+        "een oorlog breekt uit",
+        "uit de gevangenis uitbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common for sudden dangerous events."
+    },
+    {
+      "front": "verbreken",
+      "back": "to break; sever; improve a record",
+      "example": "Ze verbrak het contact met haar voormalige partner.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "verbreekt · verbrak · heeft verbroken",
+      "family": "breken",
+      "separable": false,
+      "collocations": [
+        "contact verbreken",
+        "een record verbreken",
+        "de verbinding verbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable and formal."
+    },
+    {
+      "front": "wegbreken",
+      "back": "to break away; remove by breaking",
+      "example": "Een stuk van de muur is weggebroken.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 2,
+      "register": "neutral",
+      "forms": "breekt weg · brak weg · is/heeft weggebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "steen wegbreken",
+        "grond breekt weg",
+        "een deel wegbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often literal."
+    },
+    {
+      "front": "openbreken",
+      "back": "to force open; reopen",
+      "example": "De politie brak de deur open.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "breekt open · brak open · heeft opengebroken",
+      "family": "breken",
+      "separable": true,
+      "collocations": [
+        "een deur openbreken",
+        "een discussie openbreken",
+        "de markt openbreken"
+      ],
+      "related": [
+        "breken",
+        "afbreken"
+      ],
+      "tags": [
+        "verb family",
+        "breken",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Can be literal or figurative."
+    },
+    {
+      "front": "krijgen",
+      "back": "to get; receive",
+      "example": "Ik kreeg gisteren goed nieuws.",
+      "cefr": "A1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "krijgt · kreeg · heeft gekregen",
+      "family": "krijgen",
+      "separable": false,
+      "collocations": [
+        "een kans krijgen",
+        "gelijk krijgen",
+        "het koud krijgen"
+      ],
+      "related": [
+        "aankrijgen",
+        "afkrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Core irregular verb with many constructions."
+    },
+    {
+      "front": "aankrijgen",
+      "back": "to get on; switch on",
+      "example": "Ik krijg deze strakke schoen nauwelijks aan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "krijgt aan · kreeg aan · heeft aangekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "kleding aankrijgen",
+        "een apparaat aankrijgen",
+        "iets niet aankrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "afkrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common in spoken Dutch."
+    },
+    {
+      "front": "afkrijgen",
+      "back": "to finish; get off",
+      "example": "Ik wil dit rapport vandaag afkrijgen.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "krijgt af · kreeg af · heeft afgekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "werk afkrijgen",
+        "een dop afkrijgen",
+        "iets op tijd afkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Means managing to finish or remove something."
+    },
+    {
+      "front": "binnenkrijgen",
+      "back": "to receive; ingest",
+      "example": "We kregen veel reacties binnen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "neutral",
+      "forms": "krijgt binnen · kreeg binnen · heeft binnengekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "informatie binnenkrijgen",
+        "voedingsstoffen binnenkrijgen",
+        "een betaling binnenkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Used for messages, money, and substances."
+    },
+    {
+      "front": "doorkrijgen",
+      "back": "to realize; get through",
+      "example": "Pas later kreeg ik door wat hij bedoelde.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "krijgt door · kreeg door · heeft doorgekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "iets doorkrijgen",
+        "een signaal doorkrijgen",
+        "de bedoeling doorkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common for realization."
+    },
+    {
+      "front": "meekrijgen",
+      "back": "to be given; pick up; experience",
+      "example": "Ik kreeg van huis uit veel vertrouwen mee.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "krijgt mee · kreeg mee · heeft meegekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "informatie meekrijgen",
+        "iets van huis uit meekrijgen",
+        "weinig meekrijgen van"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Broad and often figurative."
+    },
+    {
+      "front": "omkrijgen",
+      "back": "to knock over; persuade",
+      "example": "Samen kregen we de zware kast om.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 2,
+      "register": "everyday",
+      "forms": "krijgt om · kreeg om · heeft omgekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "een boom omkrijgen",
+        "iemand omkrijgen",
+        "iets niet omkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Spoken and context-dependent."
+    },
+    {
+      "front": "openkrijgen",
+      "back": "to manage to open",
+      "example": "Kun jij deze pot openkrijgen?",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "krijgt open · kreeg open · heeft opengekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "een deur openkrijgen",
+        "een bestand openkrijgen",
+        "iets niet openkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common resultative construction."
+    },
+    {
+      "front": "terugkrijgen",
+      "back": "to get back; receive change",
+      "example": "Wanneer krijg ik mijn geld terug?",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "krijgt terug · kreeg terug · heeft teruggekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "geld terugkrijgen",
+        "vertrouwen terugkrijgen",
+        "wisselgeld terugkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Very common."
+    },
+    {
+      "front": "uitkrijgen",
+      "back": "to finish reading; switch off; take off",
+      "example": "Ik kreeg het boek niet op tijd uit.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "everyday",
+      "forms": "krijgt uit · kreeg uit · heeft uitgekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "een boek uitkrijgen",
+        "kleding uitkrijgen",
+        "een apparaat uitkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Spoken and broad."
+    },
+    {
+      "front": "verkrijgen",
+      "back": "to obtain; acquire",
+      "example": "De onderzoeker verkreeg toegang tot het archief.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "verkrijgt · verkreeg · heeft verkregen",
+      "family": "krijgen",
+      "separable": false,
+      "collocations": [
+        "toestemming verkrijgen",
+        "informatie verkrijgen",
+        "een vergunning verkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Formal equivalent of krijgen."
+    },
+    {
+      "front": "wegkrijgen",
+      "back": "to remove; get rid of",
+      "example": "Ik krijg die vlek niet weg.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 4,
+      "register": "everyday",
+      "forms": "krijgt weg · kreeg weg · heeft weggekregen",
+      "family": "krijgen",
+      "separable": true,
+      "collocations": [
+        "een vlek wegkrijgen",
+        "iemand wegkrijgen",
+        "de geur wegkrijgen"
+      ],
+      "related": [
+        "krijgen",
+        "aankrijgen"
+      ],
+      "tags": [
+        "verb family",
+        "krijgen",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Common resultative construction."
+    },
+    {
+      "front": "staan",
+      "back": "to stand; be located; be written",
+      "example": "De fiets staat voor het huis.",
+      "cefr": "A1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "staat · stond · heeft gestaan",
+      "family": "staan",
+      "separable": false,
+      "collocations": [
+        "op straat staan",
+        "in de krant staan",
+        "klaarstaan"
+      ],
+      "related": [
+        "aanstaan",
+        "afstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Core position verb with many idioms."
+    },
+    {
+      "front": "aanstaan",
+      "back": "to be on; appeal to",
+      "example": "De verwarming staat nog aan.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "staat aan · stond aan · heeft aangestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "het licht staat aan",
+        "iets staat me aan",
+        "de televisie aanstaan"
+      ],
+      "related": [
+        "staan",
+        "afstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "As a verb, iets staat me aan means it appeals to me."
+    },
+    {
+      "front": "afstaan",
+      "back": "to give up; cede; stand away",
+      "example": "Hij stond zijn plaats aan een oudere reiziger af.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "staat af · stond af · heeft afgestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "afstand afstaan",
+        "grond afstaan",
+        "een orgaan afstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Often formal and transitive."
+    },
+    {
+      "front": "bestaan",
+      "back": "to exist; consist",
+      "example": "De commissie bestaat uit vijf leden.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "bestaat · bestond · heeft bestaan",
+      "family": "staan",
+      "separable": false,
+      "collocations": [
+        "bestaan uit",
+        "niet meer bestaan",
+        "lang bestaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable; uit is required for consist of."
+    },
+    {
+      "front": "bijstaan",
+      "back": "to assist; support",
+      "example": "Een advocaat stond hem tijdens het proces bij.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "staat bij · stond bij · heeft bijgestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "iemand bijstaan",
+        "met raad bijstaan",
+        "juridisch bijstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Formal synonym of helpen."
+    },
+    {
+      "front": "doorstaan",
+      "back": "to endure; withstand",
+      "example": "Het gebouw heeft de storm goed doorstaan.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 4,
+      "register": "formal",
+      "forms": "doorstaat · doorstond · heeft doorstaan",
+      "family": "staan",
+      "separable": false,
+      "collocations": [
+        "een crisis doorstaan",
+        "een test doorstaan",
+        "moeilijke tijden doorstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable and formal."
+    },
+    {
+      "front": "klaarstaan",
+      "back": "to be ready; stand ready",
+      "example": "De koffie staat al voor je klaar.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "staat klaar · stond klaar · heeft klaargestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "voor iemand klaarstaan",
+        "alles staat klaar",
+        "altijd klaarstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Voor iemand klaarstaan means to be supportive."
+    },
+    {
+      "front": "opstaan",
+      "back": "to get up; rise",
+      "example": "Ik sta elke werkdag om zeven uur op.",
+      "cefr": "A1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "everyday",
+      "forms": "staat op · stond op · is opgestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "vroeg opstaan",
+        "van tafel opstaan",
+        "tegen onrecht opstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Uses zijn in the perfect."
+    },
+    {
+      "front": "stilstaan",
+      "back": "to stand still; reflect",
+      "example": "We moeten even bij deze vraag stilstaan.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "staat stil · stond stil · heeft stilgestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "stilstaan bij",
+        "de auto staat stil",
+        "lang stilstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Stilstaan bij means to reflect on."
+    },
+    {
+      "front": "tegenstaan",
+      "back": "to repel; be distasteful",
+      "example": "De manier waarop hij praat staat me tegen.",
+      "cefr": "B2",
+      "type": "verb",
+      "frequency": 3,
+      "register": "neutral",
+      "forms": "staat tegen · stond tegen · heeft tegengestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "iets staat me tegen",
+        "steeds meer tegenstaan",
+        "de geur staat tegen"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Usually with an indirect object."
+    },
+    {
+      "front": "toestaan",
+      "back": "to allow; permit",
+      "example": "De regels staan uitzonderingen toe.",
+      "cefr": "B1",
+      "type": "verb",
+      "frequency": 5,
+      "register": "formal",
+      "forms": "staat toe · stond toe · heeft toegestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "iets toestaan",
+        "niet toegestaan",
+        "toestaan dat"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Formal and common in rules."
+    },
+    {
+      "front": "verstaan",
+      "back": "to understand; hear",
+      "example": "Ik kan hem door het lawaai niet verstaan.",
+      "cefr": "A2",
+      "type": "verb",
+      "frequency": 5,
+      "register": "neutral",
+      "forms": "verstaat · verstond · heeft verstaan",
+      "family": "staan",
+      "separable": false,
+      "collocations": [
+        "Nederlands verstaan",
+        "elkaar goed verstaan",
+        "onder iets verstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "inseparable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Inseparable; onder iets verstaan means mean by something."
+    },
+    {
+      "front": "voorstaan",
+      "back": "to favor; advocate; be ahead",
+      "example": "De partij staat een strengere aanpak voor.",
+      "cefr": "C1",
+      "type": "verb",
+      "frequency": 3,
+      "register": "formal",
+      "forms": "staat voor · stond voor · heeft voorgestaan",
+      "family": "staan",
+      "separable": true,
+      "collocations": [
+        "een beleid voorstaan",
+        "een standpunt voorstaan",
+        "iets actief voorstaan"
+      ],
+      "related": [
+        "staan",
+        "aanstaan"
+      ],
+      "tags": [
+        "verb family",
+        "staan",
+        "separable verb",
+        "core3000",
+        "pack-02"
+      ],
+      "note": "Formal; means supporting or advocating a position."
+    }
+  ],
+  "familyInfo": {
+    "lopen": {
+      "coreMeaning": "to walk, run, proceed, or function",
+      "pattern": "The root expresses movement on foot or the course of a process. Prefixes add direction, completion, repetition, or a figurative result.",
+      "memoryHook": "Picture a path. The prefix shows where the movement starts, ends, continues, or turns.",
+      "members": [
+        "lopen",
+        "aflopen",
+        "binnenlopen",
+        "doorlopen",
+        "inlopen",
+        "meelopen",
+        "omlopen",
+        "oplopen",
+        "overlopen",
+        "rondlopen",
+        "teruglopen",
+        "uitlopen",
+        "weglopen"
+      ]
+    },
+    "kijken": {
+      "coreMeaning": "to look or watch",
+      "pattern": "Prefixes specify direction, duration, participation, checking, or reflection. Many forms are separable.",
+      "memoryHook": "Imagine your eyes moving: aan is toward, om is back, rond is around, and terug is backward in time.",
+      "members": [
+        "kijken",
+        "aankijken",
+        "afkijken",
+        "bekijken",
+        "doorkijken",
+        "meekijken",
+        "nakijken",
+        "omkijken",
+        "opkijken",
+        "rondkijken",
+        "terugkijken",
+        "uitkijken",
+        "wegkijken"
+      ]
+    },
+    "werken": {
+      "coreMeaning": "to work, function, or process",
+      "pattern": "The family covers doing work, cooperating, processing, elaborating, and producing an effect.",
+      "memoryHook": "Think of effort changing something; the prefix tells you whether the work continues, joins, opposes, or completes.",
+      "members": [
+        "werken",
+        "afwerken",
+        "bewerken",
+        "doorwerken",
+        "inwerken",
+        "meewerken",
+        "omwerken",
+        "opwerken",
+        "samenwerken",
+        "tegenwerken",
+        "uitwerken",
+        "verwerken",
+        "wegwerken"
+      ]
+    },
+    "trekken": {
+      "coreMeaning": "to pull, draw, move, or attract",
+      "pattern": "Prefixes describe the direction of pulling or movement, and many figurative meanings grow from that motion.",
+      "memoryHook": "Visualize a force pulling something in, out, back, across, or toward you.",
+      "members": [
+        "trekken",
+        "aantrekken",
+        "aftrekken",
+        "betrekken",
+        "doortrekken",
+        "intrekken",
+        "meetrekken",
+        "optrekken",
+        "overtrekken",
+        "terugtrekken",
+        "uittrekken",
+        "vertrekken",
+        "wegtrekken"
+      ]
+    },
+    "leggen": {
+      "coreMeaning": "to put or lay",
+      "pattern": "The family develops from deliberately placing something. Prefixes specify position, presentation, documentation, or explanation.",
+      "memoryHook": "Leggen is an action of placement; the prefix tells you where the thing, idea, or responsibility is placed.",
+      "members": [
+        "leggen",
+        "aanleggen",
+        "afleggen",
+        "beleggen",
+        "blootleggen",
+        "inleggen",
+        "neerleggen",
+        "opleggen",
+        "overleggen",
+        "terugleggen",
+        "uitleggen",
+        "vastleggen",
+        "voorleggen"
+      ]
+    },
+    "komen": {
+      "coreMeaning": "to come or arrive",
+      "pattern": "Prefixes specify direction, emergence, return, outcome, or how something appears to others.",
+      "memoryHook": "Follow the movement toward a point: binnen is in, terug is back, op is upward or arising.",
+      "members": [
+        "komen",
+        "aankomen",
+        "afkomen",
+        "bijkomen",
+        "binnenkomen",
+        "doorkomen",
+        "meekomen",
+        "omkomen",
+        "opkomen",
+        "overkomen",
+        "terugkomen",
+        "uitkomen",
+        "voorkomen"
+      ]
+    },
+    "vallen": {
+      "coreMeaning": "to fall or turn out",
+      "pattern": "The family moves from physical falling to sudden events, evaluation, failure, and change.",
+      "memoryHook": "Picture losing balance; prefixes show where the fall goes or how the result feels.",
+      "members": [
+        "vallen",
+        "aanvallen",
+        "afvallen",
+        "bevallen",
+        "binnenvallen",
+        "meevallen",
+        "omvallen",
+        "opvallen",
+        "overvallen",
+        "tegenvallen",
+        "terugvallen",
+        "uitvallen",
+        "voorvallen"
+      ]
+    },
+    "blijven": {
+      "coreMeaning": "to stay or remain",
+      "pattern": "Prefixes describe remaining behind, inside, away, together, or continuing in a state.",
+      "memoryHook": "The core idea is no change of place or state; the prefix names what remains and where.",
+      "members": [
+        "blijven",
+        "achterblijven",
+        "bijblijven",
+        "binnenblijven",
+        "doorblijven",
+        "overblijven",
+        "samenblijven",
+        "thuisblijven",
+        "uitblijven",
+        "vastblijven",
+        "wegblijven",
+        "zittenblijven"
+      ]
+    },
+    "voelen": {
+      "coreMeaning": "to feel or sense",
+      "pattern": "The family covers physical sensation, intuition, empathy, and tactful exploration.",
+      "memoryHook": "Ask whether the feeling comes from touch, intuition, or another person’s experience.",
+      "members": [
+        "voelen",
+        "aanvoelen",
+        "bevoelen",
+        "meevoelen",
+        "navoelen",
+        "opvoelen",
+        "terugvoelen",
+        "uitvoelen",
+        "voorvoelen",
+        "zich invoelen",
+        "gevoelen",
+        "gevoelloos worden"
+      ]
+    },
+    "laten": {
+      "coreMeaning": "to let, leave, or cause",
+      "pattern": "Prefixes specify what is left behind, allowed through, omitted, released, or entrusted.",
+      "memoryHook": "Think of not holding something back: you permit it, leave it, or cause it to happen.",
+      "members": [
+        "laten",
+        "achterlaten",
+        "aflaten",
+        "binnenlaten",
+        "doorlaten",
+        "loslaten",
+        "nalaten",
+        "openlaten",
+        "overlaten",
+        "toelaten",
+        "uitlaten",
+        "weglaten"
+      ]
+    },
+    "halen": {
+      "coreMeaning": "to fetch, get, or achieve",
+      "pattern": "Prefixes specify where something is obtained, removed, collected, completed, or brought back.",
+      "memoryHook": "Imagine reaching for a result; the prefix tells you where you get it from or where you take it.",
+      "members": [
+        "halen",
+        "afhalen",
+        "behalen",
+        "binnenhalen",
+        "doorhalen",
+        "inhalen",
+        "neerhalen",
+        "ophalen",
+        "overhalen",
+        "terughalen",
+        "uithalen",
+        "weghalen"
+      ]
+    },
+    "rijden": {
+      "coreMeaning": "to drive or ride",
+      "pattern": "Prefixes describe direction, continuation, entry, return, overtaking, or departure by vehicle.",
+      "memoryHook": "Picture a vehicle on a route; the prefix marks the route change.",
+      "members": [
+        "rijden",
+        "aanrijden",
+        "afrijden",
+        "binnenrijden",
+        "doorrijden",
+        "inrijden",
+        "meerijden",
+        "omrijden",
+        "oprijden",
+        "overrijden",
+        "terugrijden",
+        "wegrijden"
+      ]
+    },
+    "dragen": {
+      "coreMeaning": "to carry, wear, or bear",
+      "pattern": "The family extends from carrying physical weight to responsibility, contribution, transfer, and expression.",
+      "memoryHook": "Ask what burden, message, clothing, or responsibility is being carried.",
+      "members": [
+        "dragen",
+        "aandragen",
+        "afdragen",
+        "bijdragen",
+        "meedragen",
+        "nadragen",
+        "opdragen",
+        "overdragen",
+        "uitdragen",
+        "verdragen",
+        "voordragen",
+        "wegdragen"
+      ]
+    },
+    "breken": {
+      "coreMeaning": "to break",
+      "pattern": "Prefixes describe breaking apart, through, out, open, or interrupting continuity.",
+      "memoryHook": "Visualize a line or structure losing continuity; the prefix shows where the break happens.",
+      "members": [
+        "breken",
+        "afbreken",
+        "aanbreken",
+        "doorbreken",
+        "inbreken",
+        "losbreken",
+        "onderbreken",
+        "opbreken",
+        "uitbreken",
+        "verbreken",
+        "wegbreken",
+        "openbreken"
+      ]
+    },
+    "krijgen": {
+      "coreMeaning": "to get or receive",
+      "pattern": "Resultative combinations describe managing to get something open, finished, back, away, or understood.",
+      "memoryHook": "Krijgen often focuses on the result: what did you manage to obtain or make happen?",
+      "members": [
+        "krijgen",
+        "aankrijgen",
+        "afkrijgen",
+        "binnenkrijgen",
+        "doorkrijgen",
+        "meekrijgen",
+        "omkrijgen",
+        "openkrijgen",
+        "terugkrijgen",
+        "uitkrijgen",
+        "verkrijgen",
+        "wegkrijgen"
+      ]
+    },
+    "staan": {
+      "coreMeaning": "to stand, be located, or be written",
+      "pattern": "The family develops from position and state into readiness, existence, support, permission, and understanding.",
+      "memoryHook": "Think of a stable position; the prefix tells you the stance, state, or relation.",
+      "members": [
+        "staan",
+        "aanstaan",
+        "afstaan",
+        "bestaan",
+        "bijstaan",
+        "doorstaan",
+        "klaarstaan",
+        "opstaan",
+        "stilstaan",
+        "tegenstaan",
+        "toestaan",
+        "verstaan",
+        "voorstaan"
+      ]
+    }
+  },
+  "familyDefinitions": [
+    {
+      "id": "lopen",
+      "root": "lopen",
+      "title": "LOPEN",
+      "meaning": "to walk, run, proceed, or function",
+      "pattern": "The root expresses movement on foot or the course of a process. Prefixes add direction, completion, repetition, or a figurative result.",
+      "hint": "Picture a path. The prefix shows where the movement starts, ends, continues, or turns.",
+      "accent": "L"
+    },
+    {
+      "id": "kijken",
+      "root": "kijken",
+      "title": "KIJKEN",
+      "meaning": "to look or watch",
+      "pattern": "Prefixes specify direction, duration, participation, checking, or reflection. Many forms are separable.",
+      "hint": "Imagine your eyes moving: aan is toward, om is back, rond is around, and terug is backward in time.",
+      "accent": "K"
+    },
+    {
+      "id": "werken",
+      "root": "werken",
+      "title": "WERKEN",
+      "meaning": "to work, function, or process",
+      "pattern": "The family covers doing work, cooperating, processing, elaborating, and producing an effect.",
+      "hint": "Think of effort changing something; the prefix tells you whether the work continues, joins, opposes, or completes.",
+      "accent": "W"
+    },
+    {
+      "id": "trekken",
+      "root": "trekken",
+      "title": "TREKKEN",
+      "meaning": "to pull, draw, move, or attract",
+      "pattern": "Prefixes describe the direction of pulling or movement, and many figurative meanings grow from that motion.",
+      "hint": "Visualize a force pulling something in, out, back, across, or toward you.",
+      "accent": "T"
+    },
+    {
+      "id": "leggen",
+      "root": "leggen",
+      "title": "LEGGEN",
+      "meaning": "to put or lay",
+      "pattern": "The family develops from deliberately placing something. Prefixes specify position, presentation, documentation, or explanation.",
+      "hint": "Leggen is an action of placement; the prefix tells you where the thing, idea, or responsibility is placed.",
+      "accent": "L"
+    },
+    {
+      "id": "komen",
+      "root": "komen",
+      "title": "KOMEN",
+      "meaning": "to come or arrive",
+      "pattern": "Prefixes specify direction, emergence, return, outcome, or how something appears to others.",
+      "hint": "Follow the movement toward a point: binnen is in, terug is back, op is upward or arising.",
+      "accent": "K"
+    },
+    {
+      "id": "vallen",
+      "root": "vallen",
+      "title": "VALLEN",
+      "meaning": "to fall or turn out",
+      "pattern": "The family moves from physical falling to sudden events, evaluation, failure, and change.",
+      "hint": "Picture losing balance; prefixes show where the fall goes or how the result feels.",
+      "accent": "V"
+    },
+    {
+      "id": "blijven",
+      "root": "blijven",
+      "title": "BLIJVEN",
+      "meaning": "to stay or remain",
+      "pattern": "Prefixes describe remaining behind, inside, away, together, or continuing in a state.",
+      "hint": "The core idea is no change of place or state; the prefix names what remains and where.",
+      "accent": "B"
+    },
+    {
+      "id": "voelen",
+      "root": "voelen",
+      "title": "VOELEN",
+      "meaning": "to feel or sense",
+      "pattern": "The family covers physical sensation, intuition, empathy, and tactful exploration.",
+      "hint": "Ask whether the feeling comes from touch, intuition, or another person’s experience.",
+      "accent": "V"
+    },
+    {
+      "id": "laten",
+      "root": "laten",
+      "title": "LATEN",
+      "meaning": "to let, leave, or cause",
+      "pattern": "Prefixes specify what is left behind, allowed through, omitted, released, or entrusted.",
+      "hint": "Think of not holding something back: you permit it, leave it, or cause it to happen.",
+      "accent": "L"
+    },
+    {
+      "id": "halen",
+      "root": "halen",
+      "title": "HALEN",
+      "meaning": "to fetch, get, or achieve",
+      "pattern": "Prefixes specify where something is obtained, removed, collected, completed, or brought back.",
+      "hint": "Imagine reaching for a result; the prefix tells you where you get it from or where you take it.",
+      "accent": "H"
+    },
+    {
+      "id": "rijden",
+      "root": "rijden",
+      "title": "RIJDEN",
+      "meaning": "to drive or ride",
+      "pattern": "Prefixes describe direction, continuation, entry, return, overtaking, or departure by vehicle.",
+      "hint": "Picture a vehicle on a route; the prefix marks the route change.",
+      "accent": "R"
+    },
+    {
+      "id": "dragen",
+      "root": "dragen",
+      "title": "DRAGEN",
+      "meaning": "to carry, wear, or bear",
+      "pattern": "The family extends from carrying physical weight to responsibility, contribution, transfer, and expression.",
+      "hint": "Ask what burden, message, clothing, or responsibility is being carried.",
+      "accent": "D"
+    },
+    {
+      "id": "breken",
+      "root": "breken",
+      "title": "BREKEN",
+      "meaning": "to break",
+      "pattern": "Prefixes describe breaking apart, through, out, open, or interrupting continuity.",
+      "hint": "Visualize a line or structure losing continuity; the prefix shows where the break happens.",
+      "accent": "B"
+    },
+    {
+      "id": "krijgen",
+      "root": "krijgen",
+      "title": "KRIJGEN",
+      "meaning": "to get or receive",
+      "pattern": "Resultative combinations describe managing to get something open, finished, back, away, or understood.",
+      "hint": "Krijgen often focuses on the result: what did you manage to obtain or make happen?",
+      "accent": "K"
+    },
+    {
+      "id": "staan",
+      "root": "staan",
+      "title": "STAAN",
+      "meaning": "to stand, be located, or be written",
+      "pattern": "The family develops from position and state into readiness, existence, support, permission, and understanding.",
+      "hint": "Think of a stable position; the prefix tells you the stance, state, or relation.",
+      "accent": "S"
+    }
+  ],
+  "deckId": "core3000-pack-02",
+  "deckName": "Core Verb Families II",
+  "title": "Core Verb Families II",
+  "description": "A second collection of related Dutch verbs, examples and family notes."
+}

@@ -1,3 +1,11 @@
+# DutchDeck Studio v1.0.0
+
+## Online deck library
+
+Vocabulary is published in `decks/`. The app reads `decks/index.json` from the same GitHub Pages site. Users can download or update decks from the Decks screen; downloaded cards are stored locally for offline study. User progress is not uploaded.
+
+To publish a new deck, add its JSON file to `decks/`, add one entry to `decks/index.json`, increase the app/deck version, then push the files to GitHub Pages.
+
 # DutchDeck Studio v0.9.16
 
 ## What’s new

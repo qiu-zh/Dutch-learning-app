@@ -1,4 +1,4 @@
-const APP_VERSION = '0.9.16';
+const APP_VERSION = '1.0.0';
 'use strict';
 
 const $ = selector => document.querySelector(selector);
@@ -13,6 +13,7 @@ const DECK_VERSION = '5';
 const LEARN_KEY = 'dutchdeck.studio.learn.v1';
 const FAMILY_DEFINITIONS_KEY = 'dutchdeck.studio.familyDefinitions.v1';
 const DECK_REGISTRY_KEY = 'dutchdeck.studio.deckRegistry.v1';
+const ONLINE_DECK_INDEX = './decks/index.json';
 const DAY = 86_400_000;
 
 const legacyStarters = window.DUTCHDECK_FULL_DECK || [];
@@ -100,7 +101,10 @@ function registerDeck(metadata = {}) {
     id,
     name: String(metadata.name || previous.name || id).trim(),
     version: String(metadata.version || previous.version || '').trim(),
-    importedAt: metadata.importedAt || previous.importedAt || new Date().toISOString()
+    importedAt: metadata.importedAt || previous.importedAt || new Date().toISOString(),
+    source: String(metadata.source || previous.source || '').trim(),
+    description: String(metadata.description || previous.description || '').trim(),
+    online: metadata.online === true || previous.online === true
   };
   saveDeckRegistry();
   return deckRegistry[id];
@@ -936,6 +940,153 @@ function openFamilyDialog(familyId) {
   $('#familyDialog').showModal();
 }
 
+
+let onlineDeckCatalog = [];
+let onlineDeckError = '';
+
+function compareVersions(a = '', b = '') {
+  const pa = String(a).split('.').map(part => Number(part) || 0);
+  const pb = String(b).split('.').map(part => Number(part) || 0);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i += 1) {
+    if ((pa[i] || 0) !== (pb[i] || 0)) return (pa[i] || 0) - (pb[i] || 0);
+  }
+  return 0;
+}
+
+async function loadOnlineDeckCatalog({ quiet = false } = {}) {
+  const status = $('#onlineDeckStatus');
+  if (status && !quiet) status.textContent = 'Checking the online library…';
+  onlineDeckError = '';
+  try {
+    const response = await fetch(`${ONLINE_DECK_INDEX}?v=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Server returned ${response.status}`);
+    const data = await response.json();
+    onlineDeckCatalog = Array.isArray(data.decks) ? data.decks : [];
+    if (status) status.textContent = `${onlineDeckCatalog.length} online decks available`;
+  } catch (error) {
+    onlineDeckCatalog = [];
+    onlineDeckError = error.message;
+    if (status) status.textContent = navigator.onLine
+      ? `Could not load the online library: ${error.message}`
+      : 'You are offline. Downloaded decks remain available.';
+  }
+  renderOnlineDecks();
+}
+
+function preserveCardProgress(existing, merged) {
+  if (!existing) return merged;
+  return {
+    ...merged,
+    id: existing.id,
+    favorite: existing.favorite,
+    learned: existing.learned,
+    learnedAt: existing.learnedAt,
+    activatedBy: existing.activatedBy,
+    due: existing.due,
+    interval: existing.interval,
+    ease: existing.ease,
+    reps: existing.reps,
+    lapses: existing.lapses,
+    created: existing.created,
+    lastReviewed: existing.lastReviewed
+  };
+}
+
+async function installOnlineDeck(item, button) {
+  const original = button?.textContent || 'Download';
+  if (button) { button.disabled = true; button.textContent = 'Downloading…'; }
+  try {
+    const response = await fetch(`${item.file}?v=${encodeURIComponent(item.version || Date.now())}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`Download failed (${response.status})`);
+    const data = await response.json();
+    const id = normalizeDeckId(data.deckId || data.id || item.id || data.deckName || data.deck || item.title);
+    const name = String(data.deckName || data.title || data.deck || item.title || id);
+    const version = String(data.version || item.version || '');
+    const source = Array.isArray(data) ? data : data.cards || data.entries || [];
+    if (!Array.isArray(source) || !source.length) throw new Error('The deck contains no cards.');
+
+    const byWord = new Map(cards.map(card => [normalizeKey(card.front), card]));
+    let added = 0;
+    let updated = 0;
+    for (const raw of source) {
+      const incoming = makeCard({ ...raw, deckIds: unionLists(raw.deckIds, raw.deckId, id) });
+      if (!incoming.front || !incoming.back) continue;
+      const key = normalizeKey(incoming.front);
+      const existing = byWord.get(key);
+      if (!existing) {
+        cards.push(incoming);
+        byWord.set(key, incoming);
+        added += 1;
+      } else {
+        Object.assign(existing, preserveCardProgress(existing, mergeContent(existing, incoming, 'replace')));
+        updated += 1;
+      }
+    }
+
+    mergeImportedFamilyDefinitions(data.familyDefinitions || data.familyInfo || []);
+    registerDeck({
+      id, name, version,
+      source: item.file,
+      description: item.description || data.description || '',
+      online: true,
+      importedAt: new Date().toISOString()
+    });
+    saveCards();
+    populateFilters();
+    renderDashboard();
+    renderFamilies();
+    renderDecks();
+    renderLearn();
+    renderDictionary();
+    renderDataSummary();
+    renderOnlineDecks();
+    const status = $('#onlineDeckStatus');
+    if (status) status.textContent = `${name} is ready offline · ${added} added, ${updated} updated.`;
+  } catch (error) {
+    const status = $('#onlineDeckStatus');
+    if (status) status.textContent = `Could not download deck: ${error.message}`;
+    if (button) { button.disabled = false; button.textContent = original; }
+  }
+}
+
+function renderOnlineDecks() {
+  const grid = $('#onlineDeckGrid');
+  if (!grid) return;
+  if (!onlineDeckCatalog.length) {
+    grid.innerHTML = onlineDeckError
+      ? `<article class="panel empty"><h3>Online library unavailable</h3><p>${escapeHtml(onlineDeckError)}</p></article>`
+      : '<article class="panel empty"><h3>No online decks found</h3><p>Add deck entries to <code>decks/index.json</code>.</p></article>';
+    return;
+  }
+  grid.innerHTML = onlineDeckCatalog.map(item => {
+    const id = normalizeDeckId(item.id || item.title);
+    const installed = deckRegistry[id];
+    const hasCards = cards.some(card => card.deckIds.includes(id));
+    const update = installed && compareVersions(item.version, installed.version) > 0;
+    const state = update ? 'Update available' : hasCards ? 'Downloaded' : 'Available online';
+    const action = update ? 'Update' : hasCards ? 'Downloaded' : 'Download';
+    return `<article class="deck-card online-deck-card" data-online-deck="${escapeAttr(id)}">
+      <div class="deck-card-head">
+        <div class="deck-icon">${escapeHtml(String(item.title || id).charAt(0).toUpperCase())}</div>
+        <div><h3>${escapeHtml(item.title || id)}</h3><p>Version ${escapeHtml(item.version || '1.0.0')} · ${escapeHtml(state)}</p></div>
+      </div>
+      <p class="online-deck-description">${escapeHtml(item.description || 'Download once and study offline on this device.')}</p>
+      <div class="deck-stats">
+        <span><strong>${Number(item.words) || '—'}</strong>words</span>
+        <span><strong>${Number(item.families) || '—'}</strong>families</span>
+      </div>
+      <div class="deck-actions">
+        <button class="btn ${hasCards && !update ? 'ghost' : 'primary'} online-deck-download" ${hasCards && !update ? 'disabled' : ''}>${action}</button>
+      </div>
+    </article>`;
+  }).join('');
+  $$('#onlineDeckGrid [data-online-deck]').forEach(element => {
+    const item = onlineDeckCatalog.find(row => normalizeDeckId(row.id || row.title) === element.dataset.onlineDeck);
+    const button = element.querySelector('.online-deck-download');
+    if (item && button && !button.disabled) button.onclick = () => installOnlineDeck(item, button);
+  });
+}
+
 function renderDecks() {
   const ids = [...new Set([...Object.keys(deckRegistry), ...cards.flatMap(card => card.deckIds)])].filter(Boolean);
   const decks = ids.map(id => {
@@ -967,7 +1118,7 @@ function renderDecks() {
         <button class="btn ghost deck-review">Review deck</button>
       </div>
     </article>`;
-  }).join('') || `<article class="panel empty"><h3>No decks yet</h3><p>Import a JSON vocabulary pack to see it here.</p></article>`;
+  }).join('') || `<article class="panel empty"><h3>No decks yet</h3><p>Download a deck from the online library or import a JSON pack.</p></article>`;
 
   $$('#deckGrid [data-deck]').forEach(element => {
     const id = element.dataset.deck;
@@ -1311,6 +1462,8 @@ function importEntries(entries, definitions = previewFamilyDefinitions, deck = p
   renderDashboard();
   renderFamilies();
   renderDecks();
+  renderOnlineDecks();
+  loadOnlineDeckCatalog({ quiet: true });
   renderLearn();
   renderDictionary();
   const definitionText = importedDefinitionCount ? ` Imported ${importedDefinitionCount} family definitions.` : '';
@@ -1500,6 +1653,7 @@ function bindDialogs() {
 }
 
 function bind() {
+  if ($('#refreshOnlineDecksBtn')) $('#refreshOnlineDecksBtn').onclick = () => loadOnlineDeckCatalog();
   $$('.nav-btn').forEach(button => button.onclick = () => switchView(button.dataset.view));
   $$('[data-go]').forEach(button => button.onclick = () => switchView(button.dataset.go));
 

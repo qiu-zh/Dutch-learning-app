@@ -1,9 +1,9 @@
-const APP_VERSION = '0.9.16';
+const APP_VERSION = '1.0.0';
 const CACHE = `dutchdeck-studio-v${APP_VERSION}`;
 const ASSETS = [
   './', './index.html', './styles.css', './app.js', './full-deck.js',
   './family-pack.js', './manifest.webmanifest', './icons/icon-192.png',
-  './icons/icon-512.png', './icons/apple-touch-icon-180.png',
+  './icons/icon-512.png', './decks/index.json', './icons/apple-touch-icon-180.png',
   './icons/apple-touch-icon-167.png', './icons/apple-touch-icon-152.png'
 ];
 
