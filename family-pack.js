@@ -107,6 +107,146 @@ window.DUTCHDECK_FAMILY_DEFINITIONS = [
     "hint": "Contrast zetten (put) with staan (be standing).",
     "accent": "A"
   }
+,
+{
+  "id": "geven",
+  "root": "geven",
+  "title": "GEVEN",
+  "meaning": "At its core, geven means to transfer, provide, produce, or cause something to be available to someone or something.",
+  "pattern": "The prefix shows the direction or result of the transfer: aangeven points something out or reports it; doorgeven passes it onward; meegeven sends it along; opgeven gives it up or states it; uitgeven releases or spends it; weergeven presents it again in words, images, or data.",
+  "hint": "Picture something moving from a giver toward a receiver. The prefix tells you where it goes or what happens to it.",
+  "accent": "G",
+  "usageNotes": "Strong verb: geeft · gaf · heeft gegeven. Many compounds are separable, but their meanings are often idiomatic and must be learned with collocations.",
+  "commonPitfalls": [
+    "aangeven can mean indicate, report, or hand over depending on context",
+    "opgeven can mean give up, state, register, assign, or report",
+    "uitgeven may mean spend money, publish, or issue"
+  ],
+  "members": [
+    "geven",
+    "aangeven",
+    "doorgeven",
+    "meegeven",
+    "opgeven",
+    "uitgeven",
+    "weergeven"
+  ],
+  "representativeCollocations": [
+    "advies geven",
+    "toestemming geven",
+    "een antwoord geven",
+    "iets duidelijk aangeven",
+    "iets bij de politie aangeven",
+    "informatie doorgeven",
+    "de moed opgeven",
+    "geld uitgeven",
+    "gegevens weergeven"
+  ]
+},
+{
+  "id": "vinden",
+  "root": "vinden",
+  "title": "VINDEN",
+  "meaning": "At its core, vinden means to discover, locate, judge, or experience something as having a certain quality.",
+  "pattern": "The family extends from physically finding something to mentally judging it, locating oneself, experiencing effects, retrieving something, inventing something, or describing an event that takes place.",
+  "hint": "Think: “I come upon it” — either in the world, in my thoughts, or in my experience.",
+  "accent": "V",
+  "usageNotes": "Strong verb: vindt · vond · heeft gevonden. The construction iets + adjective + vinden expresses an opinion: Ik vind het belangrijk.",
+  "commonPitfalls": [
+    "uitvinden means invent or figure out, not simply find outside",
+    "plaatsvinden is inseparable and means take place",
+    "zich bevinden is reflexive and usually describes location or condition"
+  ],
+  "members": [
+    "vinden",
+    "bevinden",
+    "ondervinden",
+    "terugvinden",
+    "uitvinden",
+    "plaatsvinden",
+    "goedvinden"
+  ],
+  "representativeCollocations": [
+    "een oplossing vinden",
+    "iets belangrijk vinden",
+    "zich bevinden in",
+    "problemen ondervinden",
+    "iets terugvinden",
+    "iets uitvinden",
+    "plaatsvinden op",
+    "iets goedvinden"
+  ]
+},
+{
+  "id": "spreken",
+  "root": "spreken",
+  "title": "SPREKEN",
+  "meaning": "At its core, spreken means to use speech to communicate, discuss, address, pronounce, or reach an agreement.",
+  "pattern": "The prefix directs the speech: af- arranges or agrees; aan- addresses or appeals to; be- discusses; tegen- contradicts; uit- pronounces or expresses; toe- addresses an audience.",
+  "hint": "Picture speech aimed in a direction. The prefix tells you who receives it or what the speech accomplishes.",
+  "accent": "S",
+  "usageNotes": "Strong verb: spreekt · sprak · heeft gesproken. Learn fixed combinations such as spreken met, spreken over, iemand aanspreken, and met iemand afspreken.",
+  "commonPitfalls": [
+    "afspreken means arrange or agree, not “speak off”",
+    "aanspreken may mean address someone, appeal to someone, or hold someone accountable",
+    "uitspreken can mean pronounce, express, or formally deliver"
+  ],
+  "members": [
+    "spreken",
+    "afspreken",
+    "aanspreken",
+    "bespreken",
+    "tegenspreken",
+    "uitspreken",
+    "toespreken"
+  ],
+  "representativeCollocations": [
+    "Nederlands spreken",
+    "met iemand spreken",
+    "over een onderwerp spreken",
+    "met iemand afspreken",
+    "een prijs afspreken",
+    "iemand aanspreken op",
+    "een probleem bespreken",
+    "iemand tegenspreken",
+    "een woord uitspreken",
+    "een publiek toespreken"
+  ]
+},
+{
+  "id": "denken",
+  "root": "denken",
+  "title": "DENKEN",
+  "meaning": "At its core, denken means to form thoughts, opinions, plans, expectations, or memories in the mind.",
+  "pattern": "Particles direct the movement of thought: aan points thought toward someone or something; na means reflect further; mee means contribute ideas; over means consider thoroughly; be- often means think up or reconsider; her- means commemorate.",
+  "hint": "Imagine thought moving in a direction: toward, back over, along with others, or into a new idea.",
+  "accent": "D",
+  "usageNotes": "Irregular verb: denkt · dacht · heeft gedacht. Learn the fixed combinations denken aan, denken over, nadenken over, and meedenken met.",
+  "commonPitfalls": [
+    "denken aan means have someone or something in mind, while denken over means have an opinion about",
+    "bedenken can mean devise, think of, or change one’s mind",
+    "herdenken means commemorate, not ordinary remembering"
+  ],
+  "members": [
+    "denken",
+    "bedenken",
+    "nadenken",
+    "meedenken",
+    "overdenken",
+    "herdenken"
+  ],
+  "representativeCollocations": [
+    "aan iemand denken",
+    "over iets denken",
+    "kritisch denken",
+    "een oplossing bedenken",
+    "zich bedenken",
+    "goed nadenken over",
+    "met iemand meedenken",
+    "een beslissing overdenken",
+    "de slachtoffers herdenken"
+  ]
+}
 ];
 
 window.DUTCHDECK_FAMILY_PACK = [
