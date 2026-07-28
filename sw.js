@@ -1,4 +1,5 @@
-const CACHE = 'dutchdeck-studio-study-gate-v7';
+const APP_VERSION = '0.9.16';
+const CACHE = `dutchdeck-studio-v${APP_VERSION}`;
 const ASSETS = [
   './', './index.html', './styles.css', './app.js', './full-deck.js',
   './family-pack.js', './manifest.webmanifest', './icons/icon-192.png',
@@ -7,7 +8,7 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
 });
 
 self.addEventListener('activate', event => {
@@ -33,4 +34,9 @@ self.addEventListener('fetch', event => {
       })
       .catch(() => caches.match(event.request).then(hit => hit || caches.match('./index.html')))
   );
+});
+
+
+self.addEventListener('message', event => {
+  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
 });

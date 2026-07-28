@@ -1,3 +1,12 @@
+# DutchDeck Studio v0.9.16
+
+## What’s new
+
+- Visible app version in Settings and the page footer.
+- Automatic notification when a newer GitHub Pages build is ready.
+- **Reload now** activates the new service worker and refreshes the app.
+- Service-worker cache updated to `dutchdeck-studio-v0.9.16`.
+
 # DutchDeck Studio — Knowledge Edition
 
 An offline-first Dutch learning PWA with a spaced-repetition review system, rich dictionary entries, verb-family exploration, and a reading lab.

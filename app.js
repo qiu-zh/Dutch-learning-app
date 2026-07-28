@@ -1,3 +1,4 @@
+const APP_VERSION = '0.9.16';
 'use strict';
 
 const $ = selector => document.querySelector(selector);
@@ -1725,9 +1726,44 @@ async function init() {
   prepareReaderIndex();
   if ($('#readingText').value.trim()) renderReading();
 
+  const versionText = `v${APP_VERSION}`;
+  if ($('#settingsAppVersion')) $('#settingsAppVersion').textContent = versionText;
+  if ($('#footerAppVersion')) $('#footerAppVersion').textContent = versionText;
+
   if ('serviceWorker' in navigator) {
     try {
       const registration = await navigator.serviceWorker.register('./sw.js');
+      const banner = $('#updateBanner');
+      const reloadButton = $('#reloadUpdateBtn');
+      let refreshing = false;
+
+      const showUpdate = worker => {
+        if (!worker || !banner || !reloadButton) return;
+        banner.hidden = false;
+        reloadButton.onclick = () => {
+          reloadButton.disabled = true;
+          reloadButton.textContent = 'Updating…';
+          worker.postMessage({ type: 'SKIP_WAITING' });
+        };
+      };
+
+      if (registration.waiting) showUpdate(registration.waiting);
+      registration.addEventListener('updatefound', () => {
+        const installing = registration.installing;
+        if (!installing) return;
+        installing.addEventListener('statechange', () => {
+          if (installing.state === 'installed' && navigator.serviceWorker.controller) {
+            showUpdate(registration.waiting || installing);
+          }
+        });
+      });
+
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (refreshing) return;
+        refreshing = true;
+        window.location.reload();
+      });
+
       registration.update().catch(() => {});
     } catch (error) {
       console.warn('Service worker registration failed', error);

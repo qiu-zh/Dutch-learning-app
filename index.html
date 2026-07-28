@@ -14,7 +14,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180.png">
   <link rel="apple-touch-icon" sizes="167x167" href="icons/apple-touch-icon-167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-touch-icon-152.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=0.9.16">
   <title>DutchDeck Studio — Learning Edition</title>
 </head>
 <body>
@@ -29,6 +29,11 @@
     <button id="iosInstallBtn" class="btn ghost top-install" hidden>Install on iPhone</button>
   </div>
 </header>
+
+<div id="updateBanner" class="update-banner" hidden role="status" aria-live="polite">
+  <span><strong>New DutchDeck version available.</strong> Reload to update.</span>
+  <button id="reloadUpdateBtn" class="btn primary" type="button">Reload now</button>
+</div>
 
 <nav class="nav" aria-label="Main navigation">
   <button class="nav-btn active" data-view="dashboard">Overview</button>
@@ -372,9 +377,11 @@
         <h3>About the built-in knowledge base</h3>
         <p class="help">This edition includes the original vocabulary plus a curated core-verb-family pack. Built-in updates merge into your existing deck without deleting favorites, intervals or review history. CEFR labels are practical learning estimates and remain editable.</p>
         <div id="dataSummary" class="summary-pills"></div>
+        <p class="app-version-line">DutchDeck Studio <strong id="settingsAppVersion">v0.9.16</strong></p>
       </article>
     </div>
   </section>
+  <footer class="app-footer">DutchDeck Studio <span id="footerAppVersion">v0.9.16</span></footer>
 </main>
 
 <dialog id="iosInstallDialog">
@@ -439,8 +446,8 @@
   </form>
 </dialog>
 
-<script src="full-deck.js" defer></script>
-<script src="family-pack.js" defer></script>
-<script src="app.js" defer></script>
+<script src="full-deck.js?v=0.9.16" defer></script>
+<script src="family-pack.js?v=0.9.16" defer></script>
+<script src="app.js?v=0.9.16" defer></script>
 </body>
 </html>
